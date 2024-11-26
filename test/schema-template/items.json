@@ -120,7 +120,10 @@
 							"Rune",
 							"Artifact",
 							"Material",
-							"Snare"
+							"Snare",
+							"Augmentation",
+							"Crystal",
+							"Upgrade"
 						]
 					},
 					"level": {
@@ -281,7 +284,10 @@
 							"Tool",
 							"Wand",
 							"Weapon",
-							"Worn"
+							"Worn",
+							"Augmentation",
+							"Crystal",
+							"Upgrade"
 						]
 					},
 					"subCategory": {
