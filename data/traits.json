@@ -233,7 +233,7 @@
 			"page": 236,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [],
@@ -280,7 +280,7 @@
 			"page": 237,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -308,7 +308,7 @@
 			"page": 238,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -346,7 +346,7 @@
 			"page": 238,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -362,7 +362,7 @@
 			"page": 238,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -417,7 +417,7 @@
 			"page": 8,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"entries": [
@@ -459,7 +459,7 @@
 			],
 			"otherSources": {
 				"Reprinted": [
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -703,7 +703,7 @@
 					"B1|345",
 					"B2|307",
 					"SoM|252",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -764,7 +764,7 @@
 					"B2|307",
 					"SoM|252",
 					"G&G|230",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -822,7 +822,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|230",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -842,7 +842,7 @@
 					"B2|308",
 					"G&G|230",
 					"SoM|252",
-					"WotI|216"
+					"WoI|216"
 				],
 				"Expanded": [
 					"GMG|250"
@@ -961,7 +961,7 @@
 				"Reprinted": [
 					"B1|345",
 					"B1|308",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -973,13 +973,13 @@
 		},
 		{
 			"name": "Animist",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 216,
 			"categories": [
 				"Class"
 			],
 			"entries": [
-				"This indicates abilities from the {@class animist|WotI} class."
+				"This indicates abilities from the {@class animist|WoI} class."
 			]
 		},
 		{
@@ -996,10 +996,10 @@
 		},
 		{
 			"name": "Apparition",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 216,
 			"entries": [
-				"Apparitions are spiritual entities who generally lack the power, cohesiveness, or attachments to enter or affect the physical world. Unlike a ghost or phantom, an apparition does not need to have ever been a living creature and could be the spiritual memory of a particularly meaningful location or event. Apparitions are reliant on {@class animist|WotI|animists} to interact with other people and things, and generally can't be targeted or affected by spells and abilities other than those of the animist they are attuned to. Animist feats and abilities that affect spirits affect apparitions only if they specifically say so.",
+				"Apparitions are spiritual entities who generally lack the power, cohesiveness, or attachments to enter or affect the physical world. Unlike a ghost or phantom, an apparition does not need to have ever been a living creature and could be the spiritual memory of a particularly meaningful location or event. Apparitions are reliant on {@class animist|WoI|animists} to interact with other people and things, and generally can't be targeted or affected by spells and abilities other than those of the animist they are attuned to. Animist feats and abilities that affect spirits affect apparitions only if they specifically say so.",
 				"Animist abilities with the apparition trait involve one or more of your apparitions acting alongside you. You must be attuned to at least one apparition to use an apparition ability, and some abilities might state in their requirements more specifically which apparition you must be attuned to. Typically, you're assumed to always attune to your apparitions during your daily preparations, but in some rare circumstances or as a result of certain animist abilities, your apparitions might be dispersed or separated from you for a time; you aren't attuned to dispersed apparitions."
 			]
 		},
@@ -1048,7 +1048,7 @@
 			"page": 628,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|216"
+					"WoI|216"
 				],
 				"Expanded": [
 					"G&G|230"
@@ -1154,7 +1154,7 @@
 				"Reprinted": [
 					"SoM|252",
 					"G&G|230",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -1170,7 +1170,7 @@
 			"page": 629,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|216"
+					"WoI|216"
 				],
 				"Expanded": [
 					"G&G|230"
@@ -1286,7 +1286,7 @@
 					"B1|345",
 					"B2|308",
 					"SoM|252",
-					"WotI|216"
+					"WoI|216"
 				]
 			},
 			"categories": [
@@ -1376,7 +1376,7 @@
 		},
 		{
 			"name": "Calling",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 217,
 			"entries": [
 				"The calling trait identifies mechanical options a character gains when they first gain mythic power. Every calling option grants a way to use and regain Mythic Points."
@@ -1709,7 +1709,7 @@
 					"B2|308",
 					"SoM|252",
 					"G&G|231",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -1789,7 +1789,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|231",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -1829,7 +1829,7 @@
 				"Reprinted": [
 					"SoM|252",
 					"G&G|231",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -1846,7 +1846,7 @@
 			"page": 231,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2024,7 +2024,7 @@
 				],
 				"Reprinted": [
 					"SoM|252",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2060,7 +2060,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|231",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2092,7 +2092,7 @@
 			"page": 630,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2125,7 +2125,7 @@
 			"page": 630,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2144,7 +2144,7 @@
 					"G&G|232"
 				],
 				"Expanded": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2154,7 +2154,7 @@
 				"You must select a feat with this trait to apply an archetype to your character.",
 				{
 					"type": "entriesOtherSource",
-					"source": "WotI",
+					"source": "WoI",
 					"page": 217,
 					"entries": [
 						"You must select a feat with this trait to apply an archetype to your character. Once you take a dedication feat, you can't select a different dedication feat until you complete your dedication by taking two other feats from your current archetype."
@@ -2164,7 +2164,7 @@
 		},
 		{
 			"name": "Demigod",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 217,
 			"categories": [],
 			"entries": [
@@ -2182,7 +2182,7 @@
 					"SoM|252"
 				],
 				"Expanded": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2192,7 +2192,7 @@
 				"A family of fiends, demons hail from or trace their origins to the Abyss. Most are irredeemably chaotic evil and have {@ability darkvision}.",
 				{
 					"type": "entriesOtherSource",
-					"source": "WotI",
+					"source": "WoI",
 					"page": 217,
 					"entries": [
 						"A family of fiends, demons hail from or trace their origins to the Abyss. Most are irredeemably unholy and have {@ability darkvision}."
@@ -2213,7 +2213,7 @@
 		},
 		{
 			"name": "Destiny",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 217,
 			"categories": [
 				"Feat"
@@ -2504,7 +2504,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|232",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2523,7 +2523,7 @@
 				"Reprinted": [
 					"B1|346",
 					"B2|308",
-					"WotI|217"
+					"WoI|217"
 				],
 				"Expanded": [
 					"GMG|251",
@@ -2574,7 +2574,7 @@
 					"B1|346",
 					"B2|308",
 					"G&G|232",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2609,7 +2609,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|346",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2638,7 +2638,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2700,7 +2700,7 @@
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|217"
+					"WoI|217"
 				]
 			},
 			"categories": [
@@ -2838,7 +2838,7 @@
 		},
 		{
 			"name": "Exemplar",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 218,
 			"categories": [
 				"Class"
@@ -2854,7 +2854,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -2896,7 +2896,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -2939,7 +2939,7 @@
 				"Reprinted": [
 					"B1|346",
 					"B2|309",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -2960,7 +2960,7 @@
 					"SoM|253"
 				],
 				"Expanded": [
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -2970,7 +2970,7 @@
 				"Creatures that hail from or have a strong connection to the evil-aligned planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere.",
 				{
 					"type": "entriesOtherSource",
-					"source": "WotI",
+					"source": "WoI",
 					"page": 218,
 					"entries": [
 						"Creatures that hail from or have a strong connection to the unholy planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere."
@@ -2997,7 +2997,7 @@
 				"Reprinted": [
 					"B2|310",
 					"G&G|232",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3040,7 +3040,7 @@
 					"B1|346",
 					"B2|309",
 					"G&G|232",
-					"WotI|218"
+					"WoI|218"
 				],
 				"Expanded": [
 					"GMG|251"
@@ -3095,7 +3095,7 @@
 					"G&G|232"
 				],
 				"Expanded": [
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3105,7 +3105,7 @@
 				"Flourish actions are actions that require too much exertion to perform a large number in a row. You can use only 1 action with the flourish trait per turn.",
 				{
 					"type": "entriesOtherSource",
-					"source": "WotI",
+					"source": "WoI",
 					"page": 218,
 					"entries": [
 						"Actions with the flourish trait are special techniques that require too much exertion for you to perform frequently. You can use only one action with the flourish trait per round."
@@ -3144,7 +3144,7 @@
 				"Reprinted": [
 					"SoM|253",
 					"G&G|232",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3177,7 +3177,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|233",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3658,7 +3658,7 @@
 				"Reprinted": [
 					"SoM|253",
 					"G&G|233",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3683,7 +3683,7 @@
 			"page": 101,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3711,7 +3711,7 @@
 			"page": 133,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3741,7 +3741,7 @@
 				"Reprinted": [
 					"B1|346",
 					"B2|309",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3784,14 +3784,14 @@
 		},
 		{
 			"name": "Ikon",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 218,
 			"categories": [
 				"Feat",
 				"Item"
 			],
 			"entries": [
-				"An item with the ikon trait is a special item provided or created by an {@class exemplar|WotI|exemplar's} divinity that is so tied to that exemplar that it can serve as a sacred vessel for their might. You gain three ikons at first level. Each ikon has a passive immanence ability and an activated transcendence ability. A feat with the ikon trait imbues one of your ikons with further capabilities. Whenever you gain a feat with the ikon trait, choose which of your ikons gains that ability; if you have multiple ikons that meet the feat's usage requirements, you can take the feat multiple times to apply its effects to another one of your ikons. These feats list what ikon they can be imbued into, and any number of them can be imbued into a single ikon."
+				"An item with the ikon trait is a special item provided or created by an {@class exemplar|WoI|exemplar's} divinity that is so tied to that exemplar that it can serve as a sacred vessel for their might. You gain three ikons at first level. Each ikon has a passive immanence ability and an activated transcendence ability. A feat with the ikon trait imbues one of your ikons with further capabilities. Whenever you gain a feat with the ikon trait, choose which of your ikons gains that ability; if you have multiple ikons that meet the feat's usage requirements, you can take the feat multiple times to apply its effects to another one of your ikons. These feats list what ikon they can be imbued into, and any number of them can be imbued into a single ikon."
 			]
 		},
 		{
@@ -3802,7 +3802,7 @@
 				"Reprinted": [
 					"SoM|253",
 					"G&G|233",
-					"WotI|218"
+					"WoI|218"
 				]
 			},
 			"categories": [
@@ -3850,7 +3850,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|233",
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -3866,7 +3866,7 @@
 			"page": 132,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -4016,7 +4016,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|233",
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -4209,7 +4209,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|234",
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -4225,7 +4225,7 @@
 			"page": 268,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [],
@@ -4241,7 +4241,7 @@
 				"Reprinted": [
 					"SoM|253",
 					"G&G|234",
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -4319,7 +4319,7 @@
 				"Reprinted": [
 					"B1|347",
 					"B2|309",
-					"WotI|219"
+					"WoI|219"
 				],
 				"Expanded": [
 					"G&G|234"
@@ -4359,7 +4359,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|234",
-					"WotI|219"
+					"WoI|219"
 				]
 			},
 			"categories": [
@@ -4404,7 +4404,7 @@
 				"Reprinted": [
 					"SoM|253",
 					"G&G|234",
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -4537,7 +4537,7 @@
 		},
 		{
 			"name": "Minotaur",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 220,
 			"categories": [
 				"Creature"
@@ -4552,7 +4552,7 @@
 			"page": 634,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -4614,7 +4614,7 @@
 					"SoM|254"
 				],
 				"Expanded": [
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -4624,7 +4624,7 @@
 				"Creatures that hail from or have a strong connection to the neutrally aligned planes are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere.",
 				{
 					"type": "entriesOtherSource",
-					"source": "WotI",
+					"source": "WoI",
 					"page": 220,
 					"entries": [
 						"Creatures that hail from or have a strong connection to Axis, the Boneyard, or the Maelstrom are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere."
@@ -4673,7 +4673,7 @@
 			"page": 634,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -4701,7 +4701,7 @@
 			"page": 634,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -4767,7 +4767,7 @@
 		},
 		{
 			"name": "Mythic",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 220,
 			"categories": [
 				"Creature",
@@ -4777,7 +4777,7 @@
 				"Weapon"
 			],
 			"entries": [
-				"Options with this trait grant or utilize mythic power. Feats with the mythic trait can only be taken by mythic characters, who are typically characters with a mythic {@trait Calling|WotI}.",
+				"Options with this trait grant or utilize mythic power. Feats with the mythic trait can only be taken by mythic characters, who are typically characters with a mythic {@trait Calling|WoI}.",
 				"Monsters with the mythic trait have access to a pool of Mythic Points and are particularly strong for creatures of their level. Many mythic monsters are either resistant or entirely immune to attacks from non-mythic creatures and weapons.",
 				"Spells with the mythic trait require the expenditure of a Mythic Point in order to be cast, and items with the mythic trait require the expenditure of a Mythic Point in order to use their activated abilities.",
 				"Weapons with the mythic trait overcome the resistances and immunities of mythic monsters."
@@ -4949,7 +4949,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|234",
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -5039,7 +5039,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|347",
-					"WotI|220"
+					"WoI|220"
 				]
 			},
 			"categories": [
@@ -5120,7 +5120,7 @@
 					"B1|347",
 					"B2|309",
 					"SoM|254",
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -5137,7 +5137,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"GMG|253",
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -5157,7 +5157,7 @@
 					"G&G|235"
 				],
 				"Reprinted": [
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -5249,7 +5249,7 @@
 			"page": 635,
 			"otherSources": {
 				"Reprinted": [
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -5293,7 +5293,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|235",
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -5601,7 +5601,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|254",
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -6025,7 +6025,7 @@
 				"Reprinted": [
 					"B2|309",
 					"SoM|254",
-					"WotI|221"
+					"WoI|221"
 				]
 			},
 			"categories": [
@@ -6149,7 +6149,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|236",
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -6447,7 +6447,7 @@
 		},
 		{
 			"name": "Tearing",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 222,
 			"categories": [
 				"Weapon"
@@ -6463,7 +6463,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|254",
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -6492,7 +6492,7 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|236",
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -6629,7 +6629,7 @@
 		},
 		{
 			"name": "Transcendence",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 222,
 			"categories": [
 				"Action & Ability"
@@ -6839,7 +6839,7 @@
 		},
 		{
 			"name": "Wandering",
-			"source": "WotI",
+			"source": "WoI",
 			"page": 222,
 			"categories": [
 				"Feat"
@@ -6958,7 +6958,7 @@
 				"Reprinted": [
 					"SoM|254",
 					"G&G|236",
-					"WotI|222"
+					"WoI|222"
 				]
 			},
 			"categories": [
@@ -7004,7 +7004,7 @@
 				"Reprinted": [
 					"B2|310",
 					"G&G|236",
-					"WotI|222"
+					"WoI|222"
 				],
 				"Expanded": [
 					"GMG|255"
