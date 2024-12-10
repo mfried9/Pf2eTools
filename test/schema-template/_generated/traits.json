@@ -169,9 +169,11 @@
 				"merfolk",
 				"mindless",
 				"minion",
+				"minotaur",
 				"morlock",
 				"mummy",
 				"mutant",
+				"mythic",
 				"nymph",
 				"oni",
 				"orc",
@@ -332,6 +334,7 @@
 				"cursebound",
 				"incarnate",
 				"litany",
+				"mythic",
 				"summon",
 				"trial"
 			]
@@ -363,6 +366,7 @@
 				"grimoire",
 				"harnessed",
 				"hefty",
+				"ikon",
 				"infused",
 				"ingested",
 				"inhaled",
@@ -375,6 +379,7 @@
 				"magical",
 				"missive",
 				"mutagen",
+				"mythic",
 				"oil",
 				"poison",
 				"potion",
@@ -420,7 +425,8 @@
 				"overflow",
 				"psyche",
 				"reckless",
-				"tandem"
+				"tandem",
+				"transcendence"
 			]
 		},
 		"unknownTrait": {
@@ -428,8 +434,11 @@
 			"description": "A list of all Unknown traits.",
 			"enum": [
 				"adjustment",
+				"apparition",
+				"calling",
 				"charm",
 				"clockwork",
+				"demigod",
 				"focus",
 				"gadget",
 				"hellknight",
@@ -447,6 +456,7 @@
 				"[class]",
 				"aftermath",
 				"alchemist",
+				"animist",
 				"barbarian",
 				"bard",
 				"champion",
@@ -454,6 +464,7 @@
 				"cleric",
 				"deviant",
 				"druid",
+				"exemplar",
 				"fighter",
 				"gunslinger",
 				"inventor",
@@ -686,16 +697,20 @@
 				"amp",
 				"archetype",
 				"dedication",
+				"destiny",
 				"deviant",
 				"esoterica",
 				"evolution",
 				"general",
+				"ikon",
 				"modification",
 				"multiclass",
+				"mythic",
 				"oath",
 				"skill",
 				"social",
-				"vigilante"
+				"vigilante",
+				"wandering"
 			]
 		},
 		"combatTrait": {
@@ -776,6 +791,7 @@
 				"kickback",
 				"modular",
 				"mounted",
+				"mythic",
 				"nonlethal",
 				"parry",
 				"portable",
@@ -793,6 +809,7 @@
 				"shove",
 				"splash",
 				"sweep",
+				"tearing",
 				"tethered",
 				"thrown",
 				"training",

@@ -231,6 +231,11 @@
 			"name": "Focus",
 			"source": "RoE",
 			"page": 236,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|218"
+				]
+			},
 			"categories": [],
 			"entries": [
 				"A spell you can cast by spending a Focus Point, and that is automatically heightened to half your level rounded up."
@@ -273,6 +278,11 @@
 			"name": "Metal",
 			"source": "RoE",
 			"page": 237,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|220"
+				]
+			},
 			"categories": [
 				"Energy & Element",
 				"Planar"
@@ -296,6 +306,11 @@
 			"name": "Spellshape",
 			"source": "RoE",
 			"page": 238,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|221"
+				]
+			},
 			"categories": [
 				"General"
 			],
@@ -329,6 +344,11 @@
 			"name": "Void",
 			"source": "RoE",
 			"page": 238,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|222"
+				]
+			},
 			"categories": [
 				"Energy & Element"
 			],
@@ -340,6 +360,11 @@
 			"name": "Wood",
 			"source": "RoE",
 			"page": 238,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|222"
+				]
+			},
 			"categories": [
 				"Energy & Element",
 				"Planar"
@@ -390,6 +415,11 @@
 			"name": "Laminar",
 			"source": "TV",
 			"page": 8,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|219"
+				]
+			},
 			"entries": [
 				"The armor is made up of layered sections, so when it breaks, it isn't as much of a problem. The status penalty to AC if this armor is broken is \u20131 for broken medium armor, \u20132 for broken heavy armor, or no penalty for broken light armor."
 			],
@@ -427,6 +457,11 @@
 			"entries": [
 				"This armor is designed for use underwater, with streamlined design and buoyant materials used in strategic places. You don't apply the armor's check penalty to {@skill Acrobatics} or {@skill Athletics} checks in water or similar liquids."
 			],
+			"otherSources": {
+				"Reprinted": [
+					"WotI|216"
+				]
+			},
 			"categories": [
 				"Armor"
 			]
@@ -667,7 +702,8 @@
 				"Reprinted": [
 					"B1|345",
 					"B2|307",
-					"SoM|252"
+					"SoM|252",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -727,7 +763,8 @@
 					"B1|345",
 					"B2|307",
 					"SoM|252",
-					"G&G|230"
+					"G&G|230",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -784,7 +821,8 @@
 			"page": 282,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|230"
+					"G&G|230",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -803,7 +841,8 @@
 					"B1|345",
 					"B2|308",
 					"G&G|230",
-					"SoM|252"
+					"SoM|252",
+					"WotI|216"
 				],
 				"Expanded": [
 					"GMG|250"
@@ -921,7 +960,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|345",
-					"B1|308"
+					"B1|308",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -929,6 +969,17 @@
 			],
 			"entries": [
 				"An animal is a creature with a relatively low intelligence. It typically doesn't have an Intelligence ability modifier over \u20134, can't speak languages, and can't be trained in Intelligence-based skills."
+			]
+		},
+		{
+			"name": "Animist",
+			"source": "WotI",
+			"page": 216,
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"This indicates abilities from the {@class animist|WotI} class."
 			]
 		},
 		{
@@ -941,6 +992,15 @@
 			],
 			"entries": [
 				"Any Alignment"
+			]
+		},
+		{
+			"name": "Apparition",
+			"source": "WotI",
+			"page": 216,
+			"entries": [
+				"Apparitions are spiritual entities who generally lack the power, cohesiveness, or attachments to enter or affect the physical world. Unlike a ghost or phantom, an apparition does not need to have ever been a living creature and could be the spiritual memory of a particularly meaningful location or event. Apparitions are reliant on {@class animist|WotI|animists} to interact with other people and things, and generally can't be targeted or affected by spells and abilities other than those of the animist they are attuned to. Animist feats and abilities that affect spirits affect apparitions only if they specifically say so.",
+				"Animist abilities with the apparition trait involve one or more of your apparitions acting alongside you. You must be attuned to at least one apparition to use an apparition ability, and some abilities might state in their requirements more specifically which apparition you must be attuned to. Typically, you're assumed to always attune to your apparitions during your daily preparations, but in some rare circumstances or as a result of certain animist abilities, your apparitions might be dispersed or separated from you for a time; you aren't attuned to dispersed apparitions."
 			]
 		},
 		{
@@ -987,6 +1047,9 @@
 			"source": "CRB",
 			"page": 628,
 			"otherSources": {
+				"Reprinted": [
+					"WotI|216"
+				],
 				"Expanded": [
 					"G&G|230"
 				]
@@ -1090,7 +1153,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|252",
-					"G&G|230"
+					"G&G|230",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -1105,6 +1169,9 @@
 			"source": "CRB",
 			"page": 629,
 			"otherSources": {
+				"Reprinted": [
+					"WotI|216"
+				],
 				"Expanded": [
 					"G&G|230"
 				]
@@ -1218,7 +1285,8 @@
 				"Reprinted": [
 					"B1|345",
 					"B2|308",
-					"SoM|252"
+					"SoM|252",
+					"WotI|216"
 				]
 			},
 			"categories": [
@@ -1304,6 +1372,14 @@
 			],
 			"entries": [
 				"These subterranean people have {@ability darkvision}, and some have powers to create darkness."
+			]
+		},
+		{
+			"name": "Calling",
+			"source": "WotI",
+			"page": 217,
+			"entries": [
+				"The calling trait identifies mechanical options a character gains when they first gain mythic power. Every calling option grants a way to use and regain Mythic Points."
 			]
 		},
 		{
@@ -1632,7 +1708,8 @@
 					"B1|346",
 					"B2|308",
 					"SoM|252",
-					"G&G|231"
+					"G&G|231",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -1711,7 +1788,8 @@
 			"page": 629,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|231"
+					"G&G|231",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -1750,7 +1828,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|252",
-					"G&G|231"
+					"G&G|231",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -1765,6 +1844,11 @@
 			"name": "Concussive",
 			"source": "G&G",
 			"page": 231,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|217"
+				]
+			},
 			"categories": [
 				"Weapon"
 			],
@@ -1939,7 +2023,8 @@
 					"GMG|251"
 				],
 				"Reprinted": [
-					"SoM|252"
+					"SoM|252",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -1974,7 +2059,8 @@
 			"page": 251,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|231"
+					"G&G|231",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -2004,6 +2090,11 @@
 			"name": "Darkness",
 			"source": "CRB",
 			"page": 630,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|217"
+				]
+			},
 			"categories": [
 				"Effect"
 			],
@@ -2032,6 +2123,11 @@
 			"name": "Death",
 			"source": "CRB",
 			"page": 630,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|217"
+				]
+			},
 			"categories": [
 				"Effect"
 			],
@@ -2046,13 +2142,33 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|232"
+				],
+				"Expanded": [
+					"WotI|217"
 				]
 			},
 			"categories": [
 				"Feat"
 			],
 			"entries": [
-				"You must select a feat with this trait to apply an archetype to your character."
+				"You must select a feat with this trait to apply an archetype to your character.",
+				{
+					"type": "entriesOtherSource",
+					"source": "WotI",
+					"page": 217,
+					"entries": [
+						"You must select a feat with this trait to apply an archetype to your character. Once you take a dedication feat, you can't select a different dedication feat until you complete your dedication by taking two other feats from your current archetype."
+					]
+				}
+			]
+		},
+		{
+			"name": "Demigod",
+			"source": "WotI",
+			"page": 217,
+			"categories": [],
+			"entries": [
+				"A powerful immortal who can grant powers to mortals. Demigods are always level 26 or higher."
 			]
 		},
 		{
@@ -2064,13 +2180,24 @@
 					"B1|346",
 					"B2|308",
 					"SoM|252"
+				],
+				"Expanded": [
+					"WotI|217"
 				]
 			},
 			"categories": [
 				"Creature"
 			],
 			"entries": [
-				"A family of fiends, demons hail from or trace their origins to the Abyss. Most are irredeemably chaotic evil and have {@ability darkvision}."
+				"A family of fiends, demons hail from or trace their origins to the Abyss. Most are irredeemably chaotic evil and have {@ability darkvision}.",
+				{
+					"type": "entriesOtherSource",
+					"source": "WotI",
+					"page": 217,
+					"entries": [
+						"A family of fiends, demons hail from or trace their origins to the Abyss. Most are irredeemably unholy and have {@ability darkvision}."
+					]
+				}
 			]
 		},
 		{
@@ -2082,6 +2209,17 @@
 			],
 			"entries": [
 				"This family of humanoids are the descendants of fey creatures that fell into darkness and confusion after being abandoned in the Darklands. They are immune to confusion and vulnerable to sunlight."
+			]
+		},
+		{
+			"name": "Destiny",
+			"source": "WotI",
+			"page": 217,
+			"categories": [
+				"Feat"
+			],
+			"entries": [
+				"The destiny trait indicates the first feat in a mythic destiny. You must be a mythic character of 12thlevel to select a destiny and cannot take subsequent feats in that mythic destiny without first taking the destiny feat."
 			]
 		},
 		{
@@ -2365,7 +2503,8 @@
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|232"
+					"G&G|232",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -2383,7 +2522,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|346",
-					"B2|308"
+					"B2|308",
+					"WotI|217"
 				],
 				"Expanded": [
 					"GMG|251",
@@ -2433,7 +2573,8 @@
 				"Reprinted": [
 					"B1|346",
 					"B2|308",
-					"G&G|232"
+					"G&G|232",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -2467,7 +2608,8 @@
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"B1|346"
+					"B1|346",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -2495,7 +2637,8 @@
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"SoM|253"
+					"SoM|253",
+					"WotI|217"
 				]
 			},
 			"categories": [
@@ -2555,6 +2698,11 @@
 			"name": "Environmental",
 			"source": "CRB",
 			"page": 631,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|217"
+				]
+			},
 			"categories": [
 				"Hazard"
 			],
@@ -2689,12 +2837,24 @@
 			]
 		},
 		{
+			"name": "Exemplar",
+			"source": "WotI",
+			"page": 218,
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"This indicates abilities from the exemplar class."
+			]
+		},
+		{
 			"name": "Extradimensional",
 			"source": "CRB",
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"SoM|253"
+					"SoM|253",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -2735,7 +2895,8 @@
 			"page": 631,
 			"otherSources": {
 				"Reprinted": [
-					"SoM|253"
+					"SoM|253",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -2777,7 +2938,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|346",
-					"B2|309"
+					"B2|309",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -2796,13 +2958,24 @@
 					"B1|346",
 					"B2|309",
 					"SoM|253"
+				],
+				"Expanded": [
+					"WotI|218"
 				]
 			},
 			"categories": [
 				"Creature Type"
 			],
 			"entries": [
-				"Creatures that hail from or have a strong connection to the evil-aligned planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere."
+				"Creatures that hail from or have a strong connection to the evil-aligned planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere.",
+				{
+					"type": "entriesOtherSource",
+					"source": "WotI",
+					"page": 218,
+					"entries": [
+						"Creatures that hail from or have a strong connection to the unholy planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere."
+					]
+				}
 			]
 		},
 		{
@@ -2823,7 +2996,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B2|310",
-					"G&G|232"
+					"G&G|232",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -2865,7 +3039,8 @@
 				"Reprinted": [
 					"B1|346",
 					"B2|309",
-					"G&G|232"
+					"G&G|232",
+					"WotI|218"
 				],
 				"Expanded": [
 					"GMG|251"
@@ -2918,13 +3093,24 @@
 			"otherSources": {
 				"Reprinted": [
 					"G&G|232"
+				],
+				"Expanded": [
+					"WotI|218"
 				]
 			},
 			"categories": [
 				"Combat"
 			],
 			"entries": [
-				"Flourish actions are actions that require too much exertion to perform a large number in a row. You can use only 1 action with the flourish trait per turn."
+				"Flourish actions are actions that require too much exertion to perform a large number in a row. You can use only 1 action with the flourish trait per turn.",
+				{
+					"type": "entriesOtherSource",
+					"source": "WotI",
+					"page": 218,
+					"entries": [
+						"Actions with the flourish trait are special techniques that require too much exertion for you to perform frequently. You can use only one action with the flourish trait per round."
+					]
+				}
 			]
 		},
 		{
@@ -2957,7 +3143,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"G&G|232"
+					"G&G|232",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -2989,7 +3176,8 @@
 			"page": 632,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|233"
+					"G&G|233",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -3469,7 +3657,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"G&G|233"
+					"G&G|233",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -3492,6 +3681,11 @@
 			"name": "Hex",
 			"source": "APG",
 			"page": 101,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|218"
+				]
+			},
 			"categories": [
 				"Combat"
 			],
@@ -3515,6 +3709,11 @@
 			"name": "Hobgoblin",
 			"source": "LOCG",
 			"page": 133,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|218"
+				]
+			},
 			"categories": [
 				"Creature",
 				"Ancestry & Heritage"
@@ -3541,7 +3740,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|346",
-					"B2|309"
+					"B2|309",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -3583,13 +3783,26 @@
 			]
 		},
 		{
+			"name": "Ikon",
+			"source": "WotI",
+			"page": 218,
+			"categories": [
+				"Feat",
+				"Item"
+			],
+			"entries": [
+				"An item with the ikon trait is a special item provided or created by an {@class exemplar|WotI|exemplar's} divinity that is so tied to that exemplar that it can serve as a sacred vessel for their might. You gain three ikons at first level. Each ikon has a passive immanence ability and an activated transcendence ability. A feat with the ikon trait imbues one of your ikons with further capabilities. Whenever you gain a feat with the ikon trait, choose which of your ikons gains that ability; if you have multiple ikons that meet the feat's usage requirements, you can take the feat multiple times to apply its effects to another one of your ikons. These feats list what ikon they can be imbued into, and any number of them can be imbued into a single ikon."
+			]
+		},
+		{
 			"name": "Illusion",
 			"source": "CRB",
 			"page": 633,
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"G&G|233"
+					"G&G|233",
+					"WotI|218"
 				]
 			},
 			"categories": [
@@ -3636,7 +3849,8 @@
 			"page": 633,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|233"
+					"G&G|233",
+					"WotI|219"
 				]
 			},
 			"categories": [
@@ -3650,6 +3864,11 @@
 			"name": "Incarnate",
 			"source": "SoM",
 			"page": 132,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|219"
+				]
+			},
 			"categories": [
 				"Spell"
 			],
@@ -3796,7 +4015,8 @@
 			"page": 633,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|233"
+					"G&G|233",
+					"WotI|219"
 				]
 			},
 			"categories": [
@@ -3988,7 +4208,8 @@
 			"page": 633,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|234"
+					"G&G|234",
+					"WotI|219"
 				]
 			},
 			"categories": [
@@ -4002,6 +4223,11 @@
 			"name": "Lineage",
 			"source": "APG",
 			"page": 268,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|219"
+				]
+			},
 			"categories": [],
 			"entries": [
 				"A feat with this trait indicates a character's descendance from a particular type of creature. You can have only one lineage feat. You can select a lineage feat only at 1st level, and you can't retrain into or out of these feats."
@@ -4014,7 +4240,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"G&G|234"
+					"G&G|234",
+					"WotI|219"
 				]
 			},
 			"categories": [
@@ -4091,7 +4318,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B1|347",
-					"B2|309"
+					"B2|309",
+					"WotI|219"
 				],
 				"Expanded": [
 					"G&G|234"
@@ -4130,7 +4358,8 @@
 			"page": 633,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|234"
+					"G&G|234",
+					"WotI|219"
 				]
 			},
 			"categories": [
@@ -4174,7 +4403,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|253",
-					"G&G|234"
+					"G&G|234",
+					"WotI|220"
 				]
 			},
 			"categories": [
@@ -4306,9 +4536,25 @@
 			]
 		},
 		{
+			"name": "Minotaur",
+			"source": "WotI",
+			"page": 220,
+			"categories": [
+				"Creature"
+			],
+			"entries": [
+				"Minotaurs are horned, bovine humanoids with mastery of mazes and puzzles."
+			]
+		},
+		{
 			"name": "Misfortune",
 			"source": "CRB",
 			"page": 634,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|220"
+				]
+			},
 			"categories": [
 				"Effect"
 			],
@@ -4366,13 +4612,24 @@
 					"B1|347",
 					"B2|309",
 					"SoM|254"
+				],
+				"Expanded": [
+					"WotI|220"
 				]
 			},
 			"categories": [
 				"Creature Type"
 			],
 			"entries": [
-				"Creatures that hail from or have a strong connection to the neutrally aligned planes are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere."
+				"Creatures that hail from or have a strong connection to the neutrally aligned planes are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere.",
+				{
+					"type": "entriesOtherSource",
+					"source": "WotI",
+					"page": 220,
+					"entries": [
+						"Creatures that hail from or have a strong connection to Axis, the Boneyard, or the Maelstrom are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere."
+					]
+				}
 			]
 		},
 		{
@@ -4414,6 +4671,11 @@
 			"name": "Morph",
 			"source": "CRB",
 			"page": 634,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|220"
+				]
+			},
 			"categories": [
 				"Effect"
 			],
@@ -4437,6 +4699,11 @@
 			"name": "Move",
 			"source": "CRB",
 			"page": 634,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|220"
+				]
+			},
 			"categories": [
 				"Combat"
 			],
@@ -4496,6 +4763,24 @@
 			],
 			"entries": [
 				"The monster has mutated or evolved, granting it unusual benefits, drawbacks, or both."
+			]
+		},
+		{
+			"name": "Mythic",
+			"source": "WotI",
+			"page": 220,
+			"categories": [
+				"Creature",
+				"Feat",
+				"Item",
+				"Spell",
+				"Weapon"
+			],
+			"entries": [
+				"Options with this trait grant or utilize mythic power. Feats with the mythic trait can only be taken by mythic characters, who are typically characters with a mythic {@trait Calling|WotI}.",
+				"Monsters with the mythic trait have access to a pool of Mythic Points and are particularly strong for creatures of their level. Many mythic monsters are either resistant or entirely immune to attacks from non-mythic creatures and weapons.",
+				"Spells with the mythic trait require the expenditure of a Mythic Point in order to be cast, and items with the mythic trait require the expenditure of a Mythic Point in order to use their activated abilities.",
+				"Weapons with the mythic trait overcome the resistances and immunities of mythic monsters."
 			]
 		},
 		{
@@ -4663,7 +4948,8 @@
 			"page": 634,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|234"
+					"G&G|234",
+					"WotI|220"
 				]
 			},
 			"categories": [
@@ -4752,7 +5038,8 @@
 			"page": 634,
 			"otherSources": {
 				"Reprinted": [
-					"B1|347"
+					"B1|347",
+					"WotI|220"
 				]
 			},
 			"categories": [
@@ -4832,7 +5119,8 @@
 				"Reprinted": [
 					"B1|347",
 					"B2|309",
-					"SoM|254"
+					"SoM|254",
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -4848,7 +5136,8 @@
 			"page": 635,
 			"otherSources": {
 				"Reprinted": [
-					"GMG|253"
+					"GMG|253",
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -4866,6 +5155,9 @@
 			"otherSources": {
 				"Expanded": [
 					"G&G|235"
+				],
+				"Reprinted": [
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -4955,6 +5247,11 @@
 			"name": "Precious",
 			"source": "CRB",
 			"page": 635,
+			"otherSources": {
+				"Reprinted": [
+					"WotI|221"
+				]
+			},
 			"categories": [
 				"Item"
 			],
@@ -4995,7 +5292,8 @@
 			"page": 635,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|235"
+					"G&G|235",
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -5302,7 +5600,8 @@
 			"page": 636,
 			"otherSources": {
 				"Reprinted": [
-					"SoM|254"
+					"SoM|254",
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -5725,7 +6024,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B2|309",
-					"SoM|254"
+					"SoM|254",
+					"WotI|221"
 				]
 			},
 			"categories": [
@@ -5848,7 +6148,8 @@
 			"page": 637,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|236"
+					"G&G|236",
+					"WotI|222"
 				]
 			},
 			"categories": [
@@ -6145,12 +6446,24 @@
 			]
 		},
 		{
+			"name": "Tearing",
+			"source": "WotI",
+			"page": 222,
+			"categories": [
+				"Weapon"
+			],
+			"entries": [
+				"This weapon is edged with curved teeth that leave bleeding wounds. When you hit a creature with this weapon, it deals an additional 1 {@condition persistent damage||persistent bleed damage}. This increases to 2 persistent bleed damage if the weapon has a {@item greater striking||greater striking rune}."
+			]
+		},
+		{
 			"name": "Teleportation",
 			"source": "CRB",
 			"page": 637,
 			"otherSources": {
 				"Reprinted": [
-					"SoM|254"
+					"SoM|254",
+					"WotI|222"
 				]
 			},
 			"categories": [
@@ -6178,7 +6491,8 @@
 			"page": 85,
 			"otherSources": {
 				"Reprinted": [
-					"G&G|236"
+					"G&G|236",
+					"WotI|222"
 				]
 			},
 			"categories": [
@@ -6311,6 +6625,17 @@
 			],
 			"entries": [
 				"A hazard or item with this trait is constructed to hinder interlopers."
+			]
+		},
+		{
+			"name": "Transcendence",
+			"source": "WotI",
+			"page": 222,
+			"categories": [
+				"Action & Ability"
+			],
+			"entries": [
+				"Transcendence channels the might of an exemplar's divine spark through one of their ikons to surpass the mortal and enact a miraculous deed. Each ikon has an action with the transcendence trait, and using it is called Sparking Transcendence. To use the action, your divine spark must be empowering that ikon and you must have the ikon ready to use (typically holding a weapon ikon or wearing a worn ikon). Immediately after you Spark Transcendence, your divine spark is forcefully ejected from that ikon, coming to rest in another ikon of your choice. You can Spark Transcendence only once each round. As it comes from your divine spark, a transcendence action has the divine trait."
 			]
 		},
 		{
@@ -6513,6 +6838,17 @@
 			]
 		},
 		{
+			"name": "Wandering",
+			"source": "WotI",
+			"page": 222,
+			"categories": [
+				"Feat"
+			],
+			"entries": [
+				"Wandering identifies animist feats attuned to particular types of apparitions. These feats require you to have attuned to an apparition who matches their prerequisites when you select them, and represent knowledge and ability pulled from that specific bond. When you make your daily preparations, you can retrain any wandering feat you know for any other wandering feat available at the level you took the exchanged feat (including lower-level wandering feats, as usual). You must meet all the new feat's other prerequisites."
+			]
+		},
+		{
 			"name": "Vampire",
 			"source": "B1",
 			"page": 347,
@@ -6621,7 +6957,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"SoM|254",
-					"G&G|236"
+					"G&G|236",
+					"WotI|222"
 				]
 			},
 			"categories": [
@@ -6666,7 +7003,8 @@
 			"otherSources": {
 				"Reprinted": [
 					"B2|310",
-					"G&G|236"
+					"G&G|236",
+					"WotI|222"
 				],
 				"Expanded": [
 					"GMG|255"

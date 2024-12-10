@@ -1673,6 +1673,16 @@
 				"{@b {@i Pathfinder Adventure Path  #203: Shepherd of Decay}} © 2024, Paizo Inc.; Authors: Mike Kimmel, with Logan Bonner, Jessica Catalan, John Compton, and Sen H.H.S."
 			],
 			"license": "ORC"
+		},
+		{
+			"source": "WotI",
+			"date": "2024-10-23",
+			"store": "https://paizo.com/products/btq02oar",
+			"name": "War of the Immortals",
+			"entries": [
+				"{@b {@i Pathfinder War of Immortals}} © 2024, Paizo Inc.; Authors: James Case, Liane Merciel, and Michael Sayre. Additional writing by Jessica Catalan, Matt Chapmond, Steven Hammond, Steven T. Helt, Brent Holtsberry, Jason Keeley, Michelle Y. Kim, Luis Loza, Erik Mona, AJ Neuro, Joaquin Kyle \"Makapatag\" Saavedra, Tony Saunders, Andrew Stoeckle, Greg A. Vaughan, and Ruvaid Virk."
+			],
+			"license": "ORC"
 		}
 	]
 }
