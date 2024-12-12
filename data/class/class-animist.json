@@ -1,0 +1,995 @@
+{
+	"class": [
+		{
+			"remaster": true,
+			"name": "Animist",
+			"source": "WoI",
+			"page": 11,
+			"keyAbility": "Wisdom",
+			"hp": 8,
+			"initialProficiencies": {
+				"perception": "T",
+				"fort": "T",
+				"ref": "T",
+				"will": "E",
+				"skills": {
+					"t": [
+						{
+							"skill": [
+								"Religion"
+							]
+						},
+						{
+							"skill": [
+								"Nature",
+								"Occultism"
+							],
+							"type": "or"
+						}
+					],
+					"add": 2
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"medium armor",
+						"unarmored defense"
+					]
+				},
+				"spells": {
+					"t": [
+						"spell attack modifier",
+						"spell DC"
+					]
+				},
+				"classDc": {
+					"prof": "t",
+					"entry": "Trained in animist class DC"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Animist|WoI|1",
+				"Attribute Boosts|Animist|WoI|1",
+				"Initial Proficiencies|Animist|WoI|1",
+				"Apparition Attunement|Animist|WoI|1",
+				"Animist & Apparition Spellcasting|Animist|WoI|1",
+				{
+					"classFeature": "Animistic Practice|Animist|WoI|1",
+					"gainSubclassFeature": true
+				},
+				"Animist Feats|Animist|WoI|2",
+				"Skill Feats|Animist|WoI|2",
+				"Fortitude Expertise|Animist|WoI|3",
+				"General Feats|Animist|WoI|3",
+				"Skill Increases|Animist|WoI|3",
+				"Ancestry Feats|Animist|WoI|5",
+				"Expert Spellcaster|Animist|WoI|7",
+				"Third Apparition|Animist|WoI|7",
+				"Perception Expertise|Animist|WoI|9",
+				"Expert Protections|Animist|WoI|11",
+				"Simple Weapon Expertise|Animist|WoI|11",
+				"Master of Mind and Spirit|Animist|WoI|13",
+				"Weapon Specialization|Animist|WoI|13",
+				"Fourth Apparition|Animist|WoI|15",
+				"Master Spellcaster|Animist|WoI|15",
+				"Legendary Spellcaster|Animist|WoI|19",
+				"Supreme Incarnation|Animist|WoI|19"
+			],
+			"subclasses": [
+				{
+					"name": "Liturgist",
+					"type": "Animistic Practice",
+					"shortName": "Liturgist",
+					"source": "WoI",
+					"page": 14,
+					"subclassFeatures": [
+						"Animistic Practice|Animist|WoI|Liturgist|WoI|1"
+					]
+				},
+				{
+					"name": "Medium",
+					"type": "Animistic Practice",
+					"shortName": "Medium",
+					"source": "WoI",
+					"page": 15,
+					"subclassFeatures": [
+						"Animistic Practice|Animist|WoI|Medium|WoI|1"
+					]
+				},
+				{
+					"name": "Seer",
+					"type": "Animistic Practice",
+					"shortName": "Seer",
+					"source": "WoI",
+					"page": 15,
+					"subclassFeatures": [
+						"Animistic Practice|Animist|WoI|Seer|WoI|1"
+					]
+				},
+				{
+					"name": "Shaman",
+					"type": "Animistic Practice",
+					"shortName": "Shaman",
+					"source": "WoI",
+					"page": 16,
+					"subclassFeatures": [
+						"Animistic Practice|Animist|WoI|Shaman|WoI|1"
+					]
+				}
+			],
+			"flavor": [
+				"You are the interlocutor between the seen and unseen, the voice that connects the mortal and the spiritual. You bond with spirits, manifesting their distinct magic and allowing their knowledge to flow through you. You may favor apparitions that grant you healing magic, others that grant you spells of destructive power, or pick and choose between different apparitions as your environment and circumstances demand. You may consider your powers part of a sacred trust or see your unique abilities as a sign that you've been chosen as a champion of two worlds. Whether you advocate for mortals in the planes beyond or whether you represent the spirits' interests, you provide the bridge between realms."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You channel the power of spiritual entities called apparitions to cast potent spells and manipulate the battlefield to your advantage. You mix divine magic and the spells granted to you by your attuned apparitions to cast down your enemies or sustain your allies."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "During social encounters...",
+					"entries": [
+						"You watch and listen, letting the whispers of spirits and otherworldly beings guide you toward sound judgment."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "While exploring...",
+					"entries": [
+						"You use your patient attention to detail, alongside clues and special senses gifted to you by your spiritual allies, to detect threats before they can ambush your companions or to notice hidden treasures that others might pass by."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "In downtime...",
+					"entries": [
+						"You seek out areas close to otherworldly entities who bring you strength or comfort. You might tend to grave sites, tread primeval wildernesses, or ride the rivers and seas. Animists attuned to apparitions of wisdom and knowledge may spend their quiet hours in libraries or temples."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Talk to spiritual entities only you can perceive.",
+								"Prefer to speak in stories and descriptive anecdotes.",
+								"Look at the world from a broader or more metaphorical perspective than most mortal creatures."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 11,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Find you detached or absent-minded due to your focus on things beyond their awareness.",
+								"Value your wisdom as someone with access to vast troves of experience beyond what a single person could normally accumulate.",
+								"Mistake you for being cruel or lacking empathy because you give equal weight to the material and immaterial."
+							]
+						}
+					]
+				}
+			],
+			"summary": {
+				"text": "Animists gain magical spells from spirits called apparitions that they attune to, choosing new apparitions as the circumstances demand.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/d93b3e14-bfb3-486b-bf8e-ef7fe9c692b6/PZO12006-HC_IconicAnimist_1500x2100.png"
+				],
+				"keyAbility": "Wisdom",
+				"sndAbility": "Strength or Dexterity, Constitution"
+			}
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Ancestry and Background",
+			"source": "WoI",
+			"page": 12,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"In addition to what you get from your class at 1st level, you have the benefits of your selected ancestry and background."
+			]
+		},
+		{
+			"name": "Attribute Boosts",
+			"source": "WoI",
+			"page": 12,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"In addition to what you get from your class at 1st level, you have four free boosts to different attribute modifiers.",
+				"At 5th level and every 5 levels thereafter, you get four free boosts to different attribute modifiers. If an attribute modifier is already +4 or higher, it takes two boosts to increase it; you get a partial boost and must boost that attribute again at a later level to increase it by 1."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "WoI",
+			"page": 12,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Apparition Attunement",
+			"source": "WoI",
+			"page": 12,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"Animists have a gift for divine magic that allows them to serve as conduits or bridges for otherworldly spiritual entities known collectively as apparitions; through them, these entities can commune and interact with the physical world in a process called attunement. Apparitions are myriad and diverse: they may be human spirits lingering on the border between becoming phantoms or ghosts, animal spirits with particularly strong connections to the physical world but lacking the malice that would spur a transition into true undeath, manifestations of natural locations that have grown thought and purpose over time, or they may be a different variation altogether. Some animists attune to one or more specific apparitions that accompany them in their travels, forming deep partnerships over time, while others adapt to their surroundings by befriending the local apparitions who dwell wherever the animist's journey takes them.",
+				"Each day during your daily preparations, choose two apparitions from the list on page 17 to attune to. Of these, choose one to be your primary apparition. Your attuned apparitions each grant you knowledge in the form of Lore skills and a repertoire of additional spells you can cast using apparition spellcasting (see below), and your primary apparition grants you even further power in the form a unique vessel focus spell and, when you are higher level, a unique {@spell avatar|PC1} form.",
+				"When you {@action Refocus|CRB}, you can change which of your currently attuned apparitions is your primary apparition, selecting from any of the apparitions you attuned to during your daily preparations. All your apparitions typically remain attuned to you until your next daily preparations, but some animist abilities can temporarily disperse them, usually in exchange for a powerful boon. If an apparition is dispersed, you lose access to its gifts\u2014you forget its apparition skills, its spells are removed from your apparition spell repertoire, and you can't use its vessel spell or avatar form\u2014until you attune to it again. When you disperse your primary apparition, one of your remaining apparitions becomes your primary apparition, chosen by you at the time of dispersal.",
+				"See Animist Apparitions on page 17 for more information."
+			]
+		},
+		{
+			"name": "Animist & Apparition Spellcasting",
+			"source": "WoI",
+			"page": 12,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"Your role as a spiritual medium connecting the mortal Universe to the realms beyond lets you cast your magic in two distinct ways: you both learn and prepare spells from the divine tradition yourself, and you also channel the knowledge and power of your attuned apparitions, gaining spell slots and a repertoire of spells from them that you can cast spontaneously.",
+				"Regardless of which source you're drawing on, you are a spellcaster and can cast spells of the divine tradition using the {@action Cast a Spell|CRB} activity. As an animist, your incantations might take the form of reciting relevant snippets of legends\u2014stories passed down orally\u2014or they might see you calling nearby spirits to honor ancient vows. Your gestures could be elegant dances or full-body convulsions as generations of memories and otherworldly energies inherited from your spiritual allies surge through you.",
+				"Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Wisdom, your spell attack modifiers and spell DC use your Wisdom modifier.",
+				"The clearly delineated partnership between an animist and their apparitions means you can't cast your animist spells using your apparition spell slots or vice versa\u2014 your magics remain complementary and harmonious, yet as distinct as the two worlds from which they come.",
+				{
+					"type": "pf2-h4",
+					"page": 13,
+					"name": "Animist Spellcasting",
+					"entries": [
+						"As a keeper of knowledge, you are constantly learning new techniques and spells. Each day, you can prepare one {@filter 1st-rank spell|spells||spell type=spell;!cantrip|level=1|tradition & spell list=divine|rarity=common} and {@filter 2 cantrips|spells||spell type=spell|level=0|tradition & spell list=divine|rarity=common} from among the common spells on the divine spell list or from other divine spells you've gained access to and learned via {@action Learn a Spell|CRB}. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.",
+						"As you increase in level as an animist, the number of spells you can prepare each day increases, as does the highest rank of spell you can cast, as shown in Animist Spells per Day.",
+						"You are a prepared spellcaster for the purposes of determining how you interact with staves and other items or effects that differentiate between prepared and spontaneous spellcasters."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"page": 13,
+					"name": "Apparition Spellcasting",
+					"entries": [
+						"You can draw upon your attuned apparitions as a second source of magical knowledge and power. You gain additional spontaneous spell slots and a spell repertoire from your attuned apparitions. At first level, you can cast two apparition cantrips and one 1st-rank apparition spell per day. You must have the spell in your apparition spell repertoire to cast it; this is a collection of spells granted to you by all your attuned apparitions. You can cast any spell in your apparition spell repertoire by using an apparition spell slot of an appropriate spell rank. Any of these spells that aren't normally on the divine list are still divine spells if you cast them this way. As you increase in level, you gain further apparition spell slots, and your apparitions grant you higher-rank apparition spells, as detailed in each apparition entry."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"page": 14,
+					"name": "Heightening Spells",
+					"entries": [
+						"When you gain spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. Many spells have specific improvements when they are heightened to certain ranks.",
+						"All your apparition spells are signature spells. That means that you can heighten any apparition spell freely by casting it from a higher-rank apparition spell slot, up to the maximum rank of apparition spell you can cast."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"page": 14,
+					"name": "Cantrips",
+					"entries": [
+						"Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will any number of times per day. A cantrip is automatically heightened to half your level rounded up\u2014this is usually equal to the highest rank of animist spell slot you have. For example, as a 1st-level animist, your cantrips are 1st-rank spells, and as a 5th-level animist, your cantrips are 3rd-rank spells."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"page": 14,
+					"name": "Vessel Spells",
+					"entries": [
+						"Your primary attuned apparition can use your body as a conduit, allowing you to cast a unique vessel spell. Vessel spells are a type of focus spell. Because vessel spells are a manifestation of a specific apparition, an animist can't cast or Sustain a specific vessel spell in the same round they have already cast or Sustained it (for example, an animist who has cast {@spell earth's bile|WoI} during their turn can't then cast or Sustain another instance of {@spell earth's bile|WoI} during that same turn).",
+						"It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to treat with nearby spirits, meditate on resolving an issue pertaining to the balance of spirits and mortals, or tell a story.",
+						"Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, though certain feats or abilities adjust this number, but it can never be more than 3 points."
+					]
+				},
+				{
+					"type": "table",
+					"minimizeTo": [
+						0,
+						1
+					],
+					"name": "Animist Spells per Day",
+					"id": "3-6",
+					"spans": [
+						[
+							[
+								1,
+								2
+							],
+							[
+								2,
+								13
+							]
+						]
+					],
+					"labelRowIdx": [
+						0,
+						1
+					],
+					"cellStyles": [
+						{
+							"row": 0,
+							"col": 1,
+							"style": "text-center"
+						}
+					],
+					"colStyles": [
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center"
+					],
+					"footnotes": [
+						"The number before a plus sign indicates your spell slots via animist spellcasting, and the number after it indicates your spell slots from apparition spellcasting. For instance, a 2nd-level animist has \"2+1\" 1st-rank spell slots, meaning they can prepare two 1st-rank spells via animist spellcasting, and they also have one spell slot to spontaneously cast an apparition spell.",
+						"*The supreme apparition class feature gives you a 10th-rank apparition slot that works a bit differently from other spells."
+					],
+					"rows": [
+						[
+							"Your",
+							"Spell Rank"
+						],
+						[
+							"Level",
+							"Cantrips",
+							"1st",
+							"2nd",
+							"3rd",
+							"4th",
+							"5th",
+							"6th",
+							"7th",
+							"8th",
+							"9th",
+							"10th"
+						],
+						[
+							1,
+							"2+2",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							2,
+							"2+2",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							3,
+							"2+2",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							4,
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							5,
+							"2+2",
+							"2+1",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							6,
+							"2+2",
+							"2+1",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							7,
+							"2+3",
+							"2+1",
+							"2+1",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							8,
+							"2+3",
+							"2+1",
+							"2+1",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							9,
+							"2+3",
+							"2+1",
+							"2+1",
+							"2+1",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							10,
+							"2+3",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							11,
+							"2+3",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							12,
+							"2+3",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							13,
+							"2+3",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							14,
+							"2+3",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							15,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"1+1",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							16,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							17,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"1+1",
+							"\u2014"
+						],
+						[
+							18,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"2+1",
+							"\u2014"
+						],
+						[
+							19,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"0+1*"
+						],
+						[
+							20,
+							"2+4",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+2",
+							"2+1",
+							"0+1*"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Animistic Practice",
+			"source": "WoI",
+			"page": 14,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				"At 1st level, you choose an animistic practice that influences the way your power grows and develops, and you gain its first invocation. At 9th level, you gain its second invocation, and at 17th, you gain its third."
+			]
+		},
+		{
+			"name": "Animist Feats",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 2,
+			"entries": [
+				"At 2nd level and every even-numbered level, you gain an {@filter animist class feat|feats||type=class|Class=Animist}."
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 2,
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a {@filter skill feat|feats||type=skill;!archetype}. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "Fortitude Expertise",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				"Spiritual energy reinforces your body, making you more resilient. Your proficiency rank for Fortitude saves increases to expert."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a {@filter general feat|feats||type=general}."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in, or to become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 5,
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an {@filter ancestry feat|feats||type=ancestry} at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Expert Spellcaster",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 7,
+			"entries": [
+				"The magic of the spirits flows freely through you. Your proficiency ranks for spell attack modifier and spell DC increase to expert."
+			]
+		},
+		{
+			"name": "Third Apparition",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 7,
+			"entries": [
+				"You've learned to shelter more spirits, gaining access to more magic. When you attune to apparitions during your daily preparations, you choose three apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+			]
+		},
+		{
+			"name": "Perception Expertise",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 9,
+			"entries": [
+				"Your apparitions call attention to minute details you might otherwise overlook. Your proficiency rank for {@skill Perception} increases to expert."
+			]
+		},
+		{
+			"name": "Expert Protections",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 11,
+			"entries": [
+				"The spiritual entities that protect you warn you of harm before it would occur, giving you more time to react, and help bear the burden of your armor when it is necessary. Your proficiency rank for light armor, medium armor, unarmored defense, and Reflex saves increases to expert."
+			]
+		},
+		{
+			"name": "Simple Weapon Expertise",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 11,
+			"entries": [
+				"Training and magical assistance from your spiritual companions have improved your weapon technique. Your proficiency rank for simple weapons and unarmed attacks increases to expert."
+			]
+		},
+		{
+			"name": "Master of Mind and Spirit",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 13,
+			"entries": [
+				"Your apparitions gird your mind against hostile intrusion and shield you from the effects of entities seeking to control your mind. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 13,
+			"entries": [
+				"You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master and 4 if you're legendary."
+			]
+		},
+		{
+			"name": "Fourth Apparition",
+			"source": "WoI",
+			"page": 17,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 15,
+			"entries": [
+				"You're truly loved by the spirits, with apparitions flocking to you from far and wide. When you attune to apparitions during your daily preparations, you choose four apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+			]
+		},
+		{
+			"name": "Master Spellcaster",
+			"source": "WoI",
+			"page": 17,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 15,
+			"entries": [
+				"Your affinity with the apparitions you bond to has further enhanced the potency of your magic. Your proficiency ranks for spell attack modifier and spell DC increase to master."
+			]
+		},
+		{
+			"name": "Legendary Spellcaster",
+			"source": "WoI",
+			"page": 17,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 19,
+			"entries": [
+				"You are a near-perfect channel for the magical energies of the realms beyond. Your proficiency ranks for spell attack modifier and spell DC increase to legendary."
+			]
+		},
+		{
+			"name": "Supreme Incarnation",
+			"source": "WoI",
+			"page": 17,
+			"className": "Animist",
+			"classSource": "WoI",
+			"level": 19,
+			"entries": [
+				"You become a nexus between the mortal and spiritual realms through which your apparition can embody its full might. You gain a 10th-rank apparition spell slot. In addition to heightened versions of your apparition spells, you can use this slot to cast {@spell avatar|PC1}. When you cast {@spell avatar|PC1} in this way, you do not become an avatar of a deity; rather, your primary attuned apparition incarnates itself using your body, transforming you into the avatar described in your primary attuned apparition's entry."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Animistic Practice",
+			"source": "WoI",
+			"page": 14,
+			"className": "Animist",
+			"classSource": "WoI",
+			"subclassShortName": "Liturgist",
+			"subclassSource": "WoI",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Liturgist",
+					"entries": [
+						"Lorem ipsum."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animistic Practice",
+			"source": "WoI",
+			"page": 15,
+			"className": "Animist",
+			"classSource": "WoI",
+			"subclassShortName": "Medium",
+			"subclassSource": "WoI",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Medium",
+					"entries": [
+						"Lorem ipsum."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animistic Practice",
+			"source": "WoI",
+			"page": 15,
+			"className": "Animist",
+			"classSource": "WoI",
+			"subclassShortName": "Seer",
+			"subclassSource": "WoI",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Seer",
+					"entries": [
+						"Lorem ipsum."
+					]
+				}
+			]
+		},
+		{
+			"name": "Animistic Practice",
+			"source": "WoI",
+			"page": 16,
+			"className": "Animist",
+			"classSource": "WoI",
+			"subclassShortName": "Shaman",
+			"subclassSource": "WoI",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Shaman",
+					"entries": [
+						"Lorem ipsum."
+					]
+				}
+			]
+		}
+	]
+}

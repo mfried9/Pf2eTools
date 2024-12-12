@@ -1,5 +1,6 @@
 {
 	"alchemist": "class-alchemist.json",
+	"animist": "class-animist.json",
 	"barbarian": "class-barbarian.json",
 	"bard": "class-bard.json",
 	"champion": "class-champion.json",
