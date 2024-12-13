@@ -1,474 +1,474 @@
 {
-    "feat": [
-        {
-            "name": "Apparition Sense",
-            "source": "WoI",
-            "page": 22,
-            "level": 1,
-            "traits": [
-                "animist",
-                "divine"
-            ],
-            "entries": [
-                "You can see and interact with things others can't. You have apparition sight, an imprecise sense that allows you to detect the presence of {@condition invisible} or {@condition hidden} spirits, haunts, and undead within 30 feet of you.",
-                "You can allow a spirit or undead otherwise incapable of speech to speak through you as long as you are in direct contact with it. As an activity that takes 10 minutes, you can act as a link between disembodied souls and their mortal bodies. As long as you are in contact with both a spirit and a living body that belonged to it in life during that entire time, the spirit can use you to return to that body; this does not allow you to bring the dead back to life, but can assist in restoring a disembodied soul to a still-living body. If the body is occupied by another spirit or soul, that entity must succeed at a Will save against your spell DC or be cast from the body when its original owner is returned."
-            ]
-        },
-        {
-            "name": "Channeler's Stance",
-            "source": "WoI",
-            "page": 22,
-            "level": 1,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Circle of Spirits",
-            "source": "WoI",
-            "page": 22,
-            "level": 1,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Relinquish Control",
-            "source": "WoI",
-            "page": 22,
-            "level": 1,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Spirit Familiar",
-            "source": "WoI",
-            "page": 23,
-            "level": 1,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Conceal Spell",
-            "source": "WoI",
-            "page": 23,
-            "level": 2,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Embodiment of the Balance",
-            "source": "WoI",
-            "page": 23,
-            "level": 2,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Enhanced Familiar",
-            "source": "WoI",
-            "page": 23,
-            "level": 2,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Grasping Spirits Spell",
-            "source": "WoI",
-            "page": 23,
-            "level": 2,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Spiritual Expansion Spell",
-            "source": "WoI",
-            "page": 24,
-            "level": 2,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Apparition's Enhancement",
-            "source": "WoI",
-            "page": 24,
-            "level": 4,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Channeled Protection",
-            "source": "WoI",
-            "page": 24,
-            "level": 4,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Walk the Wilds",
-            "source": "WoI",
-            "page": 24,
-            "level": 4,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Apparition Stabilization",
-            "source": "WoI",
-            "page": 24,
-            "level": 6,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Blazing Spirit",
-            "source": "WoI",
-            "page": 25,
-            "level": 6,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Grudge Strike",
-            "source": "WoI",
-            "page": 25,
-            "level": 6,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Medium's Awareness",
-            "source": "WoI",
-            "page": 25,
-            "level": 6,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Roaring Heart",
-            "source": "WoI",
-            "page": 25,
-            "level": 6,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Apparition's Reflection",
-            "source": "WoI",
-            "page": 25,
-            "level": 8,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Instinctive Maneuvers",
-            "source": "WoI",
-            "page": 25,
-            "level": 8,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Spirit Walk",
-            "source": "WoI",
-            "page": 25,
-            "level": 8,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Wind Seeker",
-            "source": "WoI",
-            "page": 25,
-            "level": 8,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Apparition's Quickening",
-            "source": "WoI",
-            "page": 25,
-            "level": 10,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Fly on Shadowed Wings",
-            "source": "WoI",
-            "page": 26,
-            "level": 10,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Incredible Familiar",
-            "source": "WoI",
-            "page": 26,
-            "level": 10,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Apparition Cloud",
-            "source": "WoI",
-            "page": 26,
-            "level": 12,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Shadows within Shadows",
-            "source": "WoI",
-            "page": 26,
-            "level": 12,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Whispers of Warning",
-            "source": "WoI",
-            "page": 26,
-            "level": 12,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Banish Falsehoods of Flesh",
-            "source": "WoI",
-            "page": 26,
-            "level": 14,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Cardinal Guardians",
-            "source": "WoI",
-            "page": 26,
-            "level": 14,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Forest's Heart",
-            "source": "WoI",
-            "page": 26,
-            "level": 16,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Jester's Gambol",
-            "source": "WoI",
-            "page": 26,
-            "level": 16,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Monstrous Inclinations",
-            "source": "WoI",
-            "page": 27,
-            "level": 16,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Spiritual Spellshape Stance",
-            "source": "WoI",
-            "page": 27,
-            "level": 16,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Cycle of Souls",
-            "source": "WoI",
-            "page": 27,
-            "level": 18,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Echoing Channel",
-            "source": "WoI",
-            "page": 27,
-            "level": 18,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Spirit's Sacrifice",
-            "source": "WoI",
-            "page": 27,
-            "level": 18,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "Eternal Guide",
-            "source": "WoI",
-            "page": 27,
-            "level": 20,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "True Channel Spell",
-            "source": "WoI",
-            "page": 27,
-            "level": 20,
-            "traits": [
-                "animist"
-            ],
-            "entries": [
-                ""
-            ]
-        }
-    ]
+	"feat": [
+		{
+			"name": "Apparition Sense",
+			"source": "WoI",
+			"page": 22,
+			"level": 1,
+			"traits": [
+				"animist",
+				"divine"
+			],
+			"entries": [
+				"You can see and interact with things others can't. You have apparition sight, an imprecise sense that allows you to detect the presence of {@condition invisible} or {@condition hidden} spirits, haunts, and undead within 30 feet of you.",
+				"You can allow a spirit or undead otherwise incapable of speech to speak through you as long as you are in direct contact with it. As an activity that takes 10 minutes, you can act as a link between disembodied souls and their mortal bodies. As long as you are in contact with both a spirit and a living body that belonged to it in life during that entire time, the spirit can use you to return to that body; this does not allow you to bring the dead back to life, but can assist in restoring a disembodied soul to a still-living body. If the body is occupied by another spirit or soul, that entity must succeed at a Will save against your spell DC or be cast from the body when its original owner is returned."
+			]
+		},
+		{
+			"name": "Channeler's Stance",
+			"source": "WoI",
+			"page": 22,
+			"level": 1,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Circle of Spirits",
+			"source": "WoI",
+			"page": 22,
+			"level": 1,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Relinquish Control",
+			"source": "WoI",
+			"page": 22,
+			"level": 1,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spirit Familiar",
+			"source": "WoI",
+			"page": 23,
+			"level": 1,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Conceal Spell",
+			"source": "WoI",
+			"page": 23,
+			"level": 2,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Embodiment of the Balance",
+			"source": "WoI",
+			"page": 23,
+			"level": 2,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Enhanced Familiar",
+			"source": "WoI",
+			"page": 23,
+			"level": 2,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Grasping Spirits Spell",
+			"source": "WoI",
+			"page": 23,
+			"level": 2,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spiritual Expansion Spell",
+			"source": "WoI",
+			"page": 24,
+			"level": 2,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apparition's Enhancement",
+			"source": "WoI",
+			"page": 24,
+			"level": 4,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Channeled Protection",
+			"source": "WoI",
+			"page": 24,
+			"level": 4,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Walk the Wilds",
+			"source": "WoI",
+			"page": 24,
+			"level": 4,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apparition Stabilization",
+			"source": "WoI",
+			"page": 24,
+			"level": 6,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Blazing Spirit",
+			"source": "WoI",
+			"page": 25,
+			"level": 6,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Grudge Strike",
+			"source": "WoI",
+			"page": 25,
+			"level": 6,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Medium's Awareness",
+			"source": "WoI",
+			"page": 25,
+			"level": 6,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Roaring Heart",
+			"source": "WoI",
+			"page": 25,
+			"level": 6,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apparition's Reflection",
+			"source": "WoI",
+			"page": 25,
+			"level": 8,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Instinctive Maneuvers",
+			"source": "WoI",
+			"page": 25,
+			"level": 8,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spirit Walk",
+			"source": "WoI",
+			"page": 25,
+			"level": 8,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Wind Seeker",
+			"source": "WoI",
+			"page": 25,
+			"level": 8,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apparition's Quickening",
+			"source": "WoI",
+			"page": 25,
+			"level": 10,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Fly on Shadowed Wings",
+			"source": "WoI",
+			"page": 26,
+			"level": 10,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Incredible Familiar",
+			"source": "WoI",
+			"page": 26,
+			"level": 10,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apparition Cloud",
+			"source": "WoI",
+			"page": 26,
+			"level": 12,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Shadows within Shadows",
+			"source": "WoI",
+			"page": 26,
+			"level": 12,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Whispers of Warning",
+			"source": "WoI",
+			"page": 26,
+			"level": 12,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Banish Falsehoods of Flesh",
+			"source": "WoI",
+			"page": 26,
+			"level": 14,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Cardinal Guardians",
+			"source": "WoI",
+			"page": 26,
+			"level": 14,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Forest's Heart",
+			"source": "WoI",
+			"page": 26,
+			"level": 16,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Jester's Gambol",
+			"source": "WoI",
+			"page": 26,
+			"level": 16,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Monstrous Inclinations",
+			"source": "WoI",
+			"page": 27,
+			"level": 16,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spiritual Spellshape Stance",
+			"source": "WoI",
+			"page": 27,
+			"level": 16,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Cycle of Souls",
+			"source": "WoI",
+			"page": 27,
+			"level": 18,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Echoing Channel",
+			"source": "WoI",
+			"page": 27,
+			"level": 18,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spirit's Sacrifice",
+			"source": "WoI",
+			"page": 27,
+			"level": 18,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Eternal Guide",
+			"source": "WoI",
+			"page": 27,
+			"level": 20,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "True Channel Spell",
+			"source": "WoI",
+			"page": 27,
+			"level": 20,
+			"traits": [
+				"animist"
+			],
+			"entries": [
+				""
+			]
+		}
+	]
 }

@@ -2165,6 +2165,149 @@
 				"{@note A witch with the {@class witch|apg|pacts|pacts|DA} patron can select the lesson of bargains when a feat or other effect grants a major lesson. The GM might determine that other witches who find themselves making bargains and holding double-crossers accountable can uncover this lesson, as well.}",
 				"You gain the {@spell over the coals|DA} hex, and your familiar learns {@spell subconscious suggestion}."
 			]
+		},
+		{
+			"name": "Crafter in the Vault",
+			"source": "WoI",
+			"page": 17,
+			"type": "Apparition",
+			"entries": [
+				"Crafters in the vault are found in dungeons, forges, or other places where creation and injury occur concurrently. They enjoy partnering with animists who compliment them on their creations, but often become jealous when anyone else intrudes on their expertise, including casting any of the spells that appear on their apparition list.",
+				"{@b Apparition Skills} Architecture Lore, Engineering Lore",
+				"{@b Apparition Spells Cantrip} {@spell sigil|PC1}; {@b 1st} {@spell mending|PC1}; {@b 2nd} {@spell knock|PC1}; {@b 3rd} {@spell ghostly weapon|PC1}; {@b 4th} {@spell creation|PC1}; {@b 5th} {@spell impaling spike|PC1}; {@b 6th} {@spell wall of metal|RoE}; {@b 7th} {@spell beheading buzz saw|RoE}; {@b 8th} {@spell ferrous form|RoE}; {@b 9th} {@spell resplendent mansion|PC2};",
+				"{@b Vessel Spell} {@spell traveling workshop|WoI}",
+				"{@b Avatar} {@i Incarnate Dungeon} Speed 50 feet, either burror Speed 50 feet or fly Speed 50 feet; {@b Melee} {@as a} dungeon trap ({@trait reach||reach 10 feet}, {@trait versatile||versatile B or P}), {@b Damage} {@damage 6d6+6} slashing plus {@action grapple||Grab}; {@b Ranged} {@as a} deadly darts (range 120 feet, {@trait versatile||versatile poison}), {@b Damage} {@damage 6d6+6} piercing"
+			]
+		},
+		{
+			"name": "Custodian of Groves and Gardens",
+			"source": "WoI",
+			"page": 18,
+			"type": "Apparition",
+			"entries": [
+				"Custodians of groves and gardens frequent tended greenery and farmlands cared for by loving stewards, and other places of reflection and restoration where green things grow. Some of these apparitions linger in the mortal realms not because they have lost their way, but because they believe they have already found Elysium. Others are the cultivated spiritual essence of the location itself. Custodians of groves and gardens are peaceful, quiet, and averse to conflict.",
+				"{@b Apparition Skills} Farming Lore, Herbalism Lore",
+				"{@b Apparition Spells Cantrip} {@spell tangle vine|PC1}; {@b 1st} {@spell protector tree|PC2}; {@b 2nd} {@spell gentle breeze|RoE}; {@b 3rd} {@spell safe passage|PC1}; {@b 4th} {@spell peaceful bubble|PC1}; {@b 5th} {@spell truespeech|PC1}; {@b 6th} {@spell field of life|PC1}; {@b 7th} {@spell lifewood cage|PC2}; {@b 8th} {@spell moment of renewal|PC1}; {@b 9th} {@spell nature's enmity|PC2};",
+				"{@b Vessel Spell} {@spell garden of healing|WoI}",
+				"{@b Avatar} {@i Peaceful Reaches} Speed 60 feet, ignore {@quickref difficult terrain|CRB|3|terrain|0} and {@quickref greater difficult terrain|CRB|3|terrain|0}; {@b Melee} {@as a} garden's cradle ({@trait agile}, {@trait nonlethal}, {@trait reach||reach 10 feet}, {@trait trip}), {@b Damage} {@damage 6d6+6} bludgeoning plus {@action grapple||Grab}; {@b Ranged} {@as a} impose peace ({@trait nonlethal}, range 120 feet), {@b Damage} {@damage 6d6+6} mental"
+			]
+		},
+		{
+			"name": "Echo of Lost Moments",
+			"source": "WoI",
+			"page": 18,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Imposter in Hidden Places",
+			"source": "WoI",
+			"page": 18,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Lurker in Devouring Dark",
+			"source": "WoI",
+			"page": 19,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Monarch of the Fey Courts",
+			"source": "WoI",
+			"page": 19,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Reveler in Lost Glee",
+			"source": "WoI",
+			"page": 19,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Stalker in Darkened Boughs",
+			"source": "WoI",
+			"page": 20,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Steward of Stone and Fire",
+			"source": "WoI",
+			"page": 20,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Vanguard of Roaring Waters",
+			"source": "WoI",
+			"page": 21,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
+		},
+		{
+			"name": "Witness to Ancient Battles",
+			"source": "WoI",
+			"page": 21,
+			"type": "Apparition",
+			"entries": [
+				"",
+				"{@b Apparition Skills} ",
+				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
+				"{@b Vessel Spell} {@spell |WoI}",
+				"{@b Avatar}"
+			]
 		}
 	]
 }
