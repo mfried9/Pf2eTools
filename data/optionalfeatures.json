@@ -2198,11 +2198,11 @@
 			"page": 18,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Echoes of lost moments are apparitions born from memories that everyone has forgotten, often arising from fragmented pieces of magic and memory left behind by time-altering magic. They may even occur in response to significant temporal tampering, cleaning up fragments of time damaged by irresponsible magic. These apparitions are drawn to animists who are orderly and responsible, and they can give such hosts access to spells that alter a target's timeline or removes them from the current timeline, reveal visions of past or future events, or even accelerate magical effects to a point in time where they have already ended.",
+				"{@b Apparition Skills} Fortune-Telling Lore, Genealogy Lore",
+				"{@b Apparition Spells Cantrip} {@spell figment|PC1}; {@b 1st} {@spell déjà vu|PC2}; {@b 2nd} {@spell dispel magic|PC1}; {@b 3rd} {@spell curse of lost time|PC2}; {@b 4th} {@spell vision of death|PC1}; {@b 5th} {@spell illusory scene|PC1}; {@b 6th} {@spell phantasmal calamity|PC1}; {@b 7th} {@spell retrocognition|PC1}; {@b 8th} {@spell quandary|PC1}; {@b 9th} {@spell foresight|PC1};",
+				"{@b Vessel Spell} {@spell store time|WoI}",
+				"{@b Avatar} {@i Devourer of Lost Time} Speed 30 feet, fly Speed 50 feet; {@b Melee} {@as a} devour potential ({@trait reach||reach 15 feet}, {@trait void|RoE}), {@b Damage} {@damage 6d10+6} void; {@b Ranged} {@as a} scream of loss (range 120 feet, {@trait void}), {@b Damage} {@damage 6d6+6} void"
 			]
 		},
 		{
@@ -2211,11 +2211,11 @@
 			"page": 18,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Impostors in hidden places whisper in quiet corners where mortal voices rarely resound, hoarding secrets and pondering unknowable truths. They often bring misfortune to those who disturb them, though an animist who earns their trust will find that they make effective allies.",
+				"{@b Apparition Skills} Fortune-Telling Lore, Underworld Lore",
+				"{@b Apparition Spells Cantrip} {@spell telekinetic hand|PC1}; {@b 1st} {@spell ill omen|PC1}; {@b 2nd} {@spell invisibility|PC1}; {@b 3rd} {@spell veil of privacy|PC1}; {@b 4th} {@spell liminal doorway|PC1}; {@b 5th} {@spell strange geometry|PC2}; {@b 6th} {@spell mislead|PC1}; {@b 7th} {@spell planar palace|PC1}; {@b 8th} {@spell disappearance|PC1}; {@b 9th} {@spell phantasmagoria|PC1};",
+				"{@b Vessel Spell} {@spell discomfiting whispers|WoI}",
+				"{@b Avatar} {@i Whisper Hiding in Shadows} Speed 50 feet, fly Speed 50 feet; {@b Melee} {@as a} shadowed touch ({@trait reach||reach 15 feet}, {@trait versatile||versatile cold}), {@b Damage} {@damage 6d10+6} void; {@b Ranged} {@as a} whisper of despair (range 120 feet), {@b Damage} {@damage 6d6+6} void"
 			]
 		},
 		{
@@ -2224,11 +2224,11 @@
 			"page": 19,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Lurkers in devouring dark are most often near old shipwrecks, deadly icebergs, and other places where ice and deep water are most prevalent. In places where the Dark Tapestry intrudes upon the world, there can be found variant lurkers in devouring dark who offer Dark Tapestry Lore in place of Sailing Lore and whose spells of water and ice instead deal void damage.",
+				"{@b Apparition Skills} Ocean Lore, Sailing Lore",
+				"{@b Apparition Spells Cantrip} {@spell caustic blase|PC1}; {@b 1st} {@spell grim tendrils|PC1}; {@b 2nd} {@spell acid grip|PC1}; {@b 3rd} {@spell aqueous orb|PC1}; {@b 4th} {@spell grasp of the deep|RoE}; {@b 5th} {@spell wall of ice|PC1}; {@b 6th} {@spell frost pillar|RoE}; {@b 7th} {@spell hungry depths|RoE}; {@b 8th} {@spell arctic rift|PC1}; {@b 9th} {@spell implosion|PC1};",
+				"{@b Vessel Spell} {@spell devouring dark form|WoI}",
+				"{@b Avatar} {@i Tentacles from the Dark} Speed 70 feet, swim Speed 70 feet; {@b Melee} {@as a} grasping tentacles ({@trait reach||reach 30 feet}), {@b Damage} {@damage 6d10+6} bludgeoning plus {@action grapple||Grab}"
 			]
 		},
 		{
@@ -2237,11 +2237,11 @@
 			"page": 19,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Monarchs of the fey courts make their homes near places with strong ties to the First World, or in places where nymphs once held sway. They are drawn to animists who blend an appreciation for art and nature's beauty with a ruler's ambition. Monarchs of fey courts are vain, capricious, and do not easily forgive slights or poor manners.",
+				"{@b Apparition Skills} Art Lore, Fey Lore",
+				"{@b Apparition Spells Cantrip} {@spell tangle vine|PC1}; {@b 1st} {@spell charm|PC1}; {@b 2nd} {@spell create food|PC1}; {@b 3rd} {@spell enthrall|PC1}; {@b 4th} {@spell suggestion|PC1}; {@b 5th} {@spell hallucination|PC1}; {@b 6th} {@spell dominate|PC1}; {@b 7th} {@spell mask of terror|PC1}; {@b 8th} {@spell uncontrollable dance|PC1}; {@b 9th} {@spell unfathomable song|PC1};",
+				"{@b Vessel Spell} {@spell nymph's grace|WoI}",
+				"{@b Avatar} {@i Queen of the Winter Court} Speed 50 feet, fly Speed 50 feet, swim Speed 50 feet; {@b Melee} {@as a} queen's caress ({@trait reach||reach 15 feet}, {@trait agile}), {@b Damage} {@damage 6d10+6} mental; {@b Ranged} {@as a} monarch's spite ({@trait mental}, range 120 feet, {@trait versatile||versatile cold}), {@b Damage} {@damage 6d6+6} mental"
 			]
 		},
 		{
@@ -2250,11 +2250,11 @@
 			"page": 19,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Revelers in lost glee are twisted apparitions that arise in desolate and abandoned places where people once found great joy. They take immense mirth in causing harm or discomfort to others and do not enjoy being attuned to animists who fail to laugh at their antics.",
+				"{@b Apparition Skills} Circus Lore, Fortune-Telling Lore",
+				"{@b Apparition Spells Cantrip} {@spell prestidigitation|PC1}; {@b 1st} {@spell dizzying colors|PC1}; {@b 2nd} {@spell laughing fit|PC1}; {@b 3rd} {@spell hypnotize|PC1}; {@b 4th} {@spell confusion|PC1}; {@b 5th} {@spell illusory scene|PC1}; {@b 6th} {@spell vibrant pattern|PC1}; {@b 7th} {@spell warp mind|PC1}; {@b 8th} {@spell quandary|PC1}; {@b 9th} {@spell walls of the damned|PC1};",
+				"{@b Vessel Spell} {@spell trickster's mirrors|WoI}",
+				"{@b Avatar} {@i Ringmaster of the Dark Celebration} Speed 50 feet, ignore {@quickref difficult terrain|CRB|3|terrain|0} and {@quickref greater difficult terrain|CRB|3|terrain|0}; {@b Melee} {@as a} ringmaster's whip ({@trait reach||reach 15 feet}, {@trait trip}), {@b Damage} {@damage 6d10+6} slashing; {@b Ranged} {@as a} feast of the lost ({@trait acid}, range 120 feet, {@trait versatile||versatile void}), {@b Damage} {@damage 6d6+6} acid"
 			]
 		},
 		{
@@ -2263,11 +2263,11 @@
 			"page": 20,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Stalkers in darkened boughs make their homes in ancient forests and jungles unfriendly to humanoids and others who would exert control or influence over nature's designs. These apparitions are drawn to animists who harbor violent thoughts or impulses but are more likely to linger with animists who can quell their hatred. Stalkers in darkened boughs are moody, impulsive, and prone to seeing things from the least charitable perspective.",
+				"{@b Apparition Skills} Forest Lore, Hunting Lore",
+				"{@b Apparition Spells Cantrip} {@spell gouging claw|PC1}; {@b 1st} {@spell runic body|PC1}; {@b 2nd} {@spell vomit swarm|PC2}; {@b 3rd} {@spell wall of thorns|PC1}; {@b 4th} {@spell bestial curse|PC2}; {@b 5th} {@spell moon frenzy|PC1}; {@b 6th} {@spell tangling creepers|PC1}; {@b 7th} {@spell unfettered pack|PC1}; {@b 8th} {@spell monstrosity form|PC1}; {@b 9th} {@spell wrathful storm|PC1};",
+				"{@b Vessel Spell} {@spell darkened forest form|WoI}",
+				"{@b Avatar} {@i Beast of the Boughs} Speed 70 feet, fly Speed 70 feet; {@b Melee} {@as a} devouring jaws ({@trait deadly} {@damage 3d10}, {@trait reach||reach 15 feet}), {@b Damage} {@damage 6d10+6} piercing"
 			]
 		},
 		{
@@ -2276,11 +2276,11 @@
 			"page": 20,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Stewards of stone and fire linger near volcanoes and deep places near the heart of the earth, hot springs where the water is too scorchingly hot to allow casual enjoyment, and other places where the barrier between fire and earth is thin or nonexistent, though particularly old rock formations, canyons, and other natural features of earth may also spawn or attract them. Stewards of stone and fire are quick to anger and slow to forget.",
+				"{@b Apparition Skills} Mountain Lore, Volcano Lore",
+				"{@b Apparition Spells Cantrip} {@spell ignition|PC1}; {@b 1st} {@spell interposing earth|RoE}; {@b 2nd} {@spell exploding earth|RoE}; {@b 3rd} {@spell fireball|PC1}; {@b 4th} {@spell wall of fire|PC1}; {@b 5th} {@spell wall of stone|PC1}; {@b 6th} {@spell petrify|PC1}; {@b 7th} {@spell volcanic eruption|PC1}; {@b 8th} {@spell earthquake|PC1}; {@b 9th} {@spell falling stars|PC1};",
+				"{@b Vessel Spell} {@spell earth's bile|WoI}",
+				"{@b Avatar} {@i Blood of Planets} Speed 50 feet, burrow Speed 50 feet, ignore {@quickref difficult terrain|CRB|3|terrain|0} and {@quickref greater difficult terrain|CRB|3|terrain|0}; {@b Melee} {@as a} avalanche of molten stone ({@trait reach||reach 15 feet}, {@trait versatile||versatile B}), {@b Damage} {@damage 6d10+6} fire; {@b Ranged} {@as a} cleansing eruption ({@trait fire}, range 120 feet), {@b Damage} {@damage 6d6+6} fire"
 			]
 		},
 		{
@@ -2289,11 +2289,11 @@
 			"page": 21,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Vanguards of roaring waters are found where rivers carve their way through mountains, creating fearsome rapids. They can also be found near bays where rivers meet the sea and create turbulent breakers and unpredictable undertows, coastal reefs that tear the bottoms from unwary ships and isolate islands, or anywhere else where water becomes violent and difficult to navigate safely. Vanguards of roaring waters encourage chaos and are easily bored.",
+				"{@b Apparition Skills} Mountain Lore, River Lore",
+				"{@b Apparition Spells Cantrip} {@spell rousing splash|RoE}; {@b 1st} {@spell hydraulic push|PC1}; {@b 2nd} {@spell mist|PC1}; {@b 3rd} {@spell crashing wave|PC1}; {@b 4th} {@spell hydraulic torrent|PC1}; {@b 5th} {@spell control water|PC1}; {@b 6th} {@spell personal ocean|RoE}; {@b 7th} {@spell dancing fountain|RoE}; {@b 8th} {@spell whirlpool|RoE}; {@b 9th} {@spell wrathful storm|PC1};",
+				"{@b Vessel Spell} {@spell river carving mountains|WoI}",
+				"{@b Avatar} {@i River that Splits the World} Speed 50 feet, swim Speed 70 feet; {@b Melee} {@as a} parting mountains ({@trait reach||reach 15 feet}, {@trait versatile||versatile S}, {@trait water}), {@b Damage} {@damage 6d10+6} bludgeoning; {@b Ranged} {@as a} crash into the sea (range 120 feet, {@trait versatile||versatile P}, {@trait water}), {@b Damage} {@damage 6d6+6} bludgeoning"
 			]
 		},
 		{
@@ -2302,11 +2302,11 @@
 			"page": 21,
 			"type": "Apparition",
 			"entries": [
-				"",
-				"{@b Apparition Skills} ",
-				"{@b Apparition Spells Cantrip} {@spell |}; {@b 1st} {@spell |}; {@b 2nd} {@spell |}; {@b 3rd} {@spell |}; {@b 4th} {@spell |}; {@b 5th} {@spell |}; {@b 6th} {@spell |}; {@b 7th} {@spell |}; {@b 8th} {@spell |}; {@b 9th} {@spell |};",
-				"{@b Vessel Spell} {@spell |WoI}",
-				"{@b Avatar}"
+				"Witnesses to ancient battles may be the lingering remnants of soldiers who never returned from their last deployment or the restless souls of warriors whose final contest left them unfulfilled. Or the apparitions may be valkyries and other beings from beyond, naturally drawn to sites of death and battle, or even the unquiet entity formed from a battlefield that saw so much death and blood it gained a spiritual essence of its own. Witnesses to ancient battles are often somber and grim.",
+				"{@b Apparition Skills} Battlegrounds Lore, Heraldry Lore",
+				"{@b Apparition Spells Cantrip} {@spell shield|PC1}; {@b 1st} {@spell sure strike|PC1}; {@b 2nd} {@spell enlarge|PC1}; {@b 3rd} {@spell ghostly weapon|PC1}; {@b 4th} {@spell weapon storm|PC1}; {@b 5th} {@spell invoke spirits|PC1}; {@b 6th} {@spell phantasmal calamity|PC1}; {@b 7th} {@spell true target|PC1}; {@b 8th} {@spell canticle of everlasting grief|PC1}; {@b 9th} {@spell weapon of judgement|PC2};",
+				"{@b Vessel Spell} {@spell embodiment of battle|WoI}",
+				"{@b Avatar} {@i General of Endless Battle} Speed 70 feet, immune to {@condition immobilized}; {@b Melee} {@as a} final strike ({@trait agile}, {@trait fatal} {@dice d12}, {@trait reach||reach 15 feet}), {@b Damage} {@damage 6d8+6} slashing"
 			]
 		}
 	]
