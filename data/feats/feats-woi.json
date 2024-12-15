@@ -19,6 +19,10 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
 				"animist",
                 "stance"
@@ -33,6 +37,10 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
 				"animist",
                 "apparition",
@@ -54,6 +62,10 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
+            "activity": {
+				"number": 1,
+				"unit": "free"
+			},
 			"traits": [
 				"animist",
                 "apparition"
@@ -84,6 +96,10 @@
 			"page": 23,
 			"level": 2,
             "add_hash": "Animist",
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
 				"animist",
                 "concentrate",
@@ -123,6 +139,10 @@
 			"source": "WoI",
 			"page": 23,
 			"level": 2,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
 				"animist",
                 "apparition",
