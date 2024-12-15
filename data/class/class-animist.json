@@ -300,9 +300,9 @@
 			"level": 1,
 			"entries": [
 				"Animists have a gift for divine magic that allows them to serve as conduits or bridges for otherworldly spiritual entities known collectively as apparitions; through them, these entities can commune and interact with the physical world in a process called attunement. Apparitions are myriad and diverse: they may be human spirits lingering on the border between becoming phantoms or ghosts, animal spirits with particularly strong connections to the physical world but lacking the malice that would spur a transition into true undeath, manifestations of natural locations that have grown thought and purpose over time, or they may be a different variation altogether. Some animists attune to one or more specific apparitions that accompany them in their travels, forming deep partnerships over time, while others adapt to their surroundings by befriending the local apparitions who dwell wherever the animist's journey takes them.",
-				"Each day during your daily preparations, choose two apparitions from the list on page 17 to attune to. Of these, choose one to be your primary apparition. Your attuned apparitions each grant you knowledge in the form of Lore skills and a repertoire of additional spells you can cast using apparition spellcasting (see below), and your primary apparition grants you even further power in the form a unique vessel focus spell and, when you are higher level, a unique {@spell avatar|PC1} form.",
+				"Each day during your daily preparations, choose two {@filter apparitions|optionalfeatures||Feature Type=Apparition} from the list on page 17 to attune to. Of these, choose one to be your primary apparition. Your attuned apparitions each grant you knowledge in the form of Lore skills and a repertoire of additional spells you can cast using apparition spellcasting (see below), and your primary apparition grants you even further power in the form a unique vessel focus spell and, when you are higher level, a unique {@spell avatar|PC1} form.",
 				"When you {@action Refocus|CRB}, you can change which of your currently attuned apparitions is your primary apparition, selecting from any of the apparitions you attuned to during your daily preparations. All your apparitions typically remain attuned to you until your next daily preparations, but some animist abilities can temporarily disperse them, usually in exchange for a powerful boon. If an apparition is dispersed, you lose access to its gifts\u2014you forget its apparition skills, its spells are removed from your apparition spell repertoire, and you can't use its vessel spell or avatar form\u2014until you attune to it again. When you disperse your primary apparition, one of your remaining apparitions becomes your primary apparition, chosen by you at the time of dispersal.",
-				"See Animist Apparitions on page 17 for more information."
+				"See {@filter Animist Apparitions|optionalfeatures||Feature Type=Apparition} on page 17 for more information."
 			]
 		},
 		{
@@ -357,8 +357,8 @@
 					"page": 14,
 					"name": "Vessel Spells",
 					"entries": [
-						"Your primary attuned apparition can use your body as a conduit, allowing you to cast a unique vessel spell. Vessel spells are a type of focus spell. Because vessel spells are a manifestation of a specific apparition, an animist can't cast or Sustain a specific vessel spell in the same round they have already cast or Sustained it (for example, an animist who has cast {@spell earth's bile|WoI} during their turn can't then cast or Sustain another instance of {@spell earth's bile|WoI} during that same turn).",
-						"It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to treat with nearby spirits, meditate on resolving an issue pertaining to the balance of spirits and mortals, or tell a story.",
+						"Your primary attuned apparition can use your body as a conduit, allowing you to cast a unique vessel spell. Vessel spells are a type of focus spell. Because vessel spells are a manifestation of a specific apparition, an animist can't cast or {@action Sustain a Spell||Sustain} a specific vessel spell in the same round they have already cast or Sustained it (for example, an animist who has cast {@spell earth's bile|WoI} during their turn can't then cast or {@action Sustain a Spell||Sustain} another instance of {@spell earth's bile|WoI} during that same turn).",
+						"It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the {@action Refocus} activity to treat with nearby spirits, meditate on resolving an issue pertaining to the balance of spirits and mortals, or tell a story.",
 						"Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, though certain feats or abilities adjust this number, but it can never be more than 3 points."
 					]
 				},
@@ -811,7 +811,7 @@
 			"classSource": "WoI",
 			"level": 7,
 			"entries": [
-				"You've learned to shelter more spirits, gaining access to more magic. When you attune to apparitions during your daily preparations, you choose three apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+				"You've learned to shelter more spirits, gaining access to more magic. When you attune to {@filter apparitions|optionalfeatures||Feature Type=Apparition} during your daily preparations, you choose three apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
 			]
 		},
 		{
@@ -877,7 +877,7 @@
 			"classSource": "WoI",
 			"level": 15,
 			"entries": [
-				"You're truly loved by the spirits, with apparitions flocking to you from far and wide. When you attune to apparitions during your daily preparations, you choose four apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
+				"You're truly loved by the spirits, with apparitions flocking to you from far and wide. When you attune to {@filter apparitions|optionalfeatures||Feature Type=Apparition} during your daily preparations, you choose four apparitions to attune to, with one of them being your primary apparition. The number of Focus Points in your focus pool increases by 1 (maximum 3)."
 			]
 		},
 		{
@@ -929,7 +929,10 @@
 					"type": "pf2-h4",
 					"name": "Liturgist",
 					"entries": [
-						"Lorem ipsum."
+						"You draw forth your apparitions through the power of song and dance, connecting the spiritual to the physical. These performances can be of your own creation or follow the specific rites of your religion.",
+						"{@b Song of Invocation (1st):} You can sing out to the spirits to have them spin and twirl around you. You gain the {@feat Circle of Spirits|WoI} feat.",
+						"{@b Dancing Invocation (9th):} The movement of your body grants power to your magic. When you {@action Leap}, {@action Step}, or {@action Tumble Through}, you also {@action Sustain a Spell||Sustain} an apparition spell or vessel spell.",
+						"{@b Invocation of Praise (17th):} Your liturgies call to the spirits even in the heat of battle. When you roll initiative, you can use {@feat Circle of Spirits|WoI} as a free action. If your first action on your first turn is to cast an apparition cantrip granted by your primary apparition, you reduce the number of actions it takes to cast it by 1 (minimum 1 action)."
 					]
 				}
 			]
@@ -948,7 +951,18 @@
 					"type": "pf2-h4",
 					"name": "Medium",
 					"entries": [
-						"Lorem ipsum."
+						"You are particularly good at acting as a conduit for spiritual energy and tend to associate more freely with a wide array of apparitions, though you tend not to form the deep bond with a single apparition that other animists often develop.",
+						"{@b Invocation of Unity (1st):} The lines between your body and your apparition are blurry. You gain the {@feat Relinquish Control|WoI} feat.",
+						"{@b Dual Invocation (9th):} You can build powerful bonds with multiple apparitions. You can select two of your attuned apparitions to be your primary apparitions. If you have the supreme incarnation class feature (page 17), you choose which apparition's avatar form you manifest each time you cast the avatar spell. The number of Focus Points in your focus pool is equal to the number of focus spells you have or the number of primary apparitions you are attuned to, whichever is higher (maximum 3).",
+						"{@bInvocation of Synchronization (17th):} The line between your intentions and those of the apparition possessing you blurs, leaving you better able to support each other in the throes of combat. While you have {@feat Relinquish Control|WoI|Relinquished Control} to an apparition, you gain the following additional benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Once per round, you can attempt a {@action Recall Knowledge} check as a free action.",
+								"All {@action Strike||Strikes} you make with a weapon or unarmed attack deal an additional 2 points of spirit damage.",
+								"You gain resistance equal to half your level against all physical damage, but have weakness equal to your level to spirit damage."
+							]
+						}
 					]
 				}
 			]
@@ -967,7 +981,10 @@
 					"type": "pf2-h4",
 					"name": "Seer",
 					"entries": [
-						"Lorem ipsum."
+						"You are particularly sensitive to the presence and influence of spirits and undead. You can detect lingering spirits, offering you some defense against them.",
+						"{@b Invocation of Sight (1st):} You shift your eyes easily to the spirit world, intuiting the needs of apparitions and other spiritual entities based on how they appear to you. You gain the {@feat Apparition Sense|WoI} feat. You also gain a +1 status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and {@trait incorporeal} undead.",
+						"{@b Invocation of Protection (9th):} Your status as an intermediary across planar boundaries grants you further defenses against spiritual ailments. You gain spirit resistance and void resistance equal to half your level, and your status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and {@trait incorporeal} undead increases to +2.",
+						"{@b Invocation of Resilience (17th):} You are a bulwark against the terrible spirits that lurk in the dark. Your apparition sight becomes a precise sense and your status bonus to saving throws and AC against the effects of haunts and the abilities of spirits and {@trait incorporeal} undead increases to +3."
 					]
 				}
 			]
@@ -986,7 +1003,10 @@
 					"type": "pf2-h4",
 					"name": "Shaman",
 					"entries": [
-						"Lorem ipsum."
+						"You form close bonds with your apparitions that allow you to invest them with the rare ability to take on a material form and directly affect the physical world.",
+						"{@b Invocation of Embodiment (1st):} You allow your apparition to inhabit a physical form. You gain the {@feat Spirit Familiar|WoI} feat. At 2nd level, you gain the {@feat Enhanced Familiar} feat.",
+						"{@b Invocation of Growth (9th):} Your bond with the physical form of your chosen apparition grows stronger. You gain the {@feat Incredible Familiar} feat.",
+						"{@b Invocation of Otherworldliness (17th):} Your apparition familiar becomes ever more powerful, straddling the line between physical and spiritual. Your spirit familiar can take a single action that has the {@trait concentrate} trait to become incorporeal for 1 minute. It gains the {@trait incorporeal} trait, meaning it can move through physical creatures and such creatures can move through it. It can't attempt Strength-based checks (such as {@action Grapple}) against corporeal creatures, and corporeal creatures can't attempt such checks against it. It gains immunity to precision damage and resistance to physical damage (except damage from {@action Strike||Strikes} with the {@item ghost touch} property rune) equal to half your level (double against non-magical damage) but weakness to force damage equal to half your level. However, when incorporeal, your spirit familiar can travel no more than 60 feet from you and must maintain line of effect to you; this typically prevents it from moving through walls. Your spirit familiar can {@action Dismiss} this effect."
 					]
 				}
 			]

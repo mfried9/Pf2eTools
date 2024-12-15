@@ -1,1 +1,424 @@
-{}
+{
+    "spell": [
+        {
+			"name": "Traveling Workshop",
+			"source": "WoI",
+            "page": 17,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus",
+                "manipulate"
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+            "duration": {
+                "entry": "sustained up to 1 minute, or 8 hours (see text)",
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"entries": [
+				"Your apparition guides you through complex procedures while using your magic to provide you with whatever tools you need. For the duration of this spell, you are trained in {@skill Crafting} and {@skill Thievery}. When you {@action Cast a Spell||Cast the Spell} and as long as you {@action Sustain||Sustain a Spell} it, your apparition provides you with an array of simple tools, granting you use of an {@item alchemist's tools||alchemist's toolkit}, a {@item repair kit}, and a {@item thieves' tools||thieves' toolkit}; these tools are made of ephemeral magic and disappear if they leave your possession.",
+                "You can cast this spell as an exploration or downtime activity with a casting time of 10 minutes; when you do, its duration increases to 8 hours (enough to complete 1 day of work), and you also gain an {@item alchemist's lab} and functioning forge. You are always treated as having spent a day of work setting up when using this spell to help you {@action Craft} an item and have whatever materials you need to {@action Repair} an item in your possession. You can't use a traveling workshop to {@action Earn Income} and any item you Craft using it disappears moments after it leaves your possession, making it unwise to Craft anything other than consumable items you intend to use yourself. A crafter in the vault is extremely proud of work you do together when using the spell in this way and demands to see the results of your work together. When you cast traveling workshop as an exploration or downtime activity, you must continue to choose crafter in the vault as one of your attuned apparitions during your next daily preparations until such time as you've used any Crafted items in combat."
+			],
+            "heightened": {
+				"X": {
+					"3": [
+						"Your proficiency in {@skill Crafting} and {@skill Thievery} is expert."
+					],
+                    "5": [
+                        "Your proficiency in {@skill Crafting} and {@skill Thievery} is master."
+                    ],
+                    "9": [
+                        "Your proficiency in {@skill Crafting} and {@skill Thievery} is legendary."
+                    ]
+				}
+			}
+		},
+        {
+			"name": "Garden of Healing",
+			"source": "WoI",
+            "page": 18,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+                "aura",
+                "emotion",
+				"focus",
+                "healing",
+                "mental"
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+            "area": {
+				"types": [
+					"Emanation"
+				],
+				"entry": "10-foot emanation"
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"entries": [
+				"Spirits of comfort and respite swirl around you, trailing visions of growing grass and blooming blossoms. When you cast this spell and the first time you {@action Sustain a Spell||Sustain} it on each subsequent round, you generate a pulse of renewing energy that heals each creature within the emanation for {@dice 1d4} Hit Points. The calm of this effect lingers; once this spell ends, any creature that has been affected by its healing gains a +1 circumstance bonus to saves against {@trait emotion} effects for 10 minutes but does not receive any healing from additional castings of the spell while the bonus persists."
+			],
+            "heightened": {
+				"plusX": {
+					"1": [
+						"The healing granted by the spell's pulse increases by {@dice 1d4} Hit Points."
+					]
+				}
+			}
+		},
+        {
+			"name": "Store Time",
+			"source": "WoI",
+            "page": 18,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus"
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"entries": [
+				"You store time for later use. When you {@action Cast a Spell||Cast this Spell} and the first time you {@action Sustain a Spell||Sustain} it each round, you gain a bonus reaction that you can use for any animist or apparition reaction you have. As normal, this reaction is lost if you do not use it before you regain your actions at the start of your next turn."
+			]
+		},
+        {
+			"name": "Discomfiting Whispers",
+			"source": "WoI",
+            "page": 18,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+                "aura",
+				"focus",
+                "misfortune",
+                "void"
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+            "area": {
+				"types": [
+					"Emanation"
+				],
+				"entry": "5-foot emanation"
+			},
+            "savingThrow": {
+				"type": [
+					"W"
+				]
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"entries": [
+				"You are surrounded by an aura of spiteful murmurings that incite bad luck and punish failure. Each creature that starts their turn within the area of this spell must succeed at a Will save or roll twice on their first attack roll that round and take the lower result. If an attack roll modified in this way results in a failure, the creature that rolled the failed attack takes {@damage 1d6} void damage."
+			],
+            "heightened": {
+				"plusX": {
+					"2": [
+						"The void damage dealt on a failure increases by {@damage 1d6}."
+					]
+				}
+			}
+		},
+        {
+			"name": "Devouring Dark Form",
+			"source": "WoI",
+            "page": 19,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus",
+                "morph"
+			],
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition's dark power blends with your physical body, allowing you to take on terrifying characteristics of creatures that lurk in dark places. Your arms and legs transform into twisting tentacles. You gain a tentacle unarmed attack with {@trait reach||10-foot reach} that deals {@damage 1d8} bludgeoning damage and has the {@trait grapple} trait. The first time you {@action Sustain a Spell||Sustain} this spell each round, you can attempt a single {@action Grapple} check with your tentacle against a creature within its reach."
+			],
+            "heightened": {
+				"X": {
+					"2": [
+						"You can choose to take on the shark battle form from {@spell animal form} instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the {@trait morph} trait and gains the {@trait polymorph} trait. You can attempt a jaws unarmed {@action Strike} against a creature within your reach each time you {@action Sustain a Spell||Sustain} this spell."
+					],
+                    "5": [
+						"You can choose to take on the water elemental battle form from {@spell elemental form} instead of gaining a tentacle unarmed attack, heightened to the same level as this vessel spell. When you do, this spell loses the {@trait morph} trait and gains the {@trait polymorph} trait. You can attempt an unarmed attack {@action Strike} against a creature within your reach each time you {@action Sustain a Spell||Sustain} this spell."
+					]
+				}
+			}
+		},
+        {
+			"name": "Nymph's Grace",
+			"source": "WoI",
+            "page": 19,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+                "aura",
+                "emotion",
+				"focus",
+                "incapacitation",
+                "mental",
+                "visual"
+			],
+            "area": {
+				"types": [
+					"Emanation"
+				],
+				"entry": "10-foot emanation"
+			},
+            "savingThrow": {
+				"type": [
+					"W"
+                ]
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition manifests as a mask of unearthly beauty that bewilders your enemies. The first time an enemy enters the aura each round, or if they start their turn within the aura, they must succeed at a Will saving throw or become {@condition confused} for 1 round. While confused by this effect, the creature's confused actions never include harming you."
+			]
+		},
+        {
+			"name": "Trickster's Mirrors",
+			"source": "WoI",
+            "page": 19,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus",
+                "illusion",
+                "mental",
+                "visual"
+			],
+            "savingThrow": {
+				"type": [
+					"W"
+				],
+				"basic": true
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"You are surrounded by up to 3 mirrors that reflect twisted and distorted images of you, making it hard to tell where you actually are within your space and potentially causing those who attack you to hit one of the mirrors instead. You start with 1 mirror and gain an additional mirror each time you Sustain this spell, up to a maximum of 3 mirrors. Any attack that would hit you has a random chance of hitting one of your mirrors instead of you. With one mirror, the chances are 1 in 2 (1\u20133 on {@dice 1d6}). With two mirrors, there is a 1 in 3 chance of hitting you (1\u20132 on {@dice 1d6}). With three mirrors, there is a 1 in 4 chance of hitting you (1 on {@dice 1d4}). Once an image is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys a mirror.",
+                "If the attacker was within 5 feet, they must succeed at a basic Will save or take {@damage 1d4} mental damage as they believe themselves cut by a shower of glass shards from the breaking mirror. A damaging effect that affects all targets within your space (such as {@spell caustic blast|PC1}) destroys all of the mirrors."
+			],
+            "heightened": {
+				"plusX": {
+					"1": [
+						"The mental damage dealt by a {@condition broken} mirror increases by {@dice 1d4}."
+					]
+				}
+			}
+		},
+        {
+			"name": "Darkened Forest Form",
+			"source": "WoI",
+            "page": 20,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus",
+                "polymorph"
+			],
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition casts a feral shadow over your form. You can polymorph into any form listed in {@spell pest form|PC1}. When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to darkened forest form's rank. Each time you {@action Sustain a Spell||Sustain this Spell}, you can choose to change to a different shape from those available via any of the associated spells."
+			],
+            "heightened": {
+				"X": {
+					"2": [
+						"You can also transform into the forms listed in {@spell animal form|PC1}."
+					],
+					"5": [
+						"You can also transform into the forms listed in {@spell elemental form|PC1}."
+					]
+				}
+			}
+		},
+        {
+			"name": "Earth's Bile",
+			"source": "WoI",
+            "page": 21,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+                "earth",
+                "fire",
+				"focus"
+			],
+            "range": {
+				"number": 30,
+				"unit": "feet"
+			},
+            "area": {
+				"types": [
+					"Burst"
+				],
+				"entry": "10-foot burst"
+			},
+            "savingThrow": {
+				"type": [
+					"R"
+				],
+				"basic": true
+			},
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition is the will of lava and magma made manifest, the earth's molten blood unleashing devastating bursts of liquid stone and unquenchable fire at your command. When you {@action Cast a Spell||Cast this Spell} and the first time you {@action Sustain a Spell||Sustain} it each round thereafter, choose an area within range. Each creature in the area takes {@damage 1d4} fire damage, {@damage 1d4} bludgeoning damage, and 1 {@condition persistent damage||persistent fire damage} (the {@condition persistent damage||persistent fire damage} is negated on a successful save)."
+			],
+            "heightened": {
+				"plusX": {
+					"2": [
+						"The fire and bludgeoning damage each increase by {@dice 1d4}, and the {@condition persistent damage||persistent fire damage} increases by 1."
+					]
+				}
+			}
+		},
+        {
+			"name": "River Carving Mountains",
+			"source": "WoI",
+            "page": 21,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus",
+                "water"
+			],
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition solidifies around you into roaring water and spraying mist. For the duration of this spell, you have {@quickref lesser cover|CRB|3|cover|0} against ranged attacks and gain a +10-foot status bonus to each Speed you have. When you first cast this spell and each time you {@action Sustain a Spell||Sustain} it, you can {@action Stride} up to your speed while your apparition fills each square you pass through with the lingering energy of a coursing river. These squares become {@quickref difficult terrain|CRB|3|terrain|0} until the start of your next turn. You can use river carving mountains while Burrowing, Climbing, Flying, or Swimming instead of Striding if you have the corresponding movement type."
+			]
+		},
+        {
+			"name": "Embodiment of Battle",
+			"source": "WoI",
+            "page": 21,
+            "remaster": true,
+			"focus": true,
+			"level": 1,
+			"traits": [
+				"uncommon",
+				"animist",
+				"focus"
+			],
+            "duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks, and you gain the {@action Reactive Strike|PC1} reaction (page 37); this reaction gains the {@trait apparition} trait. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a \u20132 status penalty to your spell attack modifiers and your spell DCs."
+			],
+            "heightened": {
+				"X": {
+					"4": [
+						"The status bonus to attack and damage rolls granted by this spell is increased to +2."
+					],
+                    "7": [
+						"The status bonus to attack and damage rolls granted by this spell is increased to +3."
+					]
+				}
+			}
+		}
+    ]
+}

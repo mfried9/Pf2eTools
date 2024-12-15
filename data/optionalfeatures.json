@@ -2176,7 +2176,7 @@
 				"{@b Apparition Skills} Architecture Lore, Engineering Lore",
 				"{@b Apparition Spells Cantrip} {@spell sigil|PC1}; {@b 1st} {@spell mending|PC1}; {@b 2nd} {@spell knock|PC1}; {@b 3rd} {@spell ghostly weapon|PC1}; {@b 4th} {@spell creation|PC1}; {@b 5th} {@spell impaling spike|PC1}; {@b 6th} {@spell wall of metal|RoE}; {@b 7th} {@spell beheading buzz saw|RoE}; {@b 8th} {@spell ferrous form|RoE}; {@b 9th} {@spell resplendent mansion|PC2};",
 				"{@b Vessel Spell} {@spell traveling workshop|WoI}",
-				"{@b Avatar} {@i Incarnate Dungeon} Speed 50 feet, either burror Speed 50 feet or fly Speed 50 feet; {@b Melee} {@as a} dungeon trap ({@trait reach||reach 10 feet}, {@trait versatile||versatile B or P}), {@b Damage} {@damage 6d6+6} slashing plus {@action grapple||Grab}; {@b Ranged} {@as a} deadly darts (range 120 feet, {@trait versatile||versatile poison}), {@b Damage} {@damage 6d6+6} piercing"
+				"{@b Avatar} {@i Incarnate Dungeon} Speed 50 feet, either burror Speed 50 feet or fly Speed 50 feet; {@b Melee} {@as a} dungeon trap ({@trait reach||reach 10 feet}, {@trait versatile||versatile B or P}), {@b Damage} {@damage 6d6+6} slashing plus {@trait grapple||Grab}; {@b Ranged} {@as a} deadly darts (range 120 feet, {@trait versatile||versatile poison}), {@b Damage} {@damage 6d6+6} piercing"
 			]
 		},
 		{
@@ -2189,7 +2189,7 @@
 				"{@b Apparition Skills} Farming Lore, Herbalism Lore",
 				"{@b Apparition Spells Cantrip} {@spell tangle vine|PC1}; {@b 1st} {@spell protector tree|PC2}; {@b 2nd} {@spell gentle breeze|RoE}; {@b 3rd} {@spell safe passage|PC1}; {@b 4th} {@spell peaceful bubble|PC1}; {@b 5th} {@spell truespeech|PC1}; {@b 6th} {@spell field of life|PC1}; {@b 7th} {@spell lifewood cage|PC2}; {@b 8th} {@spell moment of renewal|PC1}; {@b 9th} {@spell nature's enmity|PC2};",
 				"{@b Vessel Spell} {@spell garden of healing|WoI}",
-				"{@b Avatar} {@i Peaceful Reaches} Speed 60 feet, ignore {@quickref difficult terrain|CRB|3|terrain|0} and {@quickref greater difficult terrain|CRB|3|terrain|0}; {@b Melee} {@as a} garden's cradle ({@trait agile}, {@trait nonlethal}, {@trait reach||reach 10 feet}, {@trait trip}), {@b Damage} {@damage 6d6+6} bludgeoning plus {@action grapple||Grab}; {@b Ranged} {@as a} impose peace ({@trait nonlethal}, range 120 feet), {@b Damage} {@damage 6d6+6} mental"
+				"{@b Avatar} {@i Peaceful Reaches} Speed 60 feet, ignore {@quickref difficult terrain|CRB|3|terrain|0} and {@quickref greater difficult terrain|CRB|3|terrain|0}; {@b Melee} {@as a} garden's cradle ({@trait agile}, {@trait nonlethal}, {@trait reach||reach 10 feet}, {@trait trip}), {@b Damage} {@damage 6d6+6} bludgeoning plus {@trait grapple||Grab}; {@b Ranged} {@as a} impose peace ({@trait nonlethal}, range 120 feet), {@b Damage} {@damage 6d6+6} mental"
 			]
 		},
 		{
@@ -2228,7 +2228,7 @@
 				"{@b Apparition Skills} Ocean Lore, Sailing Lore",
 				"{@b Apparition Spells Cantrip} {@spell caustic blase|PC1}; {@b 1st} {@spell grim tendrils|PC1}; {@b 2nd} {@spell acid grip|PC1}; {@b 3rd} {@spell aqueous orb|PC1}; {@b 4th} {@spell grasp of the deep|RoE}; {@b 5th} {@spell wall of ice|PC1}; {@b 6th} {@spell frost pillar|RoE}; {@b 7th} {@spell hungry depths|RoE}; {@b 8th} {@spell arctic rift|PC1}; {@b 9th} {@spell implosion|PC1};",
 				"{@b Vessel Spell} {@spell devouring dark form|WoI}",
-				"{@b Avatar} {@i Tentacles from the Dark} Speed 70 feet, swim Speed 70 feet; {@b Melee} {@as a} grasping tentacles ({@trait reach||reach 30 feet}), {@b Damage} {@damage 6d10+6} bludgeoning plus {@action grapple||Grab}"
+				"{@b Avatar} {@i Tentacles from the Dark} Speed 70 feet, swim Speed 70 feet; {@b Melee} {@as a} grasping tentacles ({@trait reach||reach 30 feet}), {@b Damage} {@damage 6d10+6} bludgeoning plus {@trait grapple||Grab}"
 			]
 		},
 		{
