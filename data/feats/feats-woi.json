@@ -47,8 +47,9 @@
                 "concentrate"
 			],
             "frequency": {
-				"unit": "round",
-				"number": 1
+                "number": 1,
+                "interval": 1,
+				"unit": "round"
 			},
 			"entries": [
 				"With a thought, word, or gesture, you reach your mind out to another spirit. Choose another apparition from among those you’ve attuned to; it becomes your primary apparition, replacing your current one."
@@ -72,7 +73,7 @@
 			],
             "trigger": "Your turn begins.",
 			"entries": [
-				"Your apparition takes over and shields you from outside influence. Until the start of your next turn, you gain a +4 status bonus on saves against spells and effects that give you the {@condition controlled} condition or attempt to influence your actions (such as {@trait charm}, {@spell command}, or a {@creature nosoi||nosoi’s} haunting melody). However, the only actions you can take are to {@action Recall Knowledge}, {@action Step}, {@action Strike}, {@action Cast a Spell||Cast an apparition Spell}, {@action Cast a Spell||Cast a vessel Spell}, {@action Sustain a Spell||Sustain a vessel spell}, or use an action that has the {@trait apparition} trait. You gain a +2 circumstance bonus on all {@action Recall Knowledge} checks made using Lore skills granted by your attuned apparitions."
+				"Your apparition takes over and shields you from outside influence. Until the start of your next turn, you gain a +4 status bonus on saves against spells and effects that give you the {@condition controlled} condition or attempt to influence your actions (such as {@trait charm}, {@spell command}, or a {@creature nosoi||nosoi’s} haunting melody). However, the only actions you can take are to {@action Recall Knowledge}, {@action Step}, {@action Strike}, {@action Cast a Spell||Cast an apparition Spell}, {@action Cast a Spell||Cast a vessel Spell}, {@action Sustain a Spell||Sustain a vessel spell}, or use an action that has the {@trait apparition} trait. You gain a +2 circumstance bonus on all {@action Recall Knowledge} checks made using {@skill Lore} skills granted by your attuned apparitions."
 			],
 			"special": [
 				"This feat requires a particularly strong bond with a specific apparition to learn. Choose {@filter one apparition|optionalfeatures||Feature Type=Apparition} you have access to; once you learn this feat, you must always choose that apparition as one of the apparitions you attune to each day."
@@ -124,6 +125,7 @@
 		{
 			"name": "Enhanced Familiar",
 			"source": "WoI",
+            "add_hash": "Animist",
 			"page": 23,
 			"level": 2,
 			"traits": [
@@ -150,8 +152,9 @@
                 "spellshape"
 			],
             "frequency": {
-				"unit": "minute",
-				"number": 10
+				"number": 1,
+				"interval": 10,
+				"unit": "minute"
 			},
 			"entries": [
 				"Gaining substance from your magic, your apparitions increase the range of your spells, which then pull your enemy closer. If the next action you use is to {@action Cast a Spell} that has a range and targets one creature, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet. In addition to the normal effects of the spell, your apparitions briefly take on semi-physical forms and attempt to drag the target toward you. The target must attempt a Fortitude saving throw against your spell DC; on a failure, it is pulled up to 30 feet directly toward you."
@@ -178,23 +181,44 @@
 			"source": "WoI",
 			"page": 24,
 			"level": 4,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"spirit"
 			],
+			"frequency": {
+				"number": 1,
+                "interval": 1,
+				"unit": "turn"
+			},
+			"requirements": "Your most recent action was to cast a non-cantrip spell.",
 			"entries": [
-				""
+				"Spiritual power encases your weapon or unarmed attack. Until the end of your turn, one wielded weapon or unarmed attack you have deals an extra {@damage 1d6} spirit damage and gains the {@trait divine} trait, if it didn't have it already."
 			]
 		},
 		{
 			"name": "Channeled Protection",
 			"source": "WoI",
 			"page": 24,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 4,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"aura"
 			],
+			"prerequisites": "Channeler's Stance",
+			"requirements": "You are in Channeler's Stance and your last action was to {@action Cast a Spell} from your spell slots.",
 			"entries": [
-				""
+				"Your apparition uses excess energy to protect you. You and all adjacent allies gain a +1 status bonus to your AC and to your Reflex saving throws until the start of your next turn. If the spell was at least 7th rank, the status bonus increase to +2."
 			]
 		},
 		{
@@ -206,7 +230,10 @@
 				"animist"
 			],
 			"entries": [
-				""
+				"You know the ways of birds and beasts and have gained the right to wear their forms. You add {@spell animal form} to your apparition spell repertoire, allowing you to cast it with your apparition spellcasting."
+			],
+			"special": [
+				"If you cast the {@spell darkened forest form|WoI} focus spell (page 20) to turn into a form granted by {@spell animal form}, you can {@action Sustain a Spell||Sustain} it up to 5 minutes instead of its normal duration."
 			]
 		},
 		{
@@ -215,34 +242,59 @@
 			"page": 24,
 			"level": 6,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"wandering"
 			],
 			"entries": [
-				""
+				"Your attuned apparition ensures that even if you would be distracted or disrupted, your magic does not go to waste. If a reaction would disrupt your spellcasting action, attempt a DC {@flatDC 15} flat check. If you succeed, your action isn't disrupted. When you gain the third apparition class feature, this DC is reduced to {@flatDC 13}, and when you gain the fourth apparition class feature, this DC is reduced to {@flatDC 10}."
 			]
 		},
 		{
 			"name": "Blazing Spirit",
 			"source": "WoI",
 			"page": 25,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
 			"level": 6,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"fire",
+				"wandering"
 			],
+			"frequency": {
+				"number": 1,
+				"interval": 10,
+				"unit": "minute"
+			},
+			"trigger": "A creature damages you with a melee attack.",
+			"requirements": "Your attuned apparition grants {@skill Lore||Battlegrounds Lore} or {@skill Lore||Volcano Lore} as an apparition skill.",
 			"entries": [
-				""
+				"Your apparition grants fiery defenses. You gain resistance equal to your level against the triggering damage, and the triggering creature takes {@damage 1d6} fire damage and 1 {@condition persistent damage||persistent fire damage}. This damage increases to {@damage 2d6} fire damage and 2 {@condition persistent damage||persistent fire damage} at 12th level, and {@damage 3d6} fire damage and 3 {@condition persistent damage||persistent fire damage} at 18th level."
 			]
 		},
 		{
 			"name": "Grudge Strike",
 			"source": "WoI",
 			"page": 25,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
 			"level": 6,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"wandering"
 			],
+			"requirements": "Your attuned apparition grants {@skill Lore||Heraldry Lore} or {@skill Lore||Underworld Lore} as an apparition skill.",
 			"entries": [
-				""
+				"You channel the spiritual power of spiteful grudges. Make a melee {@action Strike} against a creature within your reach. You gain a +2 circumstance bonus to your attack roll and deal an additional {@damage 2d6} void damage to the target; if the target is undead or otherwise has void healing, this {@action Strike} instead deals an additional {@damage 2d6} vitality damage. This ability gains the {@trait vitality} trait if it deals vitality damage, or the {@trait void} trait if it deals void damage."
 			]
 		},
 		{
@@ -251,34 +303,56 @@
 			"page": 25,
 			"level": 6,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"wandering"
 			],
 			"entries": [
-				""
+				"Your apparitions watch over you. You gain a +2 status bonus to {@skill Perception} checks made to {@action Seek} and when using {@skill Perception} for your initiative roll. At 12th level, this status bonus increases to +3, and at 20th level, to +4."
 			]
 		},
 		{
 			"name": "Roaring Heart",
 			"source": "WoI",
 			"page": 25,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
 			"level": 6,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"wandering"
 			],
+			"requirements": "Your attuned apparition grants {@skill Lore||Mountain Lore} as an apparition skill.",
 			"entries": [
-				""
+				"You surge forward inexorably. You {@action Stride} twice. At any point during this movement, you can {@action Shove} up to two creatures you pass adjacent to. When you end the movement, the turbulent spirits you're attuned to reward you for acting in an appropriately fierce manner: you and each ally in a 30-foot emanation gain temporary Hit Points equal to half your level if you successfully Shoved at least one enemy, or equal to your level if you succeeded at Shoving both. These temporary Hit Points last until the beginning of your next turn."
 			]
 		},
 		{
 			"name": "Apparition's Reflection",
 			"source": "WoI",
 			"page": 25,
+			"activity": {
+				"number": 1,
+				"unit": "varies",
+				"entry": "{@as 2} TO {@as 3}"
+			},
 			"level": 8,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"spellshape"
 			],
+			"frequency": {
+				"number": 1,
+				"unit": "hour"
+			},
 			"entries": [
-				""
+				"Your apparition infuses your body with additional power. You regain one expended apparition spell slot that is at least 2 ranks lower than your highest-rank spell slot and takes 1, 2, or 3 actions to Cast. You then immediately cast an apparition spell that can be cast using that slot. The number of actions required for Echo of Spirits is equal to the action cost of the spell cast. Maintaining control after such a surge is difficult, however; after casting the spell, you're {@condition confused} until the end of your next turn."
 			]
 		},
 		{
@@ -287,10 +361,12 @@
 			"page": 25,
 			"level": 8,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition"
 			],
+			"prerequisites": "Relinquish Control",
 			"entries": [
-				""
+				"When you allow an apparition control over your body, it might vent its fury against your foes. When you Relinquish Control, you add {@action Grapple}, {@action Reposition|PC1}, {@action Shove}, and {@action Trip} to the list of actions you can take. You gain a +2 status bonus to the {@skill Athletics} check to attempt these actions."
 			]
 		},
 		{
@@ -299,10 +375,14 @@
 			"page": 25,
 			"level": 8,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"aura",
+				"exploration"
 			],
+			"prerequisites": "Apparition Sense",
 			"entries": [
-				""
+				"Your allied apparitions ward you against the predations of their restless peers. You and allies in a 30-foot emanation gain a +2 status bonus to {@action Recall Knowledge} checks about spirits, haunts, and undead. While you're {@action Search||Searching} or {@action Detect Magic||Detecting Magic} in exploration mode, this bonus also applies to AC and saves against reactions any of you trigger from haunts and spirits. During your first turn in an encounter, you and allies in the aura have resistance equal to half your level against damage dealt by haunts or spirits."
 			]
 		},
 		{
@@ -313,92 +393,161 @@
 			"traits": [
 				"animist"
 			],
+			"prerequisites": "Walk the Wilds",
 			"entries": [
-				""
+				"Wings free you from the shackles of the ground below. You add {@spell aerial form} to your apparition spell repertoire, allowing you to cast it with your apparition spellcasting. Whenever you use {@spell aerial form} to gain a form that grants you a specific {@skill Acrobatics} modifier, you gain a +1 status bonus to {@skill Acrobatics} checks."
+			],
+			"special": [
+				"If you are attuned to an apparition of {@optfeature darkened boughs|WoI} (page 20), add the bat and bird forms in {@spell aerial form} to your {@spell darkened forest form|WoI} lists."
 			]
 		},
 		{
 			"name": "Apparition's Quickening",
 			"source": "WoI",
 			"page": 25,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
 			"level": 10,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"concentrate",
+				"spellshape"
 			],
+			"frequency": {
+				"number": 1,
+				"unit": "round"
+			},
+			"requirements": "You are attuned to at least 2 apparitions.",
 			"entries": [
-				""
+				"If your next action is to cast a cantrip or a spell that is at least 2 ranks lower than the highest-rank spell slot you have, you can draw power from one of your attuned apparitions to reduce the number of actions to cast it by 1 (minimum 1 action). The chosen apparition is dispersed until you can re-attune to it at your next daily preparations, but you can't disperse an apparition in this way if you would no longer be attuned to any apparitions afterward."
+			],
+			"special": [
+				"This can only be used on a cantrip or spell from the class matching the one you gained this feat from."
 			]
 		},
 		{
 			"name": "Fly on Shadowed Wings",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
 			"level": 10,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition"
 			],
+			"frequency": {
+				"number": 1,
+				"unit": "hour"
+			},
 			"entries": [
-				""
+				"Your apparition embraces you, feeding on your magic to become a pair of protective wings. Choose one of your attuned apparitions; for 10 minutes, you gain a fly Speed equal to your land Speed and resistance to precision damage equal to your level, but your chosen apparition is dispersed for the duration, automatically re-attuning to you after 10 minutes."
 			]
 		},
 		{
 			"name": "Incredible Familiar",
 			"source": "WoI",
+            "add_hash": "Animist",
 			"page": 26,
 			"level": 10,
 			"traits": [
 				"animist"
 			],
+			"prerequisites": "Enhanced Familiar.",
 			"entries": [
-				""
+				"Your connection to your apparition and your mastery of spiritual magic reach a new threshold that allows you to channel even more power into the physical form you allow it to take on as your familiar. You can select a base of six {@quickref familiar or master abilities|CRB|0|familiars|0} each day, instead of four."
 			]
 		},
 		{
 			"name": "Apparition Cloud",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
 			"level": 12,
 			"traits": [
-				"animist"
+				"animist",
+				"misfortune",
+				"wandering"
 			],
+			"prerequisites": "Spirit Familiar",
+			"trigger": "You are targeted by an attack.",
+			"requirements": "Your familiar is adjacent to you or in your space.",
 			"entries": [
-				""
+				"With a mere thought, you discorporate your familiar into a thousand shards of spiritual magic, protecting both it and yourself from physical harm while making it difficult for enemies to move near you. You are {@condition concealed} from the triggering attack. Until the start of your next turn, your familiar can't be targeted and your enemies treat all spaces adjacent to you as {@quickref difficult terrain|CRB|3|terrain|0}."
 			]
 		},
 		{
 			"name": "Shadows within Shadows",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
 			"level": 12,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"misfortune",
+				"wandering"
 			],
+			"trigger": "You would be detected by an enemy {@action Seek||Seeking} you, or an enemy would succeed at a counteract check against a spell making you {@condition hidden}, {@condition concealed}, or {@condition undetected}.",
+			"requirements": "Your attuned apparition grants {@skill Lore||Hunting Lore} or {@skill Lore||Underworld Lore} as one of its apparition skills.",
 			"entries": [
-				""
+				"Your apparition possesses a furtive and elusive nature that can influence and blend with your spiritual energy to form a protective and nearly impenetrable shroud of nondetection around you. The enemy must reroll the triggering check and take the lower result."
 			]
 		},
 		{
 			"name": "Whispers of Warning",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
 			"level": 12,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"misfortune",
+				"wandering"
 			],
+			"frequency": {
+				"number": 1,
+				"interval": 10,
+				"unit": "minute"
+			},
+			"trigger": "You would be hit, but not critically hit, by an attack.",
 			"entries": [
-				""
+				"Your protective apparitions alert you to an incoming attack. The attacker must roll its attack roll a second time and take the lower result."
 			]
 		},
 		{
 			"name": "Banish Falsehoods of Flesh",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 14,
 			"traits": [
-				"animist"
+				"animist",
+				"concentrate",
+				"divine"
 			],
 			"entries": [
-				""
+				"Your ability to manipulate supernatural energy allows you to deploy divine magic directly against a disguised enemy to reveal them as they truly are, or to cleanse an ally from an unwilling transformation. Attempt a {@skill Religion} check to counteract a {@trait polymorph} effect currently affecting a creature within 30 feet of you that you are aware of. The target is then temporarily immune to Banish Falsehoods of Flesh for 1 day."
 			]
 		},
 		{
@@ -410,91 +559,150 @@
 				"animist"
 			],
 			"entries": [
-				""
+				"You focus your divine magic to allow your apparitions to work in concert using the magic from one to weaken an enemy against the power of the next. Whenever you succeed at a spell attack with an apparition spell or vessel spell, or when a creature fails its save against such a spell, you gain a +2 status bonus to your spell attack modifier against that creature with spells granted by any of your other apparitions, and it takes a \u20132 status penalty to its saves against such spells. These benefits last until the end of your next turn."
 			]
 		},
 		{
 			"name": "Forest's Heart",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 16,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"stance",
+				"wandering"
 			],
+			"requirements": "Your attuned apparition grants {@skill Lore||Forest Lore} or {@skill Lore||Herbalism Lore} as one of its apparition skills.",
 			"entries": [
-				""
+				"You adopt a stance that allows your apparitions to channel spiritual energy down through you to inhabit roots, control vines, and command plant-life from the ground you stand on to fight on your behalf. You call forth roots, vines, or other plant growth native to the region and can use them to make unarmed attacks. These deal {@damage 4d8} bludgeoning damage, are in the {@group brawling} group, and have the {@trait finesse}, {@trait grapple}, and {@trait reach||reach 30 feet} traits. Attacks made with these unarmed attacks don't gain additional damage from {@item striking} runes, but can benefit from the item bonus to attack rolls and property runes of {@item handwraps of mighty blows} you wear."
 			]
 		},
 		{
 			"name": "Jester's Gambol",
 			"source": "WoI",
 			"page": 26,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 16,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"stance",
+				"wandering"
 			],
+			"requirements": "You are attuned to an apparition that grants {@skill Lore||Circus Lore} or {@skill Lore||Fey Lore} as one of its apparition skills.",
 			"entries": [
-				""
+				"You adopt a stance that makes your movements carefree and sublimely unpredictable, allowing you to move past impediments with ease and resist the attacks and importunateness of natural threats. You ignore {@quickref difficult terrain|CRB|3|terrain|0}, and you gain resistance equal to half your level against damage dealt to you by animals, beasts, fey, fungi, and plants."
 			]
 		},
 		{
 			"name": "Monstrous Inclinations",
 			"source": "WoI",
 			"page": 27,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 16,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"wandering"
 			],
+			"requirements": "Your attuned apparition grants {@skill Lore||Forest Lore} or {@skill Lore||Ocean Lore} as one of its apparition skills.",
 			"entries": [
-				""
+				"Your apparitions share with you the monstrous nature of those creatures who dwell in deep seas or ancient woods. You add {@spell monstrosity form} to your apparition spell repertoire, allowing you to cast it with your apparition spellcasting."
+			],
+			"special": [
+				"If you are attuned to a {@optfeature stalker in darkened boughs|WoI} (page 20), add the phoenix form from {@spell monstrosity form} to your available {@spell darkened forest form|WoI} options when you cast the spell heightened to 8th rank.",
+				"If you are attuned to a {@optfeature lurker in devouring dark} (page 19), add the cave worm and sea serpent forms to your {@spell devouring dark form|WoI} options as a {@trait polymorph} effect when you cast the spell heightened to 8th rank."
 			]
 		},
 		{
 			"name": "Spiritual Spellshape Stance",
 			"source": "WoI",
 			"page": 27,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 16,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"divine",
+				"stance",
+				"wandering"
 			],
 			"entries": [
-				""
+				"You feed excess magical power into your apparition, allowing it to grow ethereal limbs it can use to help shape and focus your spells. Once per turn while in this stance, you can use a {@filter spellshape feat that normally requires one action|feats||general=spellshape|activity=action} as a free action instead, but only to affect spells that deal spirit, vitality, or void damage. This doesn't allow you to avoid or bypass any other restrictions or limitations normally associated with the spellshape feat."
 			]
 		},
 		{
 			"name": "Cycle of Souls",
 			"source": "WoI",
 			"page": 27,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
 			"level": 18,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition"
 			],
+			"prerequisites": "liturgist practice, at least one animist stance",
+			"trigger": "Your turn starts.",
 			"entries": [
-				""
+				"Your spiritual allies guide your movements, allowing you to prepare for the trials before you at a speed faster than thought.",
+				"You {@action Step}, then enter an animist stance you know."
 			]
 		},
 		{
 			"name": "Echoing Channel",
 			"source": "WoI",
 			"page": 27,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"level": 18,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition",
+				"concentrate",
+				"spellshape"
 			],
+			"prerequisites": "Embodiment of the Balance",
 			"entries": [
-				""
+				"When you channel the powers of life and death, your apparition absorbs and enhances the spiritual energy, carrying it to a nearby ally. If the next action you use is to cast a 2-action {@spell harm} or {@spell heal} to heal or damage a single creature, choose yourself or one other additional creature adjacent to either you or the target. Target that creature with a 1-action version of the same spell, even if they would otherwise be out the spell's range. This spell is the same rank as the 2-action {@spell harm} or {@spell heal} you cast and doesn't cost another spell slot."
 			]
 		},
 		{
 			"name": "Spirit's Sacrifice",
 			"source": "WoI",
 			"page": 27,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
 			"level": 18,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition"
 			],
+			"trigger": "You would die.",
 			"entries": [
-				""
+				"Your attuned apparition gathers all of the energy it can through your shared bond and uses that power to disperse itself while channeling the energy back into you, saving your life. You can use Spirit's Sacrifice even while {@condition unconscious} or otherwise unable to act. Choose one apparition you have attuned; you do not die, your {@condition wounded} condition is reduced to 1 if it would be higher, and you regain a number of Hit Points equal to twice your level. The chosen apparition is dispersed until you can re-attune to it at your next daily preparations."
 			]
 		},
 		{
@@ -503,10 +711,17 @@
 			"page": 27,
 			"level": 20,
 			"traits": [
-				"animist"
+				"animist",
+				"apparition"
 			],
+			"frequency": {
+				"number": 1,
+				"unit": "week"
+			},
 			"entries": [
-				""
+				"Your attuned apparitions recognize that you still have essential work to do and refuse to allow you to pass on, gathering up your essence to carry your soul back to the community you call home. Choose a single settlement with a population of at least 100 people. Whenever you die and are not returned to life within 24 hours by other means, as long as the settlement still exists and there are no other claims on your soul (such as a contract with a devil) and nothing trapping your soul (such as being slain by a critical hit from a vilderavn), your attuned apparition magically transports your soul, remains, and all of the items you had worn or carried at the time of your death (so long as they have not been otherwise recovered) back to the chosen settlement, where you are reborn. The nature of this rebirth varies between animists; some magically reconstitute and reinvigorate their physical forms to return to life in their original bodies, while others pass their knowledge and power on to a new inheritor who effectively takes their place in the grand story of existence. When returned to your original physical form in this manner, you are brought back in your physical prime, restored to youthful health and vigor. This effectively makes you immune to {@condition dying} of old age so long as you are not killed by violence less than a week before you would have died of old age.",
+				"Regardless of the exact nature of your rebirth, you or your inheritor are fully restored with your level, experience, and equipment intact one week after your death. If you choose an inheritor and their ancestry is different than yours, your attribute scores do not change but you can freely retrain your ancestry feats and any other feats that relied on them as prerequisites as part of your rebirth.",
+				"There is no limit to the number of times you can be reborn, but if you die before a week has passed since your last rebirth, neither you nor your attuned apparitions have recovered enough energy to complete the process again, and your soul passes to whatever final reward it has earned."
 			]
 		},
 		{
@@ -518,7 +733,7 @@
 				"animist"
 			],
 			"entries": [
-				""
+				"You are a true conduit for spiritual power, able to unleash the greatest spells. You gain a single 10th-rank spell slot and can prepare a spell in that slot using animist spellcasting. You can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots."
 			]
 		}
 	]
