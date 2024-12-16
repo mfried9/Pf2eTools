@@ -431,6 +431,25 @@
 			"rarity": "uncommon"
 		},
 		{
+			"name": "Animist",
+			"source": "WoI",
+			"page": 56,
+			"entries": [
+				"You have established a relationship with a spiritual entity known as an apparition, unlocking the ability to use animistic magic.",
+				{
+					"type": "pf2-h3",
+					"name": "Multiclass Animist characters",
+					"entries": [
+						"The animist archetype is a great way to create a character of another class who has a bond to a spiritual entity that they can draw powers from. The apparitions available to animists can open up opportunities to gain a variety of {@skill Lore} skills and unique divine spells."
+					]
+				}
+			],
+			"miscTags": [
+				"Multiclass"
+			],
+			"dedicationLevel": 2
+		},
+		{
 			"name": "Archaeologist",
 			"source": "APG",
 			"page": 156,

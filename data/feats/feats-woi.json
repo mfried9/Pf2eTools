@@ -751,6 +751,48 @@
 			"entries": [
 				"You are a true conduit for spiritual power, able to unleash the greatest spells. You gain a single 10th-rank spell slot and can prepare a spell in that slot using animist spellcasting. You can't use 10th-rank slots with abilities that give you more spell slots or that let you cast spells without expending spell slots."
 			]
+		},
+		{
+			"name": "Animist Dedication",
+			"source": "WoI",
+			"page": 56,
+			"level": 2,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype",
+				"dedication",
+				"multiclass"
+			],
+			"prerequisites": "Wisdom +2",
+			"entries": [
+				"You have formed a bond with an apparition and can cast divine spells. Choose a single {@filter apparition|optionalfeatures||Feature Type=Apparition} from those available to the animist (page 17). You become bound to that apparition and can attune to it each day during your daily preparations to become trained in its apparition skills. If you are 8th level, you are expert in its apparition skills while attuned to it, and if you are 16th level, you are a master in its apparition skills while attuned to it. You can spend 1 day of downtime ending your relationship with this apparition and bonding to a new one.",
+				"You gain the {@action Cast a Spell} activity. You can prepare two common cantrips each day from the divine spell list or any other divine cantrips you have access to, including the cantrip listed in your apparition's apparition spells. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for animist archetype spells is Wisdom, and they are divine animist spells."
+			],
+			"leadsTo": [
+				"Basic Animist Spellcasting|WoI"
+			]
+		},
+		{
+			"name": "Basic Animist Spellcasting",
+			"source": "WoI",
+			"page": 1,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Animist Dedication|WoI}",
+			"entries": [
+				"You gain the {@quickref basic spellcasting benefits|CRB|0|spellcasting archetypes} (Player Core 215) as a prepared divine caster. In addition to standard divine tradition spells, you can prepare your bonded apparition's apparition spells in your spell slots of the appropriate level from the animist archetype."
+			]
 		}
 	]
 }
