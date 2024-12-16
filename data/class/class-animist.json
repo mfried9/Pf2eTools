@@ -954,7 +954,7 @@
 						"You are particularly good at acting as a conduit for spiritual energy and tend to associate more freely with a wide array of apparitions, though you tend not to form the deep bond with a single apparition that other animists often develop.",
 						"{@b Invocation of Unity (1st):} The lines between your body and your apparition are blurry. You gain the {@feat Relinquish Control|WoI} feat.",
 						"{@b Dual Invocation (9th):} You can build powerful bonds with multiple apparitions. You can select two of your attuned apparitions to be your primary apparitions. If you have the supreme incarnation class feature (page 17), you choose which apparition's avatar form you manifest each time you cast the avatar spell. The number of Focus Points in your focus pool is equal to the number of focus spells you have or the number of primary apparitions you are attuned to, whichever is higher (maximum 3).",
-						"{@bInvocation of Synchronization (17th):} The line between your intentions and those of the apparition possessing you blurs, leaving you better able to support each other in the throes of combat. While you have {@feat Relinquish Control|WoI|Relinquished Control} to an apparition, you gain the following additional benefits:",
+						"{@b Invocation of Synchronization (17th):} The line between your intentions and those of the apparition possessing you blurs, leaving you better able to support each other in the throes of combat. While you have {@feat Relinquish Control|WoI|Relinquished Control} to an apparition, you gain the following additional benefits:",
 						{
 							"type": "list",
 							"items": [
@@ -1004,8 +1004,8 @@
 					"name": "Shaman",
 					"entries": [
 						"You form close bonds with your apparitions that allow you to invest them with the rare ability to take on a material form and directly affect the physical world.",
-						"{@b Invocation of Embodiment (1st):} You allow your apparition to inhabit a physical form. You gain the {@feat Spirit Familiar|WoI} feat. At 2nd level, you gain the {@feat Enhanced Familiar} feat.",
-						"{@b Invocation of Growth (9th):} Your bond with the physical form of your chosen apparition grows stronger. You gain the {@feat Incredible Familiar} feat.",
+						"{@b Invocation of Embodiment (1st):} You allow your apparition to inhabit a physical form. You gain the {@feat Spirit Familiar|WoI} feat. At 2nd level, you gain the {@feat Enhanced Familiar (Animist)|WoI|Enhanced Familiar} feat.",
+						"{@b Invocation of Growth (9th):} Your bond with the physical form of your chosen apparition grows stronger. You gain the {@feat Incredible Familiar (Animist)|WoI|Incredible Familiar} feat.",
 						"{@b Invocation of Otherworldliness (17th):} Your apparition familiar becomes ever more powerful, straddling the line between physical and spiritual. Your spirit familiar can take a single action that has the {@trait concentrate} trait to become incorporeal for 1 minute. It gains the {@trait incorporeal} trait, meaning it can move through physical creatures and such creatures can move through it. It can't attempt Strength-based checks (such as {@action Grapple}) against corporeal creatures, and corporeal creatures can't attempt such checks against it. It gains immunity to precision damage and resistance to physical damage (except damage from {@action Strike||Strikes} with the {@item ghost touch} property rune) equal to half your level (double against non-magical damage) but weakness to force damage equal to half your level. However, when incorporeal, your spirit familiar can travel no more than 60 feet from you and must maintain line of effect to you; this typically prevents it from moving through walls. Your spirit familiar can {@action Dismiss} this effect."
 					]
 				}

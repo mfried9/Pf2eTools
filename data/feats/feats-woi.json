@@ -19,17 +19,17 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
-            "activity": {
+			"activity": {
 				"number": 1,
 				"unit": "action"
 			},
 			"traits": [
 				"animist",
-                "stance"
+				"stance"
 			],
 			"entries": [
-				"You enter a stance that allows power to flow through you. While in this stance, whenever you cast or {@action Sustain a Spell||Sustain} an apparition spell or vessel spell that deals energy damage, you gain a status bonus to the spell’s damage equal to the spell’s rank.",
-                "Each time you {@action Cast a Spell} that has the {@trait vitality} or {@trait void} traits and that restores Hit Points while in this stance, the spells’ targets gain a status bonus to the initial amount of healing received equal to the spell’s rank. This bonus healing does not apply to healing over time effects (such as {@ability fast healing} or {@ability regeneration})."
+				"You enter a stance that allows power to flow through you. While in this stance, whenever you cast or {@action Sustain a Spell||Sustain} an apparition spell or vessel spell that deals energy damage, you gain a status bonus to the spell's damage equal to the spell's rank.",
+				"Each time you {@action Cast a Spell} that has the {@trait vitality} or {@trait void} traits and that restores Hit Points while in this stance, the spells' targets gain a status bonus to the initial amount of healing received equal to the spell's rank. This bonus healing does not apply to healing over time effects (such as {@ability fast healing} or {@ability regeneration})."
 			]
 		},
 		{
@@ -37,22 +37,22 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
-            "activity": {
+			"activity": {
 				"number": 1,
 				"unit": "action"
 			},
 			"traits": [
 				"animist",
-                "apparition",
-                "concentrate"
+				"apparition",
+				"concentrate"
 			],
-            "frequency": {
-                "number": 1,
-                "interval": 1,
+			"frequency": {
+				"number": 1,
+				"interval": 1,
 				"unit": "round"
 			},
 			"entries": [
-				"With a thought, word, or gesture, you reach your mind out to another spirit. Choose another apparition from among those you’ve attuned to; it becomes your primary apparition, replacing your current one."
+				"With a thought, word, or gesture, you reach your mind out to another spirit. Choose another apparition from among those you've attuned to; it becomes your primary apparition, replacing your current one."
 			],
 			"special": [
 				"The number of Focus Points in your focus pool is equal to the number of focus spells you have or the number of apparitions you are attuned to, whichever is higher (maximum 3)."
@@ -63,17 +63,17 @@
 			"source": "WoI",
 			"page": 22,
 			"level": 1,
-            "activity": {
+			"activity": {
 				"number": 1,
 				"unit": "free"
 			},
 			"traits": [
 				"animist",
-                "apparition"
+				"apparition"
 			],
-            "trigger": "Your turn begins.",
+			"trigger": "Your turn begins.",
 			"entries": [
-				"Your apparition takes over and shields you from outside influence. Until the start of your next turn, you gain a +4 status bonus on saves against spells and effects that give you the {@condition controlled} condition or attempt to influence your actions (such as {@trait charm}, {@spell command}, or a {@creature nosoi||nosoi’s} haunting melody). However, the only actions you can take are to {@action Recall Knowledge}, {@action Step}, {@action Strike}, {@action Cast a Spell||Cast an apparition Spell}, {@action Cast a Spell||Cast a vessel Spell}, {@action Sustain a Spell||Sustain a vessel spell}, or use an action that has the {@trait apparition} trait. You gain a +2 circumstance bonus on all {@action Recall Knowledge} checks made using {@skill Lore} skills granted by your attuned apparitions."
+				"Your apparition takes over and shields you from outside influence. Until the start of your next turn, you gain a +4 status bonus on saves against spells and effects that give you the {@condition controlled} condition or attempt to influence your actions (such as {@trait charm}, {@spell command}, or a {@creature nosoi||nosoi's} haunting melody). However, the only actions you can take are to {@action Recall Knowledge}, {@action Step}, {@action Strike}, {@action Cast a Spell||Cast an apparition Spell}, {@action Cast a Spell||Cast a vessel Spell}, {@action Sustain a Spell||Sustain a vessel spell}, or use an action that has the {@trait apparition} trait. You gain a +2 circumstance bonus on all {@action Recall Knowledge} checks made using {@skill Lore} skills granted by your attuned apparitions."
 			],
 			"special": [
 				"This feat requires a particularly strong bond with a specific apparition to learn. Choose {@filter one apparition|optionalfeatures||Feature Type=Apparition} you have access to; once you learn this feat, you must always choose that apparition as one of the apparitions you attune to each day."
@@ -96,15 +96,15 @@
 			"source": "WoI",
 			"page": 23,
 			"level": 2,
-            "add_hash": "Animist",
-            "activity": {
+			"add_hash": "Animist",
+			"activity": {
 				"number": 1,
 				"unit": "action"
 			},
 			"traits": [
 				"animist",
-                "concentrate",
-                "spellshape"
+				"concentrate",
+				"spellshape"
 			],
 			"entries": [
 				"You speak with the unheard voice of the spirits. If the next action you use is to {@action Cast a Spell}, the spell gains the {@trait subtle} trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air."
@@ -125,15 +125,15 @@
 		{
 			"name": "Enhanced Familiar",
 			"source": "WoI",
-            "add_hash": "Animist",
+			"add_hash": "Animist",
 			"page": 23,
 			"level": 2,
 			"traits": [
 				"animist"
 			],
-            "prerequisites": " You have a familiar.",
+			"prerequisites": " You have a familiar.",
 			"entries": [
-				"You are able to materialize more of your attuned apparition’s essence, creating a more powerful vessel for it to inhabit and aid you with. You can select four {@quickref familiar or master abilities|CRB|0|familiars|0}, instead of two."
+				"You are able to materialize more of your attuned apparition's essence, creating a more powerful vessel for it to inhabit and aid you with. You can select four {@quickref familiar or master abilities|CRB|0|familiars|0}, instead of two."
 			]
 		},
 		{
@@ -141,23 +141,23 @@
 			"source": "WoI",
 			"page": 23,
 			"level": 2,
-            "activity": {
+			"activity": {
 				"number": 1,
 				"unit": "action"
 			},
 			"traits": [
 				"animist",
-                "apparition",
-                "concentrate",
-                "spellshape"
+				"apparition",
+				"concentrate",
+				"spellshape"
 			],
-            "frequency": {
+			"frequency": {
 				"number": 1,
 				"interval": 10,
 				"unit": "minute"
 			},
 			"entries": [
-				"Gaining substance from your magic, your apparitions increase the range of your spells, which then pull your enemy closer. If the next action you use is to {@action Cast a Spell} that has a range and targets one creature, increase that spell’s range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet. In addition to the normal effects of the spell, your apparitions briefly take on semi-physical forms and attempt to drag the target toward you. The target must attempt a Fortitude saving throw against your spell DC; on a failure, it is pulled up to 30 feet directly toward you."
+				"Gaining substance from your magic, your apparitions increase the range of your spells, which then pull your enemy closer. If the next action you use is to {@action Cast a Spell} that has a range and targets one creature, increase that spell's range by 30 feet. As is standard for increasing spell ranges, if the spell normally has a range of touch, you extend its range to 30 feet. In addition to the normal effects of the spell, your apparitions briefly take on semi-physical forms and attempt to drag the target toward you. The target must attempt a Fortitude saving throw against your spell DC; on a failure, it is pulled up to 30 feet directly toward you."
 			]
 		},
 		{
@@ -167,13 +167,13 @@
 			"level": 2,
 			"traits": [
 				"animist",
-                "apparition",
-                "concentrate",
-                "spellshape"
+				"apparition",
+				"concentrate",
+				"spellshape"
 			],
 			"entries": [
 				"Your apparitions manifest to scatter the energy of your spell. If the next action you use is to {@action Cast a Spell} that has an area of a burst, cone, or line and does not have a duration, increase the area of that spell. Add 5 feet to the radius of a burst that normally has a radius of at least 10 feet (a burst with a smaller radius is not affected). Add 5 feet to the length of a cone or line that is normally 15 feet long or smaller, and add 10 feet to the length of a larger cone or line.",
-                "You can also use this feat to increase the radius of an emanation spell with a duration by 5 feet by dedicating your primary apparition to maintaining the spellshape; dedicating the apparition to the spell prevents you from using the apparition’s vessel spell, apparition skills, or {@spell avatar} form for the duration of the modified spell."
+				"You can also use this feat to increase the radius of an emanation spell with a duration by 5 feet by dedicating your primary apparition to maintaining the spellshape; dedicating the apparition to the spell prevents you from using the apparition's vessel spell, apparition skills, or {@spell avatar} form for the duration of the modified spell."
 			]
 		},
 		{
@@ -193,7 +193,7 @@
 			],
 			"frequency": {
 				"number": 1,
-                "interval": 1,
+				"interval": 1,
 				"unit": "turn"
 			},
 			"requirements": "Your most recent action was to cast a non-cantrip spell.",
@@ -205,7 +205,7 @@
 			"name": "Channeled Protection",
 			"source": "WoI",
 			"page": 24,
-            "activity": {
+			"activity": {
 				"number": 1,
 				"unit": "action"
 			},
@@ -452,7 +452,7 @@
 		{
 			"name": "Incredible Familiar",
 			"source": "WoI",
-            "add_hash": "Animist",
+			"add_hash": "Animist",
 			"page": 26,
 			"level": 10,
 			"traits": [
