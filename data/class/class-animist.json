@@ -253,7 +253,61 @@
 				],
 				"keyAbility": "Wisdom",
 				"sndAbility": "Strength or Dexterity, Constitution"
-			}
+			},
+			"sampleBuilds": [
+				{
+					"name": "Seer",
+					"source": "WoI",
+					"page": 20,
+					"entries": [
+						"After meeting your apparition in a dark place, you can more easily see the things that lurk beyond the sight of others."
+					],
+					"abilities": [
+						"Prioritize Wisdom for your spellcasting and Dexterity to improve your defenses and skills."
+					],
+					"skills": [
+						"Occultism",
+						"Religion",
+						"Stealth",
+						"Thievery"
+					],
+					"apparition": "Imposter in Hidden Places",
+					"subclass": "Seer",
+					"feats": [
+						"Conceal Spell (Animist)",
+						"Medium's Awareness",
+						"Spirit Walk",
+						"Shadows within Shadows",
+						"Spirit's Sacrifice"
+					]
+				},
+				{
+					"name": "Medium",
+					"source": "WoI",
+					"page": 24,
+					"entries": [
+						"You share your body with an apparition of unyielding stone and burning flame, letting that strength and fervor flow through you."
+					],
+					"abilities": [
+						"Focus on Wisdom to boost your magic, followed by Strength and Constitution for skills and survivability."
+					],
+					"skills": [
+						"Athletics",
+						"Nature",
+						"Religion",
+						"Survival"
+					],
+					"apparition": "Steward of Stone and Fire",
+					"subclass": "Medium",
+					"feats": [
+						"Spiritual Expansion Spell",
+						"Apparition's Enhancement",
+						"Blazing Spirit",
+						"Instinctive Maneuvers",
+						"Apparition's Quickening"
+					]
+				}
+			]
 		}
 	],
 	"classFeature": [

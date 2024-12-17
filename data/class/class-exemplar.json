@@ -1,0 +1,996 @@
+{
+	"class": [
+		{
+			"remaster": true,
+			"name": "Exemplar",
+			"source": "WoI",
+			"page": 29,
+			"keyAbility": "Strength or Dexterity",
+			"hp": 10,
+			"initialProficiencies": {
+				"perception": "T",
+				"fort": "E",
+				"ref": "T",
+				"will": "E",
+				"skills": {
+					"t": [
+						{
+							"skill": [
+								"Religion"
+							]
+						}
+					],
+					"add": 3
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"martial weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"medium armor",
+						"unarmored defense"
+					]
+				},
+				"classDc": {
+					"prof": "t",
+					"entry": "Trained in exemplar class DC"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					1,
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Exemplar|WoI|1",
+				"Attribute Boosts|Exemplar|WoI|1",
+				"Initial Proficiencies|Exemplar|WoI|1",
+				"Divine Spark and Ikons|Exemplar|WoI|1",
+				"Exemplar Feats|Exemplar|WoI|1",
+				"Humble Strikes|Exemplar|WoI|1",
+				"Shield Block|Exemplar|WoI|1",
+				"Skill Feats|Exemplar|WoI|2",
+				"General Feats|Exemplar|WoI|3",
+				{
+					"classFeature": "Root Epithet|Exemplar|WoI|3",
+					"gainSubclassFeature": true
+				},
+				"Skill Increases|Exemplar|WoI|3",
+				"Ancestry Feats|Exemplar|WoI|5",
+				"Weapon Expertise|Exemplar|WoI|5",
+				{
+					"classFeature": "Dominion Epithet|Exemplar|WoI|7",
+					"gainSubclassFeature": true
+				},
+				"Spirit Striking|Exemplar|WoI|7",
+				"Unassailable Soul|Exemplar|WoI|7",
+				"Divine Premonition|Exemplar|WoI|9",
+				"Godly Expertise|Exemplar|WoI|9",
+				"Perception Expertise|Exemplar|WoI|9",
+				"Divine Weapon Mastery|Exemplar|WoI|13",
+				"Greater Unassailable Soul|Exemplar|WoI|13",
+				"Burnished Armor Expertise|Exemplar|WoI|13",
+				"Greater Spirit Striking|Exemplar|WoI|15",
+				"Mortality Reforged|Exemplar|WoI|15",
+				{
+					"classFeature": "Sovereignty Epithet|Exemplar|WoI|15",
+					"gainSubclassFeature": true
+				},
+				"Deific Mastery|Exemplar|WoI|17",
+				"Perception Mastery|Exemplar|WoI|17",
+				"Burnished Armor Mastery|Exemplar|WoI|19"
+			],
+			"subclasses": [
+				{
+					"name": "The Brave",
+					"type": "Root Epithet",
+					"shortName": "Brave",
+					"source": "WoI",
+					"page": 31,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Brave|WoI|3"
+					]
+				},
+				{
+					"name": "The Cunning",
+					"type": "Root Epithet",
+					"shortName": "Cunning",
+					"source": "WoI",
+					"page": 31,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Cunning|WoI|3"
+					]
+				},
+				{
+					"name": "The Deft",
+					"type": "Root Epithet",
+					"shortName": "Deft",
+					"source": "WoI",
+					"page": 31,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Deft|WoI|3"
+					]
+				},
+				{
+					"name": "The Proud",
+					"type": "Root Epithet",
+					"shortName": "Proud",
+					"source": "WoI",
+					"page": 32,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Proud|WoI|3"
+					]
+				},
+				{
+					"name": "The Mournful",
+					"type": "Root Epithet",
+					"shortName": "Mournful",
+					"source": "WoI",
+					"page": 32,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Mournful|WoI|3"
+					]
+				},
+				{
+					"name": "The Radiant",
+					"type": "Root Epithet",
+					"shortName": "Radiant",
+					"source": "WoI",
+					"page": 32,
+					"subclassFeatures": [
+						"Root Epithet|Exemplar|WoI|Radiant|WoI|3"
+					]
+				},
+				{
+					"name": "Born of the Bones of the Earth",
+					"type": "Dominion Epithet",
+					"shortName": "Bones",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Bones|WoI|7"
+					]
+				},
+				{
+					"name": "Dancer in the Seasons",
+					"type": "Dominion Epithet",
+					"shortName": "Dancer",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Dancer|WoI|7"
+					]
+				},
+				{
+					"name": "Of Verse Unbroken",
+					"type": "Dominion Epithet",
+					"shortName": "Verse",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Verse|WoI|7"
+					]
+				},
+				{
+					"name": "Peerless under Heaven",
+					"type": "Dominion Epithet",
+					"shortName": "Heaven",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Heaven|WoI|7"
+					]
+				},
+				{
+					"name": "Restless as the Tide",
+					"type": "Dominion Epithet",
+					"shortName": "Tide",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Tide|WoI|7"
+					]
+				},
+				{
+					"name": "Whose Cry is Thunder",
+					"type": "Dominion Epithet",
+					"shortName": "Thunder",
+					"source": "WoI",
+					"page": 33,
+					"subclassFeatures": [
+						"Dominion Epithet|Exemplar|WoI|Thunder|WoI|7"
+					]
+				},
+				{
+					"name": "Healer of the World",
+					"type": "Sovereignty Epithet",
+					"shortName": "Healer",
+					"source": "WoI",
+					"page": 34,
+					"subclassFeatures": [
+						"Sovereignty Epithet|Exemplar|WoI|Healer|WoI|15"
+					]
+				},
+				{
+					"name": "Teacher of Heroes",
+					"type": "Sovereignty Epithet",
+					"shortName": "Teacher",
+					"source": "WoI",
+					"page": 34,
+					"subclassFeatures": [
+						"Sovereignty Epithet|Exemplar|WoI|Teacher|WoI|15"
+					]
+				},
+				{
+					"name": "The Last Ruler",
+					"type": "Sovereignty Epithet",
+					"shortName": "Ruler",
+					"source": "WoI",
+					"page": 34,
+					"subclassFeatures": [
+						"Sovereignty Epithet|Exemplar|WoI|Ruler|WoI|15"
+					]
+				},
+				{
+					"name": "Thief of Moonlight",
+					"type": "Sovereignty Epithet",
+					"shortName": "Thief",
+					"source": "WoI",
+					"page": 34,
+					"subclassFeatures": [
+						"Sovereignty Epithet|Exemplar|WoI|Thief|WoI|15"
+					]
+				}
+			],
+			"flavor": [
+				"As the war god died, his power rained through the many planes of creation, sparking conflict and instilling divine energy in those previously without it. Whether you were directly touched by this power, claimed it from an ancient being or artifact, or whether it awoke something long dormant in your lineage, a spark of the divine now blazes within your soul, granting you abilities, sacred weapons, and divine signifiers that reach into the realm previously reserved for gods and legends. How you wield these tools and grow your power is for you to decide\u2014you may become a hero or you may turn to selfish ends, but one thing is certain: you intend to carve your epithet in history, immortalized in the memory of gods and mortals alike."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You fight on the vanguard, scattering lesser foes to the winds. You concentrate your divine energy into the right weapon or tool for the moment. When an arrow strikes your skin, it stings no more than a flea; when your spear strikes forward, it can pierce gods."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "During social encounters...",
+					"entries": [
+						"You naturally cut a larger-than-life figure. You may use your personal magnetism to inspire others, or you might be a lone and brooding figure who seldom speaks. Either way, your actions and words hang in the air with weight."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "While exploring...",
+					"entries": [
+						"You feel for the flow of fate, knowing that your path will bring you to your next quest. You may take special interest in certain aspects of nature, society, or the cosmos as your divine spark begins to find itself drawn to certain powers."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "In downtime...",
+					"entries": [
+						"Inactivity rarely suits an exemplar, so you seek out additional deeds or quests to spread your name. You might search for creatures to slay, compete in athletic contests, or quest for lost artifacts."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Chase glory across the land, beyond the sea, and over the horizon.",
+								"Take other heroes under your wing, that your legend may live on through them.",
+								"Feel the weight of immense expectations and obligation."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 29,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Look to you in times of crisis, thinking you can handle any challenge.",
+								"Think of you as larger than life, more of the figure of a story than a living adventurer.",
+								"Mistake your heroism and capability for pride and aloofness."
+							]
+						}
+					]
+				}
+			],
+			"summary": {
+				"text": "Exemplars channel a spark of divine power through sacred relics called ikons and draw power from the epithets they build for themselves.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/ce0e5921-069a-48fd-b7b7-28a259876d7d/IconicExemplar_Nahoa_1600x2000.png"
+				],
+				"keyAbility": "Strength or Dexterity",
+				"sndAbility": "Constitution"
+			},
+			"rarity": "Rare"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Ancestry and Background",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Attribute Boosts",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Divine Spark and Ikons",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Exemplar Feats",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Humble Strikes",
+			"source": "WoI",
+			"page": 29,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Shield Block",
+			"source": "WoI",
+			"page": 30,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 1,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "WoI",
+			"page": 30,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 2,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "WoI",
+			"page": 30,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 30,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 3,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 5,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Weapon Expertise",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 5,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 7,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Spirit Striking",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 7,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Unassailable Soul",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 7,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Divine Premonition",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 9,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Godly Expertise",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 9,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Perception Expertise",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 9,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Divine Weapon Mastery",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 13,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Greater Unassailable Soul",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 13,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Burnished Armor Expertise",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 13,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Greater Spirit Striking",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 15,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Mortality Reforged",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 15,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Sovereignty Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 15,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Deific Mastery",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 17,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Perception Mastery",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 17,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Burnished Armor Mastery",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"level": 19,
+			"entries": [
+				""
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Brave",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Brave",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Cunning",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Cunning",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 31,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Deft",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Deft",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Proud",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Proud",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Mournful",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Mournful",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Root Epithet",
+			"source": "WoI",
+			"page": 32,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Radiant",
+			"subclassSource": "WoI",
+			"level": 3,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Radiant",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Bones",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Born of the Bones of the Earth",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Dancer",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Dancer in the Seasons",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Verse",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Of Verse Unbroken",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Heaven",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Peerless under Heaven",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Tide",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Restless as the Tide",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Dominion Epithet",
+			"source": "WoI",
+			"page": 33,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Thunder",
+			"subclassSource": "WoI",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Whose Cry is Thunder",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Sovereignty Epithet",
+			"source": "WoI",
+			"page": 34,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Healer",
+			"subclassSource": "WoI",
+			"level": 15,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Healer of the World",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Sovereignty Epithet",
+			"source": "WoI",
+			"page": 34,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Teacher",
+			"subclassSource": "WoI",
+			"level": 15,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Teacher of Heroes",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Sovereignty Epithet",
+			"source": "WoI",
+			"page": 34,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Ruler",
+			"subclassSource": "WoI",
+			"level": 15,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "The Last Ruler",
+					"entries": [
+						""
+					]
+				}
+			]
+		},
+		{
+			"name": "Sovereignty Epithet",
+			"source": "WoI",
+			"page": 34,
+			"className": "Exemplar",
+			"classSource": "WoI",
+			"subclassShortName": "Thief",
+			"subclassSource": "WoI",
+			"level": 15,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Thief of Moonlight",
+					"entries": [
+						""
+					]
+				}
+			]
+		}
+	]
+}

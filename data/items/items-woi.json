@@ -1,0 +1,768 @@
+{
+	"item": [
+		{
+			"name": "Bands of Imprisonment",
+			"source": "WoI",
+			"page": 43,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn anklets, bracers, or circlet (often a headband)",
+			"entries": [
+				"These weighted bands don't enhance your power\u2014rather, they keep your strength in check, honing your discipline.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The bands of imprisonment tighten, keeping your mind sharp. You gain a +1 status bonus to Will saving throws and resistance to mental damage equal to half your level."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Break Free",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"You can attempt to {@action Escape} with a +2 status bonus on your check, then {@action Stride} up to twice your Speed in a straight line, and finally make a melee {@action Strike}. If you don't need to {@action Escape} or you can't move or choose not to, you still take the other actions listed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barrow's Edge",
+			"source": "WoI",
+			"page": 43,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "melee weapon that deals slashing or piercing damage",
+			"entries": [
+				"This blade subtly rattles in its scabbard, as if it wants to be unsheathed so it can consume violence.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The barrow's edge deals 1 additional spirit damage per weapon damage die to a creature it {@action Strike||Strikes}. If the creature is below half its maximum Hit Points, the weapon deals 3 additional spirit damage per weapon damage dice instead. Barrow's edge rattles more strongly when an enemy below half its maximum Hit Points is within the weapon's reach to let you know a foe is verging closer to death."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Drink of my Foes",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"healing",
+						"transcendence",
+						"vitality"
+					],
+					"requirements": "Your last action was a successful {@action Strike} with the barrow's edge",
+					"entries": [
+						"Your blade glows as it absorbs your foe's vitality. You regain Hit Points equal to half the damage dealt."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fetching Bangles",
+			"source": "WoI",
+			"page": 44,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn bracers",
+			"entries": [
+				"These lovely armbands sparkle and gleam, reflecting your own incredible magnetism.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"traits": [
+						"aura",
+						"mental"
+					],
+					"entries": [
+						"Others find it hard to leave your captivating presence. An {@trait aura} surrounds you in a 10-foot emanation. An enemy in the aura that attempts to move away from you must succeed at a Will save against your class DC or its move action is {@quickref disrupted|CRB|3|actions}."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Embrace of Destiny",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"mental",
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"Choose an enemy within 20 feet of you. It must succeed at a Will save against your class DC or be pulled directly toward you into a square adjacent to you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eye-Catching Spot",
+			"source": "WoI",
+			"page": 44,
+			"type": "Body Ikon",
+			"traits": [
+				"emotion",
+				"ikon"
+			],
+			"usage": "imbued on the face",
+			"entries": [
+				"A fetching beauty spot under an eye or a smile as warm as the sun distracts foes and captures hearts alike.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"traits": [
+						"mental",
+						"visual"
+					],
+					"entries": [
+						"Your beauty becomes supernaturally enhanced, distracting foes and imposing a \u22121 circumstance penalty to melee attack rolls against you."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Captivating Charm",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"concentrate",
+						"emotion",
+						"mental",
+						"transcendence",
+						"visual"
+					],
+					"entries": [
+						"You focus your attention on a creature within 30 feet, overwhelming its senses. The creature must succeed at a Will save against your class DC or be {@condition fascinated} by you until the start of your next turn. The condition ends if you use a hostile action against the target, but not if you use a hostile action against its allies."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gaze Sharp as Steel",
+			"source": "WoI",
+			"page": 44,
+			"type": "Body Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "imbued in the eyes",
+			"entries": [
+				"Your eyes glint with an almost-tangible sharpness, letting you spot the tiniest swallow on the horizon or the swiftest arrow in flight.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"Your vision sharpens and allows you to sense an enemy's attack almost as soon as it begins, granting you a +1 status bonus to Perception checks and a +2 status bonus to your AC against ranged attacks."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014A Moment Unending",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"concentrate",
+						"prediction",
+						"transcendence"
+					],
+					"entries": [
+						"You take in every movement around you, affording you unparalleled accuracy. Your next successful {@action Strike} against an enemy before the end of your next turn deals an additional {@damage 1d6} precision damage. This damage increases to {@damage 2d6} at 10th level and {@damage 3d6} at 18th level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gleaming Blade",
+			"source": "WoI",
+			"page": 44,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": " a weapon in the {@group sword} or {@group knife} group, or a melee unarmed attack that deals slashing damage",
+			"entries": [
+				"This blade glitters with such sharpness it seems to cut the very air in front of it.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"{@action Strike||Strikes} with the gleaming blade deal 2 additional spirit damage per weapon damage die."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Flowing Spirit Strike",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"Make two {@action Strike||Strikes} with the gleaming blade, each against the same target and using your current multiple attack penalty. If the gleaming blade doesn't have the {@trait agile} trait, the second Strike takes a \u22122 penalty. If both attacks hit, you combine their damage, which is all dealt as spirit damage. You add any precision damage only once. Combine the damage from both {@action Strike||Strikes} and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hands of the Wildling",
+			"source": "WoI",
+			"page": 44,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "a melee free-hand weapon or a melee unarmed {@action Strike}",
+			"entries": [
+				"Tattooed fists, savage claws, or even powerful gauntlets\u2014you swing each with the fury of an animal from the woods.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"{@action Strike||Strikes} with your hands of the wildling deal an additional 1 spirit {@trait splash} damage per weapon damage die. You are immune to this {@trait splash} damage."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Feral Swing",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"You lash out with both arms, rending all before you. Each creature in a 15-foot cone must succeed at a basic Reflex save against your class DC or take spirit damage equal to your normal {@action Strike} damage with your hands of the wildling. You can choose to swing with abandon, which imposes a \u22122 circumstance bonus to enemies' saving throws, but causes you to become {@condition off-guard|PC1} until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Horn of Plenty",
+			"source": "WoI",
+			"page": 44,
+			"type": "Worn Ikon",
+			"traits": [
+				"extradimensional",
+				"ikon"
+			],
+			"usage": "a wallet, bag, or similar container of 1 Bulk you can wear on your body",
+			"entries": [
+				"Whether a bag, gourd, wallet, cornucopia, or similar food receptacle, this ikon recalls the harvest and hearth. The receptacle can store up to 1 Bulk of potions and elixirs, but no other items. The receptacle can't be opened except by the ikon's immanence and transcendence abilities.",
+				"Each day during your daily preparations, the ikon produces one temporary elixir of life. You can choose to have it make a different {@trait elixir} or {@trait potion} you know the formula for. The level of any elixir or potion created by the horn must be your level or lower. The number of elixirs the horn creates increases to two at 8th level and three at 16th level, and you can choose each item individually. These temporary items vanish the next time you make your daily preparations, and any remaining effects of the temporary items end. A temporary elixir or potion has no value.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The horn of plenty shimmers, allowing access to the stored consumables inside. You can {@action Interact} to draw a consumable and drink it in a single action while your divine spark rests within the horn. Other creatures can't access the contents unless you allow them to."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Feed the Masses",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"The horn of plenty allows you to transfer the effects of potions and elixirs to your allies. You {@action Interact} to draw a consumable from the horn and then {@action Interact} to drink it. Rather than nourishing yourself, the item's effects are transferred to a willing ally within 60 feet, as if they had consumed it themself. If the consumable restores Hit Points, you can choose to divide the amount it restores between you and the ally freely (after rolling dice to determine the amount)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mirrored Aegis",
+			"source": "WoI",
+			"page": 45,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "any shield",
+			"entries": [
+				"This shield is polished so brightly it can reflect even spiritual and ethereal attacks.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"traits": [
+						"aura"
+					],
+					"entries": [
+						"The mirrored aegis emits an {@trait aura} in a 15-foot emanation that protects you and all allies in the {@trait aura} from harm, granting a +1 status bonus to AC. If the mirrored aegis houses your divine spark for 10 uninterrupted minutes, it is restored to full Hit Points."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Raise the Walls",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"force",
+						"transcendence"
+					],
+					"entries": [
+						"You {@action Raise a Shield||Raise} the mirrored aegis, which summons ethereal shields that surround you and one ally of your choice within 15 feet in a tortoise shield formation. You and the ally gain a +1 status bonus to AC, Reflex saves, and any save against a {@trait force}, {@trait spirit}, {@trait vitality}, or {@trait void} effect for 1 minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mortal Harvest",
+			"source": "WoI",
+			"page": 45,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "a {@item sickle} or any weapon from the {@group axe}, {@group flail}, or {@group polearm} group",
+			"entries": [
+				"This weapon, once used for felling trees or crops, now harvests lives instead.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The mortal harvest deals 1 {@condition persistent damage||persistent spirit damage} per weapon damage die to creatures it {@action Strike||Strikes}."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Reap the Field",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"requirements": "Your previous action was a successful {@action Strike} with the mortal harvest",
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"Time seems to lag as you blur across the battlefield, deciding the fate of many in a moment. {@action Stride} up to half your Speed and make another melee {@action Strike} with the mortal harvest against a different creature. This {@action Strike} uses the same multiple attack penalty as your previous {@action Strike}, but counts toward your multiple attack penalty as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Noble Branch",
+			"source": "WoI",
+			"page": 45,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "a {@item staff}, {@item bo staff}, fighting stick (Pathfinder Lost Omens The Mwangi Expanse 86), {@item khakkara|APG}, or any weapon in the {@group spear} or {@group polearm} weapon group",
+			"entries": [
+				"This humble stick-like weapon has an elegant simplicity to it, affording you reliable strikes over flashy maneuvers.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The noble branch deals 2 additional spirit damage per weapon damage die to creatures it {@action Strike||Strikes}."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Strike, Breathe, Rend",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"requirements": "Your last action this turn was a successful {@action Strike} with the noble branch",
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"You channel a rending pulse of energy down your weapon in the moment of contact. The target of the {@action Strike} takes spirit damage equal to the noble branch's weapon damage dice. This includes any extra dice from {@item striking} runes, but not from special abilities, property runes, or the like."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pelt of the Beast",
+			"source": "WoI",
+			"page": 45,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn cloak or belt",
+			"entries": [
+				"This animal hide, whether worn about the shoulders or waist, is all you need to survive even the harshest elements. When you make your daily preparations, choose {@trait cold}, {@trait electricity}, {@trait fire}, {@trait poison}, or {@trait sonic} damage. The pelt attunes to that damage type.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"You gain resistance equal to half your level to the damage type the pelt is attuned to. You also treat environmental cold and heat effects as one step less severe."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Survive the Wilds",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"aura",
+						"manipulate",
+						"transcendence"
+					],
+					"entries": [
+						"You wrap the pelt around yourself. You can choose to change the damage type the pelt is attuned to. The pelt shines gold, drawing the offending energies into itself. Until the start of your next turn, this shine creates an {@trait aura} in a 15-foot emanation. You and all allies in the emanation gain a +2 circumstance bonus to AC and saving throws against effects with that trait."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scar of the Survivor",
+			"source": "WoI",
+			"page": 45,
+			"type": "Body Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "imbued in the skin",
+			"entries": [
+				"A scar on your body commemorates a time someone tried to end your story and failed\u2014a testament to your resilience and fortitude.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"Divine energy spreads outward from your scar, reinforcing your flesh. You gain the benefits of the {@feat Diehard} feat and a +1 status bonus to Fortitude saving throws."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014No Scar but This",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"concentrate",
+						"healing",
+						"transcendence",
+						"vitality"
+					],
+					"entries": [
+						"Your wounds knit shut with hardly a scratch. You regain {@dice 1d8} Hit Points. At 3rd level and every 2 levels thereafter, the healing increases by {@dice 1d8}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadow Sheath",
+			"source": "WoI",
+			"page": 45,
+			"type": "Weapon Ikon",
+			"traits": [
+                "extradimensional",
+				"ikon"
+			],
+			"usage": "a holster or sheath shaped for a one-handed thrown weapon of light Bulk or less",
+			"entries": [
+				"With an infinite array of {@item dart||darts}, {@item throwing knife|EC1|throwing knives}, or similar weapons, you never need worry about being unarmed. You can spend 1 minute to load a weapon meeting the shadow sheath's usage requirements into the sheath, which is hidden somewhere on your person. As long as the shadow sheath is on your person, you can {@action Interact} to draw an exact copy of the weapon from thin air. These copies retain the runes and abilities of the hidden weapon, though if you use any limited-use abilities (such as {@trait talisman||talismans} or {@action Activate an Item||Activations} with a frequency limit), they count against the weapon's normal usages. A copy disappears shortly after leaving your hand (or being used for a thrown {@action Strike}).",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"You can {@action Interact} to draw a weapon from the shadow sheath as a free action. Your {@action Strike||Strikes} with a weapon produced from the shadow sheath deal 2 additional spirit damage per weapon damage die, which increases to 3 per die if the target is {@condition off-guard|PC1}."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Liar's Hidden Blade",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"requirements": "Your previous action was an unsuccessful {@action Strike} with the weapon from the shadow sheath",
+					"entries": [
+						"The shadow weapon you threw fades, the distraction covering your true intention all along\u2014a second strike in hidden in the blind spot of the first! {@action Interact} to draw another weapon from the shadow sheath, then {@action Strike} with it at the same multiple attack penalty as the unsuccessful attack. The opponent is offguard to this attack. This {@action Strike} counts toward your multiple attack penalty as normal. After the {@action Strike} resolves, you can {@action Interact} to draw another weapon from the shadow sheath."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skin Hard as Horn",
+			"source": "WoI",
+			"page": 46,
+			"type": "Body Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "imbued in the skin",
+			"entries": [
+				"Tempered in your spirit, your very skin is as a suit of armor, though a single location on your body remains unprotected, a curse and a challenge within your legend. During your daily preparations, you can strike your skin lightly with an object that deals bludgeoning, slashing or piecing damage to habituate your skin against this type of injury, attuning the ikon to that damage type.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"When your skin houses your divine spark, you gain resistance to the attuned damage type equal to half your level. This resistance doesn't apply against critical hits, which successfully find your unprotected spot."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Crash against Me",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"Your skin becomes virtually unbreakable. Until the start of your next turn, you have resistance equal to your level to the chosen damage type. During this time, if a creature attacking you using a weapon dealing the same damage type as your resistance misses you or hits you but deals no damage due to your resistance, the weapon clangs wildly off your skin. This painful reverberation makes the attacking enemy offguard and gives it a \u20132 circumstance penalty to attacks with that weapon until the start of the enemy's next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skybearer's Belt",
+			"source": "WoI",
+			"page": 46,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn belt",
+			"entries": [
+				"This girdle wraps around your waist, magnifying your strength to the point you feel you could carry the sky itself.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"Strength flows forth. You can attempt to {@action Disarm}, {@action Grapple}, {@action Shove}, or {@action Trip} creatures up to two sizes larger than you, and you gain a +1 circumstance bonus to checks for these actions and to your saving throws to resist these actions."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Bear Allies' Burdens",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"You move with a speed belying your strength, carrying your allies as easily as straw dolls. You {@action Stride}. At any point you are adjacent to a willing ally during the {@action Stride}, you can pick that ally up, and you can deposit them into a space adjacent to you at any other point during your movement. You ignore the ally's Bulk while carrying them during your {@action Stride}. You can {@action Climb}, {@action Fly}, or {@action Swim} instead of {@action Stride||Striding} if you have the corresponding movement type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Starshot",
+			"source": "WoI",
+			"page": 46,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "a ranged weapon",
+			"entries": [
+				"You might be the only one capable of stringing this bow or pulling this trigger; either way, the ikon's shots are packed with explosive power, striking like falling stars.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"{@action Strike||Strikes} with the starshot deal an additional 1 spirit {@trait splash} damage per weapon damage die."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Giant-Felling Comet",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"You shoot the starshot, causing a detonation in a 5-foot burst within 60 feet. Each creature in the area must succeed at a basic Reflex save against your class DC or take spirit damage equal to your normal {@action Strike} damage with the starshot. Creatures larger than you take a \u20132 circumstance penalty to their saving throws. This shot requires any ammunition that would normally be required for the weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Thousand-League Sandals",
+			"source": "WoI",
+			"page": 46,
+			"type": "Worn Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn shoes",
+			"entries": [
+				"Threadbare but trustworthy, your sandals have carried you this far, and they'll carry you much further still.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"Your sandals ease your travels on the path ahead, granting you a +10-foot status bonus to your Speed."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Marathon Dash",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"entries": [
+						"Your feet carry you so quickly they leave a slipstream that speeds your allies on. You {@action Stride}. Each ally within 10 feet of you at the start of your movement can {@action Stride} as a reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Titan's Breaker",
+			"source": "WoI",
+			"page": 46,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "any melee weapon in the {@group club}, {@group hammer}, or {@group axe} group, or any your melee unarmed {@action Strike||Strikes} that deals bludgeoning damage",
+			"entries": [
+				"You wield a weapon whose blows shatter mountains with ease.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The titan's breaker deals 2 additional spirit damage per weapon damage die to creatures it {@action Strike||Strikes}. {@trait Construct||Constructs} and objects are not immune to this spirit damage, and this spirit damage automatically bypasses an amount of their Hardness equal to your level."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Fracture Mountains",
+					"activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"spirit",
+						"transcendence"
+					],
+					"entries": [
+						"Your spirit is so dense it takes on tangible force. Make a melee {@action Strike} with the titan's breaker. This counts as two attacks when calculating your multiple attack penalty. If this {@action Strike} hits, your additional spirit damage from the ikon's immanence increases to 4 plus an extra die of weapon damage. If you're at least 10th level, it's increased to 6 spirit damage and two extra dice, and if you're at least 18th level, it's increased to 8 spirit damage and three extra dice."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unfailing Bow",
+			"source": "WoI",
+			"page": 47,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "a ranged weapon",
+			"entries": [
+				"The shots fired by this weapon seem guided by divine accuracy, finding the swiftest targets.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"entries": [
+						"The unfailing bow deals 1 additional spirit damage per weapon damage die to creatures it {@action Strike||Strikes}, or {@damage 1d4} additional spirit damage per weapon die on a critical hit."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014Arrow Splits Arrow",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+					"requirements": " Your previous action was to {@action Strike} with the unfailing bow",
+					"entries": [
+						"You repeat your motions exactly, your attack landing in the same location as your previous shot. You make a {@action Strike} against the same target. The result of your {@dice d20} roll is the same as the result of the required shot, though any penalties (such as your multiple attack penalty) apply normally to this shot and you don't automatically adjust the degree of success if the initial roll was a natural 1 or 20."
+					]
+				}
+			]
+		},
+		{
+			"name": "Victor's Wreath",
+			"source": "WoI",
+			"page": 47,
+			"type": "Weapon Ikon",
+			"traits": [
+				"ikon"
+			],
+			"usage": "worn headwear or belt (typically a sash)",
+			"entries": [
+				"This symbol of victory\u2014whether a laurel worn around the head or a medal that hangs from your neck\u2014reminds you and your allies that victory is the only acceptable outcome.",
+				{
+					"type": "ability",
+					"name": "Immanence",
+					"traits": [
+						"aura",
+						"emotion",
+						"mental"
+					],
+					"entries": [
+						"You inspire your allies to greater glory. You and all your allies in a 15-foot emanation gain a +1 status bonus to attack rolls."
+					]
+				},
+				{
+					"type": "ability",
+					"name": "Transcendence\u2014One Moment till Glory",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"concentrate",
+						"emotion",
+						"mental",
+						"transcendence"
+					],
+					"entries": [
+						"You rally your allies, carrying them from the brink of disaster to the verge of victory. Each ally in your {@trait aura} can immediately attempt a new saving throw with a +2 status bonus against one ongoing negative effect or condition currently affecting them, even if that effect would not normally allow a new saving throw."
+					]
+				}
+			]
+		}
+	]
+}

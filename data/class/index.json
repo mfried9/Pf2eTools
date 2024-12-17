@@ -6,6 +6,7 @@
 	"champion": "class-champion.json",
 	"cleric": "class-cleric.json",
 	"druid": "class-druid.json",
+	"exemplar": "class-exemplar.json",
 	"fighter": "class-fighter.json",
 	"investigator": "class-investigator.json",
 	"monk": "class-monk.json",

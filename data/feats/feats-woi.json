@@ -897,6 +897,522 @@
 			"entries": [
 				"You gain the {@quickref master spellcasting benefits|CRB|0|spellcasting archetypes} (Player Core 215) as a prepared divine caster."
 			]
+		},
+		{
+			"name": "Energized Spark",
+			"source": "WoI",
+			"page": 35,
+			"level": 1,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Sanctified Soul",
+			"source": "WoI",
+			"page": 35,
+			"level": 1,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Twin Stars",
+			"source": "WoI",
+			"page": 35,
+			"level": 1,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Vow of Mortal Defiance",
+			"source": "WoI",
+			"page": 35,
+			"level": 1,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hurl at the Horizon",
+			"source": "WoI",
+			"page": 35,
+			"level": 2,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Leap the Falls",
+			"source": "WoI",
+			"page": 35,
+			"level": 2,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Lightning Swap",
+			"source": "WoI",
+			"page": 35,
+			"level": 2,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Red-Gold Mortality",
+			"source": "WoI",
+			"page": 35,
+			"level": 2,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Only the Worthy",
+			"source": "WoI",
+			"page": 36,
+			"level": 4,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Steel on Steel",
+			"source": "WoI",
+			"page": 36,
+			"level": 4,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Through the Needle's Eye",
+			"source": "WoI",
+			"page": 36,
+			"level": 4,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Binding Serpents Celestial Arrow",
+			"source": "WoI",
+			"page": 36,
+			"level": 6,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Flow of War",
+			"source": "WoI",
+			"page": 37,
+			"level": 6,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Motionless Cutter",
+			"source": "WoI",
+			"page": 37,
+			"level": 6,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Reactive Strike",
+			"source": "WoI",
+			"page": 37,
+			"level": 6,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Additional Ikon",
+			"source": "WoI",
+			"page": 37,
+			"level": 8,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Battle Hymn to the Lost",
+			"source": "WoI",
+			"page": 37,
+			"level": 8,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Raise Island",
+			"source": "WoI",
+			"page": 37,
+			"level": 8,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Rejoice in Solstice Storm",
+			"source": "WoI",
+			"page": 37,
+			"level": 8,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Breath of Vital Ash",
+			"source": "WoI",
+			"page": 38,
+			"level": 10,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Exult in Violence",
+			"source": "WoI",
+			"page": 38,
+			"level": 10,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Fish from the Falls' Edge",
+			"source": "WoI",
+			"page": 38,
+			"level": 10,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Journey of the Sky Chariot",
+			"source": "WoI",
+			"page": 38,
+			"level": 10,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Mated Birds in Paired Flight",
+			"source": "WoI",
+			"page": 39,
+			"level": 10,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Compliant Gold",
+			"source": "WoI",
+			"page": 39,
+			"level": 12,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Extract Vow of Nonviolence",
+			"source": "WoI",
+			"page": 39,
+			"level": 12,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Rapid Spark",
+			"source": "WoI",
+			"page": 39,
+			"level": 12,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Warped by Rage",
+			"source": "WoI",
+			"page": 39,
+			"level": 12,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Complete the Hero's Journey",
+			"source": "WoI",
+			"page": 39,
+			"level": 14,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Destined Victory",
+			"source": "WoI",
+			"page": 40,
+			"level": 14,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Infinite Blades Celestial Arrow",
+			"source": "WoI",
+			"page": 40,
+			"level": 14,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Crown of Rule",
+			"source": "WoI",
+			"page": 40,
+			"level": 16,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Gift of the Immortal Herb",
+			"source": "WoI",
+			"page": 41,
+			"level": 16,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Mark of the Sage",
+			"source": "WoI",
+			"page": 41,
+			"level": 16,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Shroud of Ghosts",
+			"source": "WoI",
+			"page": 41,
+			"level": 16,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Strike Rivers, Seize Winds",
+			"source": "WoI",
+			"page": 41,
+			"level": 16,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Branched Tree of Pain",
+			"source": "WoI",
+			"page": 41,
+			"level": 18,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Eternity-Incinerating Blaze",
+			"source": "WoI",
+			"page": 42,
+			"level": 18,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Seven-Colored Cosmic Bridge",
+			"source": "WoI",
+			"page": 42,
+			"level": 18,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Sunwrecker",
+			"source": "WoI",
+			"page": 42,
+			"level": 18,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Cutting without Blade",
+			"source": "WoI",
+			"page": 43,
+			"level": 20,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Reach for Immortality",
+			"source": "WoI",
+			"page": 43,
+			"level": 20,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Remake the World",
+			"source": "WoI",
+			"page": 43,
+			"level": 20,
+			"traits": [
+				"exemplar"
+			],
+			"entries": [
+				""
+			]
 		}
 	]
 }
