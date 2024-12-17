@@ -770,16 +770,21 @@
 			"prerequisites": "Wisdom +2",
 			"entries": [
 				"You have formed a bond with an apparition and can cast divine spells. Choose a single {@filter apparition|optionalfeatures||Feature Type=Apparition} from those available to the animist (page 17). You become bound to that apparition and can attune to it each day during your daily preparations to become trained in its apparition skills. If you are 8th level, you are expert in its apparition skills while attuned to it, and if you are 16th level, you are a master in its apparition skills while attuned to it. You can spend 1 day of downtime ending your relationship with this apparition and bonding to a new one.",
-				"You gain the {@action Cast a Spell} activity. You can prepare two common cantrips each day from the divine spell list or any other divine cantrips you have access to, including the cantrip listed in your apparition's apparition spells. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for animist archetype spells is Wisdom, and they are divine animist spells."
+				"You gain the {@action Cast a Spell} activity. You can prepare {@filter two common cantrips|spells||spell type=spell|level=0|tradition & spell list=divine|rarity=common} each day from the divine spell list or any other divine cantrips you have access to, including the cantrip listed in your apparition's apparition spells. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for animist archetype spells is Wisdom, and they are divine animist spells."
 			],
 			"leadsTo": [
-				"Basic Animist Spellcasting|WoI"
+				"Basic Animist Spellcasting|WoI",
+				"Apparition Magic|WoI",
+				"Spiritual Awakening|WoI",
+				"Animist's Power|WoI",
+				"Expert Animist Spellcasting|WoI",
+				"Master Animist Spellcasting|WoI"
 			]
 		},
 		{
 			"name": "Basic Animist Spellcasting",
 			"source": "WoI",
-			"page": 1,
+			"page": 56,
 			"level": 4,
 			"featType": {
 				"archetype": [
@@ -792,6 +797,105 @@
 			"prerequisites": "{@feat Animist Dedication|WoI}",
 			"entries": [
 				"You gain the {@quickref basic spellcasting benefits|CRB|0|spellcasting archetypes} (Player Core 215) as a prepared divine caster. In addition to standard divine tradition spells, you can prepare your bonded apparition's apparition spells in your spell slots of the appropriate level from the animist archetype."
+			],
+			"leadsTo": [
+				"Apparition Magic|WoI"
+			]
+		},
+		{
+			"name": "Spiritual Awakening",
+			"source": "WoI",
+			"page": 56,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Animist Dedication|WoI}",
+			"entries": [
+				"You gain a {@filter 1st- or 2nd-level animist|feats||Class=animist|level=[1;2]} feat."
+			],
+			"leadsTo": [
+				"Animist's Power|WoI"
+			]
+		},
+		{
+			"name": "Animist's Power",
+			"source": "WoI",
+			"page": 56,
+			"level": 6,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Spiritual Awakening|WoI}",
+			"entries": [
+				"You gain a {@filter animist|feats||Class=animist|Feat=!wandering} feat. For the purpose of meeting its prerequisites, your animist level is equal to half your character level. You can't use this feat to gain animist feats with the {@trait wandering} trait."
+			],
+			"special": [
+				"You can select this feat more than once. Each time you select it, you gain another animist feat."
+			]
+		},
+		{
+			"name": "Apparition Magic",
+			"source": "WoI",
+			"page": 56,
+			"level": 8,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Basic Animist Spellcasting|WoI}",
+			"entries": [
+				"You can cast more divine spells each day. You gain 1 additional spell slot from animist archetype feats for each spell rank other than your two highest animist spell slots. These additional slots can only be used to prepare spells from your apparition's apparition spells."
+			]
+		},
+		{
+			"name": "Expert Animist Spellcasting",
+			"source": "WoI",
+			"page": 56,
+			"level": 12,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Animist Dedication|WoI}, master in {@skill Religion}",
+			"entries": [
+				"You gain the {@quickref expert spellcasting benefits|CRB|0|spellcasting archetypes} (Player Core 215) as a prepared divine caster."
+			]
+		},
+		{
+			"name": "Master Animist Spellcasting",
+			"source": "WoI",
+			"page": 56,
+			"level": 18,
+			"featType": {
+				"archetype": [
+					"Animist"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Animist Dedication|WoI}, legendary in {@skill Religion}",
+			"entries": [
+				"You gain the {@quickref master spellcasting benefits|CRB|0|spellcasting archetypes} (Player Core 215) as a prepared divine caster."
 			]
 		}
 	]
