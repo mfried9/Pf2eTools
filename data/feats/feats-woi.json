@@ -907,7 +907,10 @@
 				"exemplar"
 			],
 			"entries": [
-				""
+				"The energy of your spirit manifests as crackling lightning, the chill of winter, or the power of an element. Choose one of the following traits: {@trait air} (slashing), {@trait cold}, {@trait earth} (bludgeoning), {@trait electricity}, {@trait fire}, {@trait metal} (slashing), {@trait poison}, {@trait sonic}, {@trait vitality}, {@trait void}, {@trait water} (bludgeoning), or {@trait wood} (piercing). You can choose for any spirit damage dealt by your exemplar abilities to instead gain the trait and deal the corresponding damage type."
+			],
+			"special": [
+				"You can select this feat multiple times, choosing a different damage type each time."
 			]
 		},
 		{
@@ -919,7 +922,7 @@
 				"exemplar"
 			],
 			"entries": [
-				""
+				"You've drawn a line in the sand in the cosmic struggle between good and evil and chosen a side. You gain either the {@trait holy} trait or the {@trait unholy} trait. All your exemplar abilities that deal spirit damage gain the sanctified trait, allowing you to apply your {@trait holy} or {@trait unholy} trait to them to better affect your chosen enemies."
 			]
 		},
 		{
@@ -928,10 +931,12 @@
 			"page": 35,
 			"level": 1,
 			"traits": [
-				"exemplar"
+				"exemplar",
+				"ikon"
 			],
+			"usage": "imbued into a one-handed weapon ikon",
 			"entries": [
-				""
+				"Your divine spark embodies a primordial duality, and your ikon splits itself accordingly into two corresponding halves. You can use an {@action Interact} action to split the imbued ikon into two copies of itself, which both gain the {@trait twin} trait; these copies are identical except for one mirrored feature, such as a sun motif on one and a moon motif on another. You can use this ability again to fuse the two halves back into their original form. As these are both manifestations of the same object, your divine spark empowers the two halves as if they were a single ikon."
 			]
 		},
 		{
@@ -940,10 +945,18 @@
 			"page": 35,
 			"level": 1,
 			"traits": [
-				"exemplar"
+				"auditory",
+				"concentrate",
+				"exemplar",
+				"linguistic",
+				"mental"
 			],
+			"prerequisites": "You are not sanctified with the {@trait holy} or {@trait unholy} trait.",
 			"entries": [
-				""
+				"Having seen the wreckage left by the gods and their servitors as they play in their great war of good and evil, you've come to the only reasonable conclusion: they all must be cut from their silken thrones. You swear a vow to defeat one creature within 60 feet that has the {@trait holy} or {@trait unholy} trait. The first time each round that you deal damage to that creature, you deal an additional {@damage 1d6} spirit damage. You can't use Vow of Mortal Defiance again until you or the target is defeated, flees, or the encounter ends."
+			],
+			"special": [
+				"If you take this feat, you can't become sanctified with the {@trait holy} or {@trait unholy} trait. Retraining out of this feat typically requires a major change of philosophy."
 			]
 		},
 		{

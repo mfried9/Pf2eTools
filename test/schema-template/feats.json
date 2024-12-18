@@ -131,6 +131,9 @@
 						},
 						"uniqueItems": true
 					},
+					"usage": {
+						"type": "string"
+					},
 					"entries": {
 						"type": "array",
 						"items": {

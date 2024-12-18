@@ -5038,6 +5038,9 @@ Renderer.feat = {
 		if (feat.trigger != null) {
 			renderStack.push(`<p class="pf2-stat pf2-stat__section"><strong>Trigger&nbsp;</strong>${renderer.render(feat.trigger)}</p>`);
 		}
+		if (feat.usage != null) {
+			renderStack.push(`<p class="pf2-stat pf2-stat__section"><strong>Usage&nbsp;</strong>${renderer.render(feat.usage)}</p>`);
+		}
 		if (feat.cost != null) {
 			renderStack.push(`<p class="pf2-stat pf2-stat__section"><strong>Cost&nbsp;</strong>${renderer.render(feat.cost)}</p>`);
 		}
