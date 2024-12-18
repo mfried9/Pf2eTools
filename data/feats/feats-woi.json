@@ -944,6 +944,10 @@
 			"source": "WoI",
 			"page": 35,
 			"level": 1,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
 				"auditory",
 				"concentrate",
@@ -965,10 +969,19 @@
 			"page": 35,
 			"level": 2,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a thrown or melee weapon ikon",
 			"entries": [
-				""
+				"Your weapon flies from your hand as if propelled under its own power. The imbued ikon gains the following ability.",
+                {
+                    "type": "ability",
+                    "name": "Immanence",
+                    "entries": [
+                        "Your weapon gains the {@trait thrown||thrown 15 feet} trait, or increases its thrown distance by 10 feet if it already has the {@trait thrown} trait."
+                    ]
+                }
 			]
 		},
 		{
@@ -977,10 +990,19 @@
 			"page": 35,
 			"level": 2,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a body ikon",
 			"entries": [
-				""
+				"Reinforcing your legs with divine energy, you can leap the battlefield as powerfully as a salmon clearing a waterfall. The imbued ikon gains the following ability.",
+                {
+                    "type": "ability",
+                    "name": "Immanence",
+                    "entries": [
+                        "You gain the {@feat Powerful Leap} and {@feat Quick Jump} skill feats, allowing you to jump further and faster, even if you do not meet the prerequisites for them."
+                    ]
+                }
 			]
 		},
 		{
@@ -988,11 +1010,16 @@
 			"source": "WoI",
 			"page": 35,
 			"level": 2,
+            "activity": {
+				"number": 1,
+				"unit": "action"
+			},
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "flourish"
 			],
 			"entries": [
-				""
+				"You have practiced quickly switching between combat styles and the equipment needed for them, especially if you wield more than one weapon ikon. You {@action Interact} to stow any number of items from your hands, then draw up to two weapons or a shield and a weapon."
 			]
 		},
 		{
@@ -1001,10 +1028,28 @@
 			"page": 35,
 			"level": 2,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon",
+                "void"
 			],
+            "usage": "imbued into a weapon ikon",
 			"entries": [
-				""
+				"By channeling your divinity into a creature along with a strike, you can disrupt their ability to recover. The imbued ikon gains the following ability",
+                {
+                    "type": "ability",
+                    "name": "Immanence",
+                    "entries": [
+                        "When you successfully damage an enemy with the ikon, a marking appears around the wound, painted in the red of mortal blood and the gold of divine ichor. When the target would regain Hit Points, such as from a healing effect or an ability like {@ability fast healing} or {@ability regeneration}, it must attempt a Will save against your class DC to determine the effects, and then the marking fades. The marking otherwise fades after 1 minute.",
+                        {
+                            "type": "successDegree",
+                            "entries": {
+                                "Success": "The creature regains the full number of Hit Points that would be healed.",
+                                "Failure": "The creature regains only half the number of Hit Points as the contradictory energies swirl within it.",
+                                "Critical Failure": "The creature doesn't regain any Hit Points."
+                            }
+                        }
+                    ]
+                }
 			]
 		},
 		{
@@ -1013,10 +1058,11 @@
 			"page": 36,
 			"level": 4,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
 			"entries": [
-				""
+				"You can designate your ikons as movable by only your own hand, leaving them fixed in place as surely as if they were lodged in stone. Whenever you Release an ikon, you can spend an action to command it to remain motionless. While motionless, the ikon can be moved only if 8,000 pounds of pressure are applied to it or if a creature uses {@skill Athletics} to {@action Force Open} the ikon with a DC equal to your class DC. You can {@action Release} your ikon over an adjacent prone enemy to hold them down with the ikon’s motionlessness—while so {@action Release||Released}, you can’t use the ikon, but the enemy must succeed at the {@action Athletics} check to {@action Stand} or to move. The ikon automatically flies back to your hand when the effect is broken or if you spend an Interact action to hold out a hand and draw it back."
 			]
 		},
 		{
@@ -1025,10 +1071,29 @@
 			"page": 36,
 			"level": 4,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a melee weapon ikon or worn ikon made of metal, stone, or a similarly hard material",
 			"entries": [
-				""
+				"The ring of divinely empowered steel assails your enemies.",
+                {
+                    "type": "ability",
+                    "name": "Transcendence\u2014Ringing Challenge",
+                    "activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+                        "sonic",
+                        "spirit",
+						"transcendence"
+					],
+                    "entries": [
+                        "You clang your ikon against a weapon, shield, or the ground, emitting a shock wave that deals {@damage 1d4} spirit damage and {@damage 1d4} sonic damage to all creatures in a 30-foot cone or 15-foot emanation (basic Fortitude save). A creature that critically fails its saving throw is {@condition deafened} for 1 minute.",
+                        "At 6th level and every 2 levels thereafter, the damage increases by 1d4 spirit damage and 1d4 sonic damage."
+                    ]
+                }
 			]
 		},
 		{
@@ -1037,10 +1102,26 @@
 			"page": 36,
 			"level": 4,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a weapon ikon",
 			"entries": [
-				""
+				"Your weapon strikes with the perfection your will demands.",
+                {
+                    "type": "ability",
+                    "name": "Transcendence\u2014Blinding of the Needle",
+                    "activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+                    "entries": [
+                        "You aim your weapon in a superficial cut above your opponent’s eye. Make a {@action Strike} with the imbued ikon. If that {@action Strike} is successful, the target must succeed at a Fortitude save against your class DC or become {@condition blinded} for 1 round or until it uses an {@action Interact} action to clear the blood from its vision."
+                    ]
+                }
 			]
 		},
 		{
@@ -1049,10 +1130,26 @@
 			"page": 36,
 			"level": 6,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a ranged weapon ikon, or a melee weapon ikon with the thrown trait",
 			"entries": [
-				""
+				"As you prepare to shoot your weapon, you invoke divine serpents that bind your enemies. The imbued ikon gains the following ability.",
+                {
+                    "type": "ability",
+                    "name": "Transcendence\u2014Coiling Serpents",
+                    "activity": {
+						"number": 2,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+                    "entries": [
+                        "Make a ranged {@action Strike} with your ikon. If the {@action Strike} hits, the target must succeed at a Reflex save against your class DC or the arrow transforms into a multitude of ethereal snakes that coil around the target, immobilizing it until it succeeds at an {@action Escape} attempt against your class DC."
+                    ]
+                }
 			]
 		},
 		{
@@ -1060,11 +1157,20 @@
 			"source": "WoI",
 			"page": 37,
 			"level": 6,
+            "activity": {
+                "number": 1,
+                "unit": "free"
+            },
+            "frequency": {
+                "number": 1,
+                "unit": "hour"
+            },
+            "trigger": "Your turn begins.",
 			"traits": [
 				"exemplar"
 			],
 			"entries": [
-				""
+				"Divine battle instincts take over your body, letting you move and lash out with instinctive speed. You become {@condition quickened} until the end of your turn and can use the extra action only to {@action Strike} or {@action Stride}."
 			]
 		},
 		{
@@ -1073,22 +1179,44 @@
 			"page": 37,
 			"level": 6,
 			"traits": [
-				"exemplar"
+				"exemplar",
+                "ikon"
 			],
+            "usage": "imbued into a melee weapon ikon that deals slashing damage",
 			"entries": [
-				""
+				"Your weapon is so sharp even an insect alighting upon its still blade would be severed. Your weapon ikon gains the following ability.",
+                {
+                    "type": "ability",
+                    "name": "Transcendence\u2014Sever Four Dragonfly Wings",
+                    "activity": {
+						"number": 3,
+						"unit": "action"
+					},
+					"traits": [
+						"transcendence"
+					],
+                    "entries": [
+                        "Make a {@action Strike} that deals slashing damage with your weapon ikon. If that {@action Strike} is successful, you can immediately make an additional {@action Strike} against a different target within your reach. You can continue making {@action Strike||Strikes} in this manner, each against a different target, until you have made a total of four {@action Strike||Strikes} or you miss with a {@action Strike}, whichever comes first. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks."
+                    ]
+                }
 			]
 		},
 		{
 			"name": "Reactive Strike",
 			"source": "WoI",
+            "add_hash": "Exemplar",
 			"page": 37,
 			"level": 6,
+            "activity": {
+                "number": 1,
+                "unit": "reaction"
+            },
 			"traits": [
 				"exemplar"
 			],
+            "trigger": "A creature within your reach uses a {@trait manipulate} action or a {@trait move} action, makes a ranged attack, or leaves a square during a {@trait move} action it’s using.",
 			"entries": [
-				""
+				"You swat a foe that leaves an opening. Make a melee {@action Strike} against the triggering creature. If your attack is a critical hit and the trigger was a {@trait manipulate} action, you {@quickref disrupt|CRB|3|actions} that action. This {@action Strike} doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this {@action Strike}."
 			]
 		},
 		{
