@@ -145,7 +145,7 @@
 			"traits": [
 				"animist"
 			],
-			"prerequisites": " You have a familiar.",
+			"prerequisites": "You have a familiar.",
 			"entries": [
 				"You are able to materialize more of your attuned apparition's essence, creating a more powerful vessel for it to inhabit and aid you with. You can select four {@quickref familiar or master abilities|CRB|0|familiars|0}, instead of two."
 			]
@@ -1228,7 +1228,7 @@
 				"exemplar"
 			],
 			"entries": [
-				""
+				"Your story has grown rich enough that three ikons can’t contain its full complexity. You gain a fourth ikon, which can be of any type."
 			]
 		},
 		{
@@ -1236,11 +1236,23 @@
 			"source": "WoI",
 			"page": 37,
 			"level": 8,
+            "activity": {
+                "number": 2,
+                "unit": "action"
+            },
 			"traits": [
+                "concentrate",
+                "divine",
 				"exemplar"
 			],
+            "prerequisites": "of verse unbroken or peerless under heaven",
+            "frequency": {
+                "number": 1,
+                "unit": "hour"
+            },
 			"entries": [
-				""
+				"Your movements in combat are an artistic dirge to those spirits who could not fight to see another day. You make a {@action Strike}. Regardless of whether the {@action Strike} succeeds, spirits of warriors who died gloriously in battle surge out to attack with you. They appear in a 30-foot cone if you make a melee {@action Strike} or in a 10-foot emanation around your target if you made a ranged {@action Strike}. Each enemy in the area takes {@damage 2d10} damage with a basic Reflex save against your class DC; you choose whether the damage is bludgeoning, piercing, or slashing. At 12th level and every 4 levels thereafter, the damage increases by {@damage 1d10}.",
+                "As they join the battle, the spirits call your fallen allies back to the fight. Any of your allies in the area who are {@condition dying} regain Hit Points equal to the damage you rolled. This is a {@trait divine}, {@trait healing}, {@trait vitality} effect."
 			]
 		},
 		{
@@ -1248,11 +1260,22 @@
 			"source": "WoI",
 			"page": 37,
 			"level": 8,
+            "activity": {
+                "number": 3,
+                "unit": "action"
+            },
+            "prerequisites": "born of the bones of the earth or restless as the tide",
+            "frequency": {
+                "number": 1,
+                "unit": "hour"
+            },
 			"traits": [
+                "concentrate",
+                "divine",
 				"exemplar"
 			],
 			"entries": [
-				""
+				"You churn the sea and fish up stone so your enemies together can receive their punishment. Each enemy in a 30-foot emanation must succeed at a Fortitude save against your class DC or be swept up to 15 feet to another location of your choice within the affected area and become {@condition off-guard|PC1} until the start of your next turn. Then, if you're on a surface, a pillar of earth rises underneath you and lasts for 1 minute. The pillar is 10 feet tall, and its surface includes your space and a 5-foot emanation around you. After the pillar rises, you can attempt a melee {@action Strike} against one enemy in reach."
 			]
 		},
 		{
@@ -1260,11 +1283,71 @@
 			"source": "WoI",
 			"page": 37,
 			"level": 8,
+			"activity": {
+                "number": 2,
+                "unit": "action"
+            },
+            "prerequisites": "whose cry is thunder or dancer in the seasons",
+            "frequency": {
+                "number": 1,
+                "unit": "hour"
+            },
 			"traits": [
-				"exemplar"
+                "concentrate",
+                "divine",
+				"exemplar",
+                "manipulate"
 			],
 			"entries": [
-				""
+				"You hold your arms out, and the fury of the seasons comes to your jubilant embrace. A storm spirals out from you, dealing {@damage 5d8} damage (see below) to each creature in a 30-foot emanation, with a basic Reflex save against your class DC. At 10th level and every 2 levels thereafter, the damage increases by {@damage 1d8}.",
+                "The emanation is quartered into four non-overlapping cones, each of a different season, which must be arranged clockwise from spring, to summer, to fall, to winter. Each cone has different traits, damage type, and a different effect to a creature that critically fails its saving throw; a creature large enough to be in multiple seasons can choose which it is affected by.",
+                {
+                    "type": "list",
+                    "items": [
+                        {
+                            "type": "ability",
+                            "name": "Spring",
+                            "traits": [
+                                "electricity"
+                            ],
+                            "entries": [
+                                "Spring lightning deals electricity damage. Creatures who critically fail are left numb, becoming {@condition clumsy} 2 until the end of their next turn."
+                            ]
+                        },
+                        {
+                            "type": "ability",
+                            "name": "Summer",
+                            "traits": [
+                                "water"
+                            ],
+                            "entries": [
+                                "A summer monsoon deals bludgeoning damage. Creatures who critically fail are knocked {@condition prone} by hurricane winds."
+                            ]
+                        },
+                        {
+                            "type": "ability",
+                            "name": "Fall",
+                            "traits": [
+                                "emotion",
+                                "mental",
+                                "wood"
+                            ],
+                            "entries": [
+                                "Falling leaves deal slashing damage. Creatures who critically fail are gripped by melancholy, becoming {@condition off-guard|PC1} until the end of their next turn."
+                            ]
+                        },
+                        {
+                            "type": "ability",
+                            "name": "Winter",
+                            "traits": [
+                                "cold"
+                            ],
+                            "entries": [
+                                "A blizzard deals cold damage. Creatures who critically fail are {@condition stupefied} 2 until the end of their next turn as the cold numbs their senses."
+                            ]
+                        }
+                    ]
+                }
 			]
 		},
 		{
