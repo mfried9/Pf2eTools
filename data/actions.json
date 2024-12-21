@@ -9000,6 +9000,30 @@
 			"entries": [
 				"You lash out at a foe that leaves an opening. Make a melee {@action Strike} against the triggering creature. If your attack is a critical hit and the trigger was a {@trait manipulate} action, you disrupt that action. This {@action Strike} doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this {@action Strike}."
 			]
+		},
+		{
+			"name": "Shift Immanence",
+			"page": 30,
+			"source": "WoI",
+			"remaster": true,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"divine",
+				"exemplar"
+			],
+			"frequency": {
+				"number": 1,
+				"unit": "round"
+			},
+			"entries": [
+				"You shift your power, filling one of your ikons with your divine spark. That ikon softly glows with radiant light, emits subtle chimes as it moves, or is otherwise obviously empowered in a way that matches your growing divinity, granting the ikon the {@trait divine} trait and granting you that ikon's immanence effects for as long as your divine spark is empowering it. Your spark is indivisible, so it can empower only one ikon at a time. You can also {@action Shift Immanence|WoI} to return your spark to the depths of your soul, leaving none of your ikons empowered."
+			],
+			"special": [
+				"In addition to the above usage, you can also {@action Shift Immanence|WoI} as a free action triggered when you roll initiative."
+			]
 		}
 	]
 }
