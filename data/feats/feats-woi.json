@@ -1228,7 +1228,7 @@
 				"exemplar"
 			],
 			"entries": [
-				"Your story has grown rich enough that three ikons can't contain its full complexity. You gain a fourth ikon, which can be of any type."
+				"Your story has grown rich enough that three ikons can't contain its full complexity. You gain a {@filter fourth ikon|items||item=ikon} ikon, which can be of any type."
 			]
 		},
 		{
@@ -2053,6 +2053,129 @@
 			"entries": [
 				"For the briefest of moments, you can reach into the realm of true gods, gaining the power to shape reality to your will. Once per day, you can create the effects of a {@filter divine spell of 8th level or lower|spells||level=1;2;3;4;5;6;7;8|tradition & spell list=divine|rarity=common}. The spell must be common or one to which you otherwise have access, and it costs as many actions as it would typically take to cast. Use your class DC in place of any necessary spell DC and your class DC \u2013 10 in place of any necessary {@quickref counteract|CRB|3|counteracting} modifier or spell attack modifier.",
 				"Because you are creating these effects with your godly might rather than {@action Cast a Spell||Casting a Spell}, they can't be dispelled or {@quickref counteracted|CRB|3|counteracting}, like {@feat Strike Rivers, Seize Winds|WoI}."
+			]
+		},
+		{
+			"name": "Exemplar Dedication",
+			"source": "WoI",
+			"page": 57,
+			"level": 2,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype",
+				"dedication",
+				"multiclass"
+			],
+			"prerequisites": "Strength +2 or Dexterity +2",
+			"entries": [
+				"A spark of inherent divine power has lit itself within you. You become trained in martial weapons. You gain one {@filter ikon|items||item=ikon} from those listed on page 43, the ability to use the ikon's immanence and {@trait transcendence} actions and effects, and the {@action Shift Immanence|WoI} action (page 30). Because you have only a single ikon, when you Spark Transcendence, your divine spark recedes back to the depths of your soul and must be recalled with {@action Shift Immanence|WoI} to re-empower your ikon. You become trained in exemplar class DC."
+			],
+			"leadsTo": [
+				"Basic Glory|WoI",
+				"Advanced Glory|WoI",
+				"Exemplar Resiliency|WoI",
+				"Exemplar Expertise|WoI",
+				"Second Ikon|WoI"
+			]
+		},
+		{
+			"name": "Basic Glory",
+			"source": "WoI",
+			"page": 57,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Exemplar Dedication|WoI}",
+			"entries": [
+				"You gain a {@filter 1st- or 2nd-level exemplar feat|feats||class=exemplar|level=[1;2]}."
+			],
+			"leadsTo": [
+				"Advanced Glory|WoI"
+			]
+		},
+		{
+			"name": "Exemplar Resiliency",
+			"source": "WoI",
+			"page": 57,
+			"level": 4,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Exemplar Dedication|WoI}, class granting no more Hit Points per level than 8 + your Constitution modifier",
+			"entries": [
+				"You gain 3 additional Hit Points for each exemplar archetype class feat you have. As you continue selecting exemplar archetype class feats, you continue to gain additional Hit Points in this way."
+			]
+		},
+		{
+			"name": "Advanced Glory",
+			"source": "WoI",
+			"page": 57,
+			"level": 6,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Basic Glory|WoI}",
+			"entries": [
+				"You gain an {@filter exemplar feat|feats||class=exemplar|level=[1;10]}. For the purpose of meeting its prerequisites, your exemplar level is equal to half your character level."
+			],
+			"special": [
+				"You can select this feat more than once. Each time you select it, you gain another exemplar feat."
+			]
+		},
+		{
+			"name": "Exemplar Expertise",
+			"source": "WoI",
+			"page": 57,
+			"level": 10,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Exemplar Dedication|WoI}",
+			"entries": [
+				"Your soul has been further tempered in divine power. Your proficiency in exemplar class DC increases to expert."
+			]
+		},
+		{
+			"name": "Second Ikon",
+			"source": "WoI",
+			"page": 57,
+			"level": 12,
+			"featType": {
+				"archetype": [
+					"Exemplar"
+				]
+			},
+			"traits": [
+				"archetype"
+			],
+			"prerequisites": "{@feat Exemplar Dedication|WoI}",
+			"entries": [
+				"You gain an {@filter additional ikon|items||item=ikon}, selected from those listed on page 43. When you Spark Transcendence, your spark moves automatically from the ikon you just used to the other ikon."
 			]
 		}
 	]
