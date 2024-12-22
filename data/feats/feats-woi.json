@@ -922,7 +922,7 @@
 				"exemplar"
 			],
 			"entries": [
-				"You've drawn a line in the sand in the cosmic struggle between good and evil and chosen a side. You gain either the {@trait holy} trait or the {@trait unholy} trait. All your exemplar abilities that deal spirit damage gain the sanctified trait, allowing you to apply your {@trait holy} or {@trait unholy} trait to them to better affect your chosen enemies."
+				"You've drawn a line in the sand in the cosmic struggle between good and evil and chosen a side. You gain either the {@trait holy} trait or the {@trait unholy} trait. All your exemplar abilities that deal spirit damage gain the {@trait sanctified} trait, allowing you to apply your {@trait holy} or {@trait unholy} trait to them to better affect your chosen enemies."
 			]
 		},
 		{
@@ -1062,7 +1062,7 @@
 				"ikon"
 			],
 			"entries": [
-				"You can designate your ikons as movable by only your own hand, leaving them fixed in place as surely as if they were lodged in stone. Whenever you Release an ikon, you can spend an action to command it to remain motionless. While motionless, the ikon can be moved only if 8,000 pounds of pressure are applied to it or if a creature uses {@skill Athletics} to {@action Force Open} the ikon with a DC equal to your class DC. You can {@action Release} your ikon over an adjacent prone enemy to hold them down with the ikon's motionlessness\u2014while so {@action Release||Released}, you can't use the ikon, but the enemy must succeed at the {@action Athletics} check to {@action Stand} or to move. The ikon automatically flies back to your hand when the effect is broken or if you spend an Interact action to hold out a hand and draw it back."
+				"You can designate your ikons as movable by only your own hand, leaving them fixed in place as surely as if they were lodged in stone. Whenever you Release an ikon, you can spend an action to command it to remain motionless. While motionless, the ikon can be moved only if 8,000 pounds of pressure are applied to it or if a creature uses {@skill Athletics} to {@action Force Open} the ikon with a DC equal to your class DC. You can {@action Release} your ikon over an adjacent prone enemy to hold them down with the ikon's motionlessness\u2014while so {@action Release||Released}, you can't use the ikon, but the enemy must succeed at the {@skill Athletics} check to {@action Stand} or to move. The ikon automatically flies back to your hand when the effect is broken or if you spend an Interact action to hold out a hand and draw it back."
 			]
 		},
 		{
@@ -1091,7 +1091,7 @@
 					],
 					"entries": [
 						"You clang your ikon against a weapon, shield, or the ground, emitting a shock wave that deals {@damage 1d4} spirit damage and {@damage 1d4} sonic damage to all creatures in a 30-foot cone or 15-foot emanation (basic Fortitude save). A creature that critically fails its saving throw is {@condition deafened} for 1 minute.",
-						"At 6th level and every 2 levels thereafter, the damage increases by 1d4 spirit damage and 1d4 sonic damage."
+						"At 6th level and every 2 levels thereafter, the damage increases by {@damage 1d4} spirit damage and {@damage 1d4} sonic damage."
 					]
 				}
 			]
@@ -1469,7 +1469,7 @@
 				"exemplar",
 				"ikon"
 			],
-			"usage": " imbued in one or two weapon ikons that both have the {@trait thrown} trait (see text)",
+			"usage": "imbued in one or two weapon ikons that both have the {@trait thrown} trait (see text)",
 			"entries": [
 				"Your ikons bond like a pair of one-winged birds. This feat can be imbued in either a single ikon with multiple copies, such as one produced by the {@item shadow sheath|WoI} or with the {@feat Twin Stars|WoI} feat, or two separate ikons (bypassing the normal limit per ikon feat).",
 				{
@@ -1490,7 +1490,7 @@
 						"transcendence"
 					],
 					"entries": [
-						"You throw your weapon ikons to either side of a creature, and they seek each other out, converging on the target. Make two thrown {@action Strike||Strikes} against a target within the first range increment of both your weapon ikons. This counts as two attacks toward your multiple attack penalty, but the penalty doesn't increase until after you've made both attacks. The target is flanked for both attacks (typically making it {@condition off-guard} against both attacks). If both {@action Strike||Strikes} hit, the target also takes an additional die of weapon damage. The weapons then return to your hand."
+						"You throw your weapon ikons to either side of a creature, and they seek each other out, converging on the target. Make two thrown {@action Strike||Strikes} against a target within the first range increment of both your weapon ikons. This counts as two attacks toward your multiple attack penalty, but the penalty doesn't increase until after you've made both attacks. The target is flanked for both attacks (typically making it {@condition off-guard|PC1} against both attacks). If both {@action Strike||Strikes} hit, the target also takes an additional die of weapon damage. The weapons then return to your hand."
 					]
 				}
 			]
@@ -1555,7 +1555,7 @@
 				}
 			],
 			"special": [
-				"When you gain this feat, choose {@item cold iron}, {@item darkwood||duskwood}, {@item mithral||dawnsilver}, or {@item silver}. For some reason\u2014perhaps because you underestimate this material, or because you think it a friend\u2014you are forever unable to use Extract Vow of Nonviolence on objects composed of the chosen material."
+				"When you gain this feat, choose {@item cold iron (generic)||cold iron}, {@item darkwood (generic)||duskwood}, {@item mithral (generic)||dawnsilver}, or {@item silver (generic)||silver}. For some reason\u2014perhaps because you underestimate this material, or because you think it a friend\u2014you are forever unable to use Extract Vow of Nonviolence on objects composed of the chosen material."
 			]
 		},
 		{
@@ -1792,27 +1792,24 @@
 				"exemplar",
 				"ikon"
 			],
+			"usage": "imbued into a worn ikon",
 			"entries": [
-				"",
+				"Your ikon gains a pin, stripe, or similar marking showing you as a master of your craft. The imbued ikon gains the following ability.",
 				{
 					"type": "ability",
-					"name": "Immanence",
-					"entries": [
-						""
-					]
-				},
-				{
-					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014A Challenge for Heroes",
 					"activity": {
 						"number": 2,
 						"unit": "action"
 					},
 					"traits": [
+						"concentrate",
+						"mental",
+						"spirit",
 						"transcendence"
 					],
 					"entries": [
-						""
+						"You declare an enemy within 60 feet to be a heroic test. For 1 minute, that enemy deals an additional 10 spirit damage to you with each successful {@action Strike} or spell it targets you with. Whenever that enemy deals spirit damage to you, each ally who has the enemy in melee reach can attempt a {@action Reactive Strike|PC1} against it (Player Core 138), even if the ally doesn't normally have that reaction. If an ally successfully slays the enemy with a {@action Reactive Strike|PC1} due to this effect, that ally immediately gains temporary Hit Points equal to your level, which persist for 1 minute."
 					]
 				}
 			]
@@ -1826,27 +1823,21 @@
 				"exemplar",
 				"ikon"
 			],
+			"usage": "imbued into a worn ikon",
 			"entries": [
-				"",
+				"Your ikon is connected to the world of the spirits, allowing you to partially fade into their realm. The imbued ikon gains the following ability.",
 				{
 					"type": "ability",
-					"name": "Immanence",
-					"entries": [
-						""
-					]
-				},
-				{
-					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014Skirt the Underworld",
 					"activity": {
-						"number": 1,
+						"number": 2,
 						"unit": "action"
 					},
 					"traits": [
 						"transcendence"
 					],
 					"entries": [
-						""
+						"You skirt into the world of the dead, becoming {@condition invisible} for 1 round, then {@action Fly} up to your Speed. Each enemy adjacent to you at any point during this movement must succeed at a Fortitude save against your class DC or become {@condition blinded} for 1 minute (or permanently on a critical failure). For each creature {@condition blinded} by this effect, the duration of the granted {@condition invisible||invisibility} extends by 1 round. Undead and other creatures with strong ties to the world of the dead, such as psychopomps, are immune to this effect."
 					]
 				}
 			]
@@ -1859,8 +1850,15 @@
 			"traits": [
 				"exemplar"
 			],
+			"frequency": {
+				"special": "once per hour; see text"
+			},
 			"entries": [
-				""
+				"Through sheer physical force, you can wrestle a river, lasso the winds, punch a hole to the molten center of the planet, or create other environmental disturbances via nothing but your own strength. You can create each of the following spell effects at the listed rank, but you can't create effects more than once per hour and you can't perform a given effect more than once per day: {@b 4th} {@spell hydraulic torrent|PC1}, {@b 5th} {@spell control water|PC1}, {@b 6th} {@spell howling blizzard|PC1}, {@b 7th} {@spell volcanic eruption|PC1}, {@b 8th} {@spell punishing winds|PC1}.",
+				"Creating the effects requires the same type and number of actions as {@action Cast a Spell||Casting the Spell}, and they use the higher of your class DC or spell DC when appropriate. Because you are creating these effects with your godly might rather than {@action Cast a Spell||Casting a Spell}, they can't be dispelled or {@quickref counteracted|CRB|3|counteracting}."
+			],
+			"leadsTo": [
+				"Remake the World|WoI"
 			]
 		},
 		{
@@ -1872,27 +1870,29 @@
 				"exemplar",
 				"ikon"
 			],
+			"usage": "imbued into a weapon ikon that deals piercing or slashing damage",
 			"entries": [
-				"",
+				"The blade of your ikon takes one or more notches, capable of dealing mortal pain to your foes.",
 				{
 					"type": "ability",
 					"name": "Immanence",
 					"entries": [
-						""
+						"When you {@action Strike} with the ikon, you critically succeed if you roll a 19 on the die as long as that result would be a success. This has no effect on a 19 if the result would be a failure."
 					]
 				},
 				{
 					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014Plant Thirty Barbs",
 					"activity": {
 						"number": 1,
 						"unit": "action"
 					},
 					"traits": [
+						"death",
 						"transcendence"
 					],
 					"entries": [
-						""
+						"You snap off a fragment of your ikon within your opponent's body, which threatens to burst into numerous barbs. Make a {@action Strike} with your ikon. If successful, barbs fill the target, dealing two die of weapon damage the first time the creature uses a {@trait move} action on each of its turns; the barbs are made out of the same material as your weapon ikon and bypass resistances and such accordingly (for instance, a {@item cold iron (generic)||cold iron} spear would create cold iron barbs). The barbs last for {@dice 1d4} rounds. If the target dies while the barbs are still in their body, the barbs burst forth in a forest of thorns covering the creature's space, which are {@quickref greater difficult terrain|CRB|3|terrain|0} and deal piercing damage equal to half your level for each square that is moved into."
 					]
 				}
 			]
@@ -1907,27 +1907,23 @@
 				"ikon",
 				"void"
 			],
+			"usage": "imbued into a weapon ikon",
 			"entries": [
-				"",
+				"The blaze of your divine spark is hot enough that it burns in not just the present, but the past and future as well. Whenever you score a critical hit with the imbued ikon, the target becomes {@condition doomed} 1 or increases its {@condition doomed} condition by 1. If the target's maximum {@condition dying} value is reduced to 0 by this ability, it immediately dies in a flash of spiritual fire that reduces its body to ash. This effect applies even when the ikon is not empowered. The ikon also gains the following {@trait transcendence} ability.",
 				{
 					"type": "ability",
-					"name": "Immanence",
-					"entries": [
-						""
-					]
-				},
-				{
-					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014Burn out of Time",
 					"activity": {
-						"number": 1,
+						"number": 2,
 						"unit": "action"
 					},
 					"traits": [
-						"transcendence"
+						"spirit",
+						"transcendence",
+						"void"
 					],
 					"entries": [
-						""
+						"An impossible amount of energy blazes in a sphere above you before compressing itself into your weapon. {@action Strike} one creature. The {@action Strike} deals an additional {@damage 3d8} spirit damage and {@damage 3d8} void damage. If the creature is reduced to 0 Hit Points, it's immediately killed and reduced to ash, not in the present, but in the recent past, erasing the consequences of their recent actions. If a creature died within the last round as a result of the incinerated target's actions, that creature is returned to life with {@dice 5d8} Hit Points at the location that it died as its death is retroactively undone."
 					]
 				}
 			]
@@ -1941,27 +1937,35 @@
 				"exemplar",
 				"ikon"
 			],
+			"usage": "imbued into a melee weapon ikon",
 			"entries": [
-				"",
+				"Your divine spark shines in a riot of shimmering colors, capable of carrying you through the world as fast as light itself. The imbued ikon gains the following abilities.",
 				{
 					"type": "ability",
 					"name": "Immanence",
+					"traits": [
+						"light",
+						"teleportation"
+					],
 					"entries": [
-						""
+						"Your weapon scatters rainbow-colored light across nearby surroundings, each a possible destination. When you successfully {@action Strike} an enemy, you can choose to teleport to an unoccupied location within 10 feet as a free action."
 					]
 				},
 				{
 					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014Fleeting Arc through Heaven and Earth",
 					"activity": {
-						"number": 1,
+						"number": 3,
 						"unit": "action"
 					},
 					"traits": [
+						"light",
+						"spirit",
+						"teleportation",
 						"transcendence"
 					],
 					"entries": [
-						""
+						"You swing your weapon in a wide arc, releasing a blazing rainbow that deals {@damage 9d6} spirit damage and {@damage 9d6} damage of the same type as your weapon to all enemies in a 60-foot cone, with a basic Fortitude save against your class DC. As the rainbow ripples out, you use it as a bridge to teleport to any location within the effect's area."
 					]
 				}
 			]
@@ -1975,27 +1979,34 @@
 				"exemplar",
 				"ikon"
 			],
+			"usage": "imbued into any weapon ikon",
 			"entries": [
-				"",
+				"Your weapon has the might of legends, capable of shooting or striking any light out of the sky. The imbued ikon gains the following abilities.",
 				{
 					"type": "ability",
 					"name": "Immanence",
+					"traits": [
+						"darkness"
+					],
 					"entries": [
-						""
+						"On a successful critical hit with the weapon, the weapon casts 2nd-rank {@spell darkness} centered on the target of the attack."
 					]
 				},
 				{
 					"type": "ability",
-					"name": "Transcendence\u2014",
+					"name": "Transcendence\u2014Break the Sun's Legs",
 					"activity": {
-						"number": 1,
+						"number": 2,
 						"unit": "action"
 					},
 					"traits": [
+						"cold",
+						"concentrate",
+						"darkness",
 						"transcendence"
 					],
 					"entries": [
-						""
+						"You make a slashing motion over the brightest source of light, whether it's a torch or the sun in the sky. A gash appears over the light source, visible to all, and devours the light. The entire area within a 120-foot burst around you is affected by a 9th-rank {@spell darkness} spell for 1 minute. The stolen light is channeled to your eyes, granting you greater {@ability darkvision} for the duration of the effect."
 					]
 				}
 			]
@@ -2009,7 +2020,8 @@
 				"exemplar"
 			],
 			"entries": [
-				""
+				"While tales of your divine ikons have spread far and wide, you've realized that, as they are all manifestations of your soul, the object itself is unnecessary. Your ikons disintegrate into golden light. Any ikon feats you've taken now apply to any applicable ikon you have, not just one, and you can immediately retrain any ikon feats you selected more than once.",
+				"Each day during your daily preparations, you can select one {@filter ikon feat of 16th level or lower|feats||Level=[1;16]|Feat=Ikon} and gain it temporarily for that day. You can place your divine spark into any object in your possession, even a nonthreatening object like a single strand of grass, to transform it into a fully functional copy of your ikon made out of pure divine radiance. You can do this as a free action immediately before or after {@action Strike||Striking} with or otherwise using the ikon."
 			]
 		},
 		{
@@ -2020,8 +2032,12 @@
 			"traits": [
 				"exemplar"
 			],
+			"frequency": {
+				"number": 1,
+				"unit": "day"
+			},
 			"entries": [
-				""
+				"Your divine spark is now a bonfire in your soul, bringing you to the very cusp of undying immortality. You cease aging. When you would die for any reason, you can Spark Transcendence as a free action that can be taken at any time, regardless of your current condition. You reach for your divine spark and seize it in your hand to survive at 0 Hit Points, purging yourself of any negative conditions. Invigorated by this return to life, you then heal yourself for half of your total Hit Points, {@action Stand}, instantly summon any held ikons to your hand, and {@action Shift Immanence|WoI|Shift your Immanence} to any of your ikons."
 			]
 		},
 		{
@@ -2030,10 +2046,13 @@
 			"page": 43,
 			"level": 20,
 			"traits": [
+				"divine",
 				"exemplar"
 			],
+			"prerequisites": "{@feat Strike Rivers, Seize Winds|WoI}",
 			"entries": [
-				""
+				"For the briefest of moments, you can reach into the realm of true gods, gaining the power to shape reality to your will. Once per day, you can create the effects of a {@filter divine spell of 8th level or lower|spells||level=1;2;3;4;5;6;7;8|tradition & spell list=divine|rarity=common}. The spell must be common or one to which you otherwise have access, and it costs as many actions as it would typically take to cast. Use your class DC in place of any necessary spell DC and your class DC \u2013 10 in place of any necessary {@quickref counteract|CRB|3|counteracting} modifier or spell attack modifier.",
+				"Because you are creating these effects with your godly might rather than {@action Cast a Spell||Casting a Spell}, they can't be dispelled or {@quickref counteracted|CRB|3|counteracting}, like {@feat Strike Rivers, Seize Winds|WoI}."
 			]
 		}
 	]
