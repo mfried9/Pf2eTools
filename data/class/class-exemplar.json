@@ -381,265 +381,291 @@
 		{
 			"name": "Ancestry and Background",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"In addition to what you get from your class at 1st level, you have the benefits of your selected ancestry and background."
 			]
 		},
 		{
 			"name": "Attribute Boosts",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"In addition to what you get from your class at 1st level, you have four free boosts to different attribute modifiers.",
+				"At 5th level and every 5 levels thereafter, you get four free boosts to different attribute modifiers. If an attribute modifier is already +4 or higher, it takes two boosts to increase it; you get a partial boost and must boost that attribute again at a later level to increase it by 1."
 			]
 		},
 		{
 			"name": "Initial Proficiencies",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
 			]
 		},
 		{
 			"name": "Divine Spark and Ikons",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"Within your soul is a tiny spark of divine power that belongs not to a deity, but is something you've claimed all your own. You can focus this divine power through special items known as ikons. Ikons are items or bodily features intrinsically linked to you\u2014sacred vessels forged from your divinity that are capable of conducting its power. Select three {@filter ikons|items||item=ikon} from the list on pages 43\u201347.",
+				"By placing your divine spark into one of your ikons, you empower that ikon to accomplish deeds beyond what it could in mortal hands. Each ikon has both a passive immanence effect and an active transcendence effect. Both of these effects require your divine spark to be in the item. You can place your spark into an ikon by using the {@action Shift Immanence|WoI} action.",
+				{
+					"type": "data",
+					"tag": "action",
+					"name": "Shift Immanence",
+					"source": "WoI"
+				},
+				{
+					"type": "pf2-h4",
+					"page": 30,
+					"name": "Spark Transcendence",
+					"entries": [
+						"While your spark dwells within an ikon, you get that ikon's immanence effect continually. However, you can also Spark Transcendence in a mighty deed, channeling your divinity through the ikon\u2014though when you Spark Transcendence, the force of the act temporarily casts your divine spark out of the ikon. Each ikon's transcendence action appears in its stat block, and the {@trait transcendence} trait is described in the Key Terms sidebar."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"page": 30,
+					"name": "Expanding Immanence and Transcendence",
+					"entries": [
+						"Each ikon has one immanence and one transcendence ability when acquired, but you can imbue your ikons with additional abilities through higher-level exemplar class features and feats. These abilities have the {@trait ikon} trait."
+					]
+				}
 			]
 		},
 		{
 			"name": "Exemplar Feats",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"At 1st level and every even-numbered level thereafter, you gain an {@filter exemplar class feat|feats||type=class|Class=Exemplar}. Exemplar class feats are listed beginning on page 35."
 			]
 		},
 		{
 			"name": "Humble Strikes",
 			"source": "WoI",
-			"page": 29,
+			"page": 30,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"Even the most unassuming weapons can accomplish great deeds. When you are wielding a simple weapon, increase the damage die size of that weapon by one step."
 			]
 		},
 		{
 			"name": "Shield Block",
 			"source": "WoI",
-			"page": 30,
+			"page": 31,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 1,
 			"entries": [
-				""
+				"You gain the {@feat Shield Block} general feat (Player Core 262), a reaction that lets you reduce damage with your shield."
 			]
 		},
 		{
 			"name": "Skill Feats",
 			"source": "WoI",
-			"page": 30,
+			"page": 31,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 2,
 			"entries": [
-				""
+				"At 2nd level and every 2 levels thereafter, you gain a {@filter skill feat|feats||type=skill;!archetype}. You must be trained or better in the corresponding skill to select a skill feat."
 			]
 		},
 		{
 			"name": "General Feats",
 			"source": "WoI",
-			"page": 30,
+			"page": 31,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 3,
 			"entries": [
-				""
+				"At 3rd level and every 4 levels thereafter, you gain a {@filter general feat|feats||type=general}."
 			]
 		},
 		{
 			"name": "Root Epithet",
 			"source": "WoI",
-			"page": 30,
+			"page": 31,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 3,
 			"entries": [
-				""
+				"As your story unfolds, your personality and deeds begin to shape the potential of your divine spark. You come to bear an epithet\u2014a word or phrase that seems to always stick in the mind of those describing you. (You can find examples of acquiring epithets in the Earning your Name sidebar on page 35.) Your epithets grant you additional abilities, especially when your divine spark is brought to the surface.",
+				"You first gain a root epithet to describe an aspect of your personality. This grants you a skill, as well as a special effect that occurs when you Spark Transcendence. If you are already trained in the granted skill, you become trained in a different skill of your choice, as normal. An effect that occurs after you Spark Transcendence happens immediately after your transcendence action is completely resolved. Choose one epithet from the list below."
 			]
 		},
 		{
 			"name": "Skill Increases",
 			"source": "WoI",
-			"page": 31,
+			"page": 32,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 3,
 			"entries": [
-				""
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in, or become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
 			]
 		},
 		{
 			"name": "Ancestry Feats",
 			"source": "WoI",
-			"page": 31,
+			"page": 32,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 5,
 			"entries": [
-				""
+				"In addition to the ancestry feat you started with, you gain an {@filter ancestry feat|feats||type=ancestry} at 5th level and every 4 levels thereafter."
 			]
 		},
 		{
 			"name": "Weapon Expertise",
 			"source": "WoI",
-			"page": 31,
+			"page": 32,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 5,
 			"entries": [
-				""
+				"You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for unarmed attacks, simple weapons, and martial weapons increase to expert."
 			]
 		},
 		{
 			"name": "Dominion Epithet",
 			"source": "WoI",
-			"page": 31,
+			"page": 32,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 7,
 			"entries": [
-				""
+				"Your divinity has grown in power along with your deeds, allowing you to begin claiming dominion over aspects of creation. Choose one of the following epithets. Each one grants a critical specialization ability you can use instead of any others you might have access to, and an ability you can use when you Spark Transcendence. You can benefit from no more than one epithet ability each time you Spark Transcendence. Some epithets grant additional benefits, such as feats."
 			]
 		},
 		{
 			"name": "Spirit Striking",
 			"source": "WoI",
-			"page": 32,
+			"page": 33,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 7,
 			"entries": [
-				""
+				"Your divine power can't be contained, escaping in flits and embers as you wreak violence. You deal 2 additional spirit damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
 			]
 		},
 		{
 			"name": "Unassailable Soul",
 			"source": "WoI",
-			"page": 32,
+			"page": 33,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 7,
 			"entries": [
-				""
+				"A firm knowledge of (or foolish pride in) yourself and your ability girds your mind against doubt and intrusion. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
 			]
 		},
 		{
 			"name": "Divine Premonition",
 			"source": "WoI",
-			"page": 32,
+			"page": 33,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 9,
 			"entries": [
-				""
+				"A sense of the flow of fate allows you to respond to danger with uncanny alacrity. Your proficiency rank for Reflex saves increases to expert."
 			]
 		},
 		{
 			"name": "Godly Expertise",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 9,
 			"entries": [
-				""
+				"Your divine power increases in might. Your proficiency rank for your exemplar class DC increases to expert."
 			]
 		},
 		{
 			"name": "Perception Expertise",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 9,
 			"entries": [
-				""
+				"You remain alert to threats around you. Your proficiency rank for {@skill Perception} increases to expert."
 			]
 		},
 		{
 			"name": "Divine Weapon Mastery",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 13,
 			"entries": [
-				""
+				"Your skill with weapons is divinely inspired. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master."
 			]
 		},
 		{
 			"name": "Greater Unassailable Soul",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 13,
 			"entries": [
-				""
+				"A wall of confidence blunts every arrow seeking to pierce your mind. Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage."
 			]
 		},
 		{
 			"name": "Burnished Armor Expertise",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 13,
 			"entries": [
-				""
+				"Exposure to your divine spark has reinforced your armor. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
 			]
 		},
 		{
 			"name": "Greater Spirit Striking",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 15,
 			"entries": [
-				""
+				"Your additional damage from spirit striking increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
 			]
 		},
 		{
 			"name": "Mortality Reforged",
 			"source": "WoI",
-			"page": 33,
+			"page": 34,
 			"className": "Exemplar",
 			"classSource": "WoI",
 			"level": 15,
 			"entries": [
-				""
+				"Inner fire has burned away the frailty of a mortal body. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
 			]
 		},
 		{
@@ -650,7 +676,7 @@
 			"classSource": "WoI",
 			"level": 15,
 			"entries": [
-				""
+				"The litany of heroic deeds left in your wake has caused your divine spark to blaze bright enough that it now illuminates your legacy. Choose one of the following epithets, which grants you an ability you can use when you Spark Transcendence. You can benefit from no more than one epithet ability each time you Spark Transcendence."
 			]
 		},
 		{
@@ -661,7 +687,7 @@
 			"classSource": "WoI",
 			"level": 17,
 			"entries": [
-				""
+				"You have achieved full mastery over your divine spark as its power flows through your body and ikons. Your proficiency rank for your exemplar class DC increases to master."
 			]
 		},
 		{
@@ -672,7 +698,7 @@
 			"classSource": "WoI",
 			"level": 17,
 			"entries": [
-				""
+				"Through your adventures, you've developed keen awareness and attention to detail, the better to watch over your wards and keep an eye out for monsters and other threats. Your proficiency rank for {@skill Perception} increases to master."
 			]
 		},
 		{
@@ -683,7 +709,7 @@
 			"classSource": "WoI",
 			"level": 19,
 			"entries": [
-				""
+				"Your armor shines with divine light, flawless and unyielding. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to master."
 			]
 		}
 	],
@@ -702,7 +728,7 @@
 					"type": "pf2-h4",
 					"name": "The Brave",
 					"entries": [
-						""
+						"Your deeds show fearlessness: when a beast surfaces, you're there to fight it; when someone's lost in the dark, you're first to the rescue. You're trained in {@skill Athletics}. After you Spark Transcendence, your body carries you forward, allowing you to {@action Stride} up to half your Speed in a straight line toward one enemy of your choice as a free action. Once you have used this ability on a given enemy, you can't use it against that enemy again for 10 minutes."
 					]
 				}
 			]
@@ -721,7 +747,7 @@
 					"type": "pf2-h4",
 					"name": "The Cunning",
 					"entries": [
-						""
+						"Why race a hare across a meadow, or a salmon up a waterfall? Why face a titan in a test of strength? Wouldn't it be better to best your foes with a bit of creativity? After all, the stories that echo throughout history are always those where wits and trickery, rather than raw talent or power, win the day. You are trained in {@skill Deception}. After you Spark Transcendence, you can {@action Create a Diversion} or {@action Feint} as a free action."
 					]
 				}
 			]
@@ -740,7 +766,7 @@
 					"type": "pf2-h4",
 					"name": "The Deft",
 					"entries": [
-						""
+						"Speed, subtlety, and precision. Your feet rush as fast as a gale, but your fingers touch as lightly as a breeze. You are trained in {@skill Thievery}. After you Spark Transcendence, you can attempt to {@action Steal} or {@action Palm an Object}. When you Spark Transcendence, you can {@action Interact} as a free action to reload or draw a weapon ikon, either directly before or directly after your transcendence action. The weapon ikon must be a ranged weapon with the {@trait reload} trait or a one-handed melee weapon with the {@trait thrown} trait."
 					]
 				}
 			]
@@ -759,7 +785,7 @@
 					"type": "pf2-h4",
 					"name": "The Proud",
 					"entries": [
-						""
+						"Whether out of overconfidence, a desire to protect your comrades, or the unslakable thirst for glory, you invite challengers to strike you down. You are trained in {@skill Intimidation}. After you Spark Transcendence, you can boast to one enemy within 30 feet to draw its attention; this effect has the {@trait auditory}, {@trait emotion}, {@trait mental}, and {@trait linguistic} traits. Until the start of your next turn, the target takes a \u20131 status penalty to attack rolls, damage rolls, and skill checks against creatures other than you, and it gains a +1 status bonus to these rolls when targeting you."
 					]
 				}
 			]
@@ -778,7 +804,7 @@
 					"type": "pf2-h4",
 					"name": "The Mournful",
 					"entries": [
-						""
+						"To be a hero is to endure countless hardships and stand where others have fallen, shouldering dreams and destinies in their stead. Though this weight may reach your eyes, you bear this burden so that those under you can live smiling. You are trained in {@skill Diplomacy}. After you Spark Transcendence, your act resonates with bittersweet poignancy, making one enemy of your choice within 30 feet who witnessed the act {@condition dazzled} as tears or memories dance in their eyes. This is an {@trait emotion} and {@trait mental} effect. The enemy remains {@condition dazzled} until the start of your next turn, and then they are temporarily immune for 10 minutes."
 					]
 				}
 			]
@@ -797,7 +823,7 @@
 					"type": "pf2-h4",
 					"name": "The Radiant",
 					"entries": [
-						""
+						"Leaders must live bigger lives than any other, shining so brightly that they attract followers, inspire troops, and change the course of kingdoms. You are trained in {@skill Diplomacy}. After you Spark Transcendence, you inspire an ally within 30 feet to push on, restoring Hit Points equal to 2 + double your level; this is a {@trait mental} and {@trait emotion} effect. The ally is then temporarily immune for 10 minutes."
 					]
 				}
 			]
@@ -816,7 +842,8 @@
 					"type": "pf2-h4",
 					"name": "Born of the Bones of the Earth",
 					"entries": [
-						""
+						"Your dominion is over stone and soil, the pillars holding up the stage of history's great legends. You gain the {@feat Energized Spark|WoI} feat (page 35) for your choice of {@trait earth} or {@trait fire}. When you critically succeed on a {@action Strike} and the target of the critical hit is standing on a surface of earth or stone, the target is driven down and mired in the ground. The target is {@condition immobilized} and must succeed at an {@action Escape} attempt against your class DC to end the immobilization. The creature doesn't become stuck if it is incorporeal, is liquid (like a {@creature water elemental} or some oozes), has a burrow speed, or could otherwise escape without effort.",
+						"When you Spark Transcendence while standing on a surface of earth or stone, you can choose to shatter the surface in a 10-foot emanation, making it {@quickref difficult terrain|CRB|3|terrain|0}. You are not affected by this difficult terrain."
 					]
 				}
 			]
